@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Add Condition.aspx" />
+    <Content Include="Add University.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="Add Condition.aspx.designer.cs">
       <DependentUpon>Add Condition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add University.aspx.cs">
+      <DependentUpon>Add University.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add University.aspx.designer.cs">
+      <DependentUpon>Add University.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
