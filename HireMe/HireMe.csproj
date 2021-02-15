@@ -70,6 +70,26 @@
     <Content Include="Add Condition.aspx" />
     <Content Include="ADD MISTRY.aspx" />
     <Content Include="Add University.aspx" />
+    <Content Include="control admin.aspx" />
+    <Content Include="css\casing.jpg" />
+    <Content Include="css\css\bootstrap-theme.css" />
+    <Content Include="css\css\bootstrap-theme.min.css" />
+    <Content Include="css\css\bootstrap.css" />
+    <Content Include="css\css\bootstrap.min.css" />
+    <Content Include="css\css\file.css" />
+    <Content Include="css\disblay add.txt" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="css\icons.js" />
+    <Content Include="image\photobac2.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\file.js" />
+    <Content Include="js\icons.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="css\style.css" />
+    <Content Include="css\white.jpg" />
+    <Content Include="display_ministry.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -94,9 +114,31 @@
     <Compile Include="Add University.aspx.designer.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
     </Compile>
+    <Compile Include="control admin.aspx.cs">
+      <DependentUpon>control admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control admin.aspx.designer.cs">
+      <DependentUpon>control admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="display_ministry.aspx.cs">
+      <DependentUpon>display_ministry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display_ministry.aspx.designer.cs">
+      <DependentUpon>display_ministry.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\css\bootstrap-theme.css.map" />
+    <Content Include="css\css\bootstrap-theme.min.css.map" />
+    <Content Include="css\css\bootstrap.css.map" />
+    <Content Include="css\css\bootstrap.min.css.map" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="css\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -105,6 +147,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

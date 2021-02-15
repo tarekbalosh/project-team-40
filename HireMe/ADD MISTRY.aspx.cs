@@ -30,19 +30,25 @@ namespace HM
             sda.Fill(dt);
             var email = gmail.Value;
             
-            for (int i = 0; i < dt.Rows.Count; i++)
-            { 
-                 if(email == dt.Rows[i][0].ToString())
-                {
-                    Response.Write("<script>alert('this email already exists')</script>");
-                    return;
-                }
-            }
+           
             for (int i = 0; i < dt.Rows.Count; i++)
             { 
                  if(name.Value == dt.Rows[i][1].ToString())
                 {
                     Response.Write("<script>alert('this name already exists')</script>");
+                    return;
+                }
+            }
+            if(pa1.Value != pa2.Value)
+            {
+                 Response.Write("<script>alert('this email already exists')</script>");
+                    return;
+            }
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                if (email == dt.Rows[i][0].ToString())
+                {
+                    Response.Write("<script>alert('this email already exists')</script>");
                     return;
                 }
             }
