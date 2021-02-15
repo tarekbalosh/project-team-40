@@ -54,7 +54,7 @@
                     <br />                     
             <footer>
                  <asp:Button ID="Button1" runat="server" Text="SUBMIT" onserverclick="Submit_Click" style=" padding: 5px;margin: 5px;text-align: center;border: 3px solid  #2e4788;  outline: none;
-background: none;cursor: pointer;font-size: 16px;" Height="40px" Width="100%"/>
+background: none;cursor: pointer;font-size: 16px;" Height="40px" Width="100%" OnClick="Button1_Click1"/>
                  <button type="reset" runat="server" onserverclick="Unnamed_ServerClick">&nbsp;RESET</button> 
                  <button runat="server" onserverclick="Button1_Click">DISPLAY</button>                                      
             </footer>
