@@ -70,6 +70,7 @@
     <Content Include="Add Condition.aspx" />
     <Content Include="ADD MISTRY.aspx" />
     <Content Include="Add University.aspx" />
+    <Content Include="Add_student.aspx" />
     <Content Include="control admin.aspx" />
     <Content Include="css\casing.jpg" />
     <Content Include="css\css\bootstrap-theme.css" />
@@ -80,6 +81,7 @@
     <Content Include="css\disblay add.txt" />
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="css\icons.js" />
+    <Content Include="display_student.aspx" />
     <Content Include="image\photobac2.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -114,6 +116,14 @@
     <Compile Include="Add University.aspx.designer.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Add_student.aspx.cs">
+      <DependentUpon>Add_student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_student.aspx.designer.cs">
+      <DependentUpon>Add_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Data_Access.cs" />
     <Compile Include="control admin.aspx.cs">
       <DependentUpon>control admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -127,6 +137,13 @@
     </Compile>
     <Compile Include="display_ministry.aspx.designer.cs">
       <DependentUpon>display_ministry.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="display_student.aspx.cs">
+      <DependentUpon>display_student.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display_student.aspx.designer.cs">
+      <DependentUpon>display_student.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

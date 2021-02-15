@@ -23,5 +23,15 @@ namespace HireMe
         {
             Response.Redirect("display_ministry.aspx");
         }
+
+        protected void btn_display_student_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("display_student.aspx");
+        }
+
+        protected void btn_add_student_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Add_student.aspx");
+        }
     }
 }

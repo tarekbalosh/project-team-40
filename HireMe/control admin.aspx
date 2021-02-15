@@ -41,8 +41,8 @@
             <asp:Button class="btn" ID="btn_display_condition" runat="server" Text="display condition" /><br />
             <asp:Button class="btn" ID="btn_add_vacancy" runat="server" Text="add vacancy" />
             <asp:Button class="btn" ID="btn_display_vacancy" runat="server" Text="display vacancy" /><br />
-            <asp:Button class="btn" ID="btn_add_student" runat="server" Text="add student" />
-            <asp:Button class="btn" ID="btn_display_student" runat="server" Text="display student" /><br />
+            <asp:Button class="btn" ID="btn_add_student" runat="server" Text="add student" OnClick="btn_add_student_Click" />
+            <asp:Button class="btn" ID="btn_display_student" runat="server" Text="display student" OnClick="btn_display_student_Click" /><br />
 
        </div>
     </div>
