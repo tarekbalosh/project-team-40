@@ -1,0 +1,229 @@
+body{
+    background-image: url('white.jpg');
+    color: #2d2e2e;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    
+}
+a{
+    text-decoration: none;
+}
+a:link, a:visited{color:#95afc0;} 
+a:hover, a:active{color:#4834d4;}
+
+.body{
+    margin: 15px auto;
+    width: 70%;
+    clear: both;
+}
+/*----------------------HEADER-------------------------*/
+.mainHeader img{
+    width: 100%;
+}
+
+.mainHeader nav{
+    background-color: #192a56;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+    display: inline;
+}
+
+.mainHeader a:link, a:visited{
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 20px;
+}
+
+/*.mainHeader a:hover, a:active{
+     color: rgb(255, 255, 255);
+     background-color: #2f4274;
+     text-shadow: 1px 1px black;
+}*/
+
+/*----------------------MAIN-------------------------*/
+.mainContent
+{
+    width: 900px;
+    height: 100%;
+}
+
+
+.top-Content {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 3%;
+    margin-top: 3%;
+}
+.login-Content{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(235, 240, 241);
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid  #2f4274;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.login{
+    width:70%;    
+    margin: 0 auto;    
+    font-size: 95%;
+}
+.login header{
+    font-size: 20px;
+    border-bottom: 3.5px solid #2f4274;
+    margin-bottom: 20px ;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.login label{
+    font-size: 15px;
+    text-align: left;
+    color: black;
+    border-bottom: 1px solid #2f4274;
+}
+.login input{
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;  
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #2e4788;
+    font-size: 17px;
+}
+.login button{
+    width: 100%;   
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border: 3px solid  #2e4788;  
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login button:hover{
+    background-color: #2e4788;
+    color: white;
+}
+.login i{
+    font-size: 20px;
+    color: #2e4788;
+    text-align: center;
+    float: left;
+}
+.mainContent {
+    width: 1050px;
+    height: 500px;
+    background-color: #03071E;
+    margin-top:1px;
+  
+
+}
+@media(max-width:760px)
+{
+    .jump
+    {
+        width:300px;
+    }
+    .send
+    {
+        width:150px;
+        position:relative;
+        right:20px;
+    }
+    .mainHeader , .nav
+    {
+        width: 400px;
+    }
+       .mainContent {
+        width: 400px;
+        height: 900px;
+        text-align: center;
+    }
+       li
+       {
+           font-size:4px;
+          
+       }
+   .btn
+   {
+       margin-left:100px;
+   }
+}
+
+.mainHeader
+{
+    animation:next 2s ease;
+}
+@keyframes moves {
+    0% 
+    {
+        width: 0px;
+    }
+
+    100% {
+        width: 200px;
+    }
+
+   
+}
+.btn:hover
+{
+    background:lightblue;
+    color:white;
+    animation:moves 1s ease ;
+}
+.btn {
+    font-size:20px;
+    font-style:italic;
+    font-weight:bold;
+    width: 200px;
+    color: #9D0208;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-right:100px;
+}
+@media screen and (max-width:375px) {
+    .body{        
+        width: 90%;     
+        font-size: 95%;   
+    }
+    .mainHeader nav{       
+        height: 160px;        
+    }
+    
+    .mainHeader nav ul{
+        width: 100%;
+        padding: 0;
+    }
+    
+    .mainHeader nav ul li{
+        display: block;
+    }
+    
+    .mainHeader a:link, a:visited{        
+        display: block;
+        
+    }
+        
+}

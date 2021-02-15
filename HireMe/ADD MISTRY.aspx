@@ -6,54 +6,101 @@
 <head runat="server">
    
      
-    <title>add ministy</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/file.css" />
    
 
-</head>
+  
 
+    <title>ADD MINISTY</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/css/file.css" />
+    <script src="js/js/jquery.js"></script>
+    <script src="js/js/bootstrap.min.js"></script>
+    <script src="js/js/file.js"></script>
+    <style>
+
+        @media(max-width:769px)
+             {
+                 .send {
+             width: 150px;
+             position: relative;
+             right: 20px;
+         }
+         .casing 
+         {
+             width: 700px;
+             height: 100px;    
+             position:relative;
+             
+            
+         }
+         .dropdown{
+            position:relative;
+            right: 900px;
+             font-weight: bold;
+             font-size: 15px
+         }
+         .jump {
+             width: 300px;
+         }
+
+           
+            .send
+            {
+                position:relative;
+                right:30px;
+                width:150px;
+            }
+        }
+        .li
+        {
+            margin-right:200px;
+        }
+
+   @keyframes next
+{
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 900px;
+    }
+}
+.heading 
+{
+    animation: next 1s ease-in-out;
+}
+
+    
        
-     <body id="bod" class="container" style="background-image:url(images/photobac2.png)" >
-     
-         <nav class="navbar navbar-expend-md navbar-dark bg-dark navbar-fixed-top  navbar navbar-default ">
-         
+    </style>
+</head>
+     <body id="bod" class="container" style="background-image:url(image/photobac2.png); width:100%;" >
+         <div class="container">
 
-             <button class="navbar-toggle" data-toggle="collapse" data-target="#show" onclick="right()">
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-             </button>
+         <div class="heading">
+         <img class="casing img-responsive" src="css/casing.jpg" style=" width:100%;" />
+         <nav class="navbar navbar-expend-md navbar-dark bg-dark  navbar navbar-default  ">
+
+            
              <span class=" brand">HIR_ME</span>
-             <div class="collapse navbar-collapse next" id="show">
+             <div class="collapse navbar-collapse" id="show">
 
-                 <ul class="navbar-nav " id="man">
-                    <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" data-target="wasem" id="la" data-toggle="dropdown" style="color:white" onclick="language()">
-                         Language
-                         <span class="caret"></span>
-                     </a>
-                        <div class="dropdown-menu" aria-labelledby="wasem">
-                            <ul class="navbar-nav">
-                                <a class=" dropdown-item">php</a>&nbsp;&nbsp;&nbsp;
-                                <a class=" dropdown-item">css</a>&nbsp;&nbsp;&nbsp;
-                                <a class=" dropdown-item">js </a>&nbsp;&nbsp;&nbsp;
-                            </ul>
-                        </div>
-                    </li>
-                     <li class="nav-item dropdown">
-                         <a class="nav-link" href="#" style="color:white;">Login</a>
-
-                     </li>
-                     <li class="nav-item dropdown" >
-                         <a class="nav-link" href="#" style="color:white;">Home</a>
+                 <ul class="navbar-nav" id="man">
+                    
+                     <li class="nav-item dropdown" style="margin-right:300px;">
+                         <a class="nav-link" href="#">Home</a>
 
                      </li>
                  </ul>
              </div>
-         </nav><br /><br /><br /><br /><br /><br />
+         </nav>
+             </div>
+         </div>
+        
+         
             <div class="container">
                  <div class="row">
                       <div class="jump">
@@ -73,24 +120,80 @@
 
                               <label class="subject">gmile</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                               <input class="form-control txt" type="text" id="gmail" runat="server" required="required" placeholder="input gmile"/><br />
-                                <input type="button" runat="server" value="send" class="send form-control" style="color:white" onserverclick="Unnamed_ServerClick" onclick="input();" />
+                                <input type="button" runat="server" value="send" class="send form-control" style="color:white" onserverclick="Unnamed_ServerClick"/>
                           </form>
                      </div>
                  </div>
                
-            </div>
+            </div><br /><br /><br /><br /><br /><br />
          
 
+        
+        <script>
+            function input() {
+
+                var y = 0;
+                t = document.getElementById("gmail").value;
+                var pas1 = document.getElementById("pas1").value,
+                    pas2 = document.getElementById("pas2").value,
+                    name = document.getElementById("name").value;
 
 
-    <script src="js/icons.js"></script>  
-    <script src="js/file.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/file.js"></script>
 
+                for (var i = 0; i < t.length; i++) {
+                    if (t[i] == '@') {
+                        y++;
+                    }
+                }
+                if (pas1 != pas2) {
+                    alert("error in password");
+
+                }
+                else if (t[0] == '@') {
+                    alert("you should not content index one from @");
+
+                }
+                else if (y > 1) {
+                    alert("you should not content more from @");
+
+                }
+                else if (y == 0) {
+                    alert("the field gmail must contain an '@'" + '<<' + t + '>>');
+
+                }
+
+
+                else if (t[t.length - 1] == "@") {
+                    alert("you must add text after" + "<< " + t + " >>");
+
+                }
+
+            }
+        </script>
      </body>
        
     
 
 </html>
+
+
+
+
+
+<!--<li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" data-target="wasem" data-toggle="dropdown">
+                         Language
+                         <span class="caret"></span>
+                     </a>
+                        <div class="dropdown-menu" aria-labelledby="wasem">
+                            <ul class="navbar-nav">
+                                <a class=" dropdown-itemn">php</a>&nbsp;&nbsp;&nbsp;
+                                <a class=" dropdown-itemn">css</a>&nbsp;&nbsp;&nbsp;
+                                <a class=" dropdown-itemn">js </a>&nbsp;&nbsp;&nbsp;
+                            </ul>
+                        </div>
+                    </li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link" href="#">Login</a>
+
+                     </li>-->
