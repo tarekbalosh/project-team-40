@@ -21,6 +21,7 @@ namespace monta
         protected void submit_Click(object sender, EventArgs e)
         {
             das = new Data_Access();
+
             if ( das.check_empty(num_idh.Text))
             {
                 Lab_ck_idh.Text = "this field is empty ";
@@ -66,7 +67,55 @@ namespace monta
                 Lab_ck_stu_profi.Text = "this field is empty";
                 return;
             }
-            
+        
+            //check number
+            if (das.check_number(avg.Text))
+            {
+                Lab_ck_idh.Text = "this field contain a text ";
+                return;
+            }
+
+            if (das.check_number(date_porn.Text))
+            {
+                Lab_ck_datep.Text = "this field contain a text ";
+                return;
+            }
+
+            //check string
+            if (das.check_string(n_first.Text))
+            {
+                Lab_ck_nfirst.Text = "this field must contain a text";
+                return;
+            }
+
+              if (das.check_string(n_last.Text))
+            {
+                Lab_ck_nlast.Text = "this field must contain a text";
+                return;                           
+            } 
+              
+              if (das.check_string(n_father.Text))
+            {                                     
+                Lab_ck_nfather.Text = "this field must contain a text";
+                return;                           
+            }   
+              
+              if (das.check_string(n_mather.Text))     
+            {
+                Lab_ck_cma.Text = "this field must contain a text";
+                return;
+            }  if (das.check_string(country.Text))     
+            {
+                Lab_ck_country.Text = "this field must contain a text";
+                return;
+            }  if (das.check_string(stu_pro.Text))     
+            {
+                Lab_ck_stu_profi.Text = "this field must contain a text";
+                return;
+            }
+
+
+
             var dt = das.SelectData("select * from tb_students_name");
             string num_id;
             for (int i = 0; i < dt.Rows.Count; i++)

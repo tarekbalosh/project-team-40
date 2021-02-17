@@ -70,7 +70,6 @@
     <Content Include="Add Condition.aspx" />
     <Content Include="ADD MISTRY.aspx" />
     <Content Include="Add University.aspx" />
-    <Content Include="Add University.csproj.user" />
     <Content Include="Add_student.aspx" />
     <Content Include="control admin.aspx" />
     <Content Include="css\casing.jpg" />
@@ -114,6 +113,7 @@
     </Compile>
     <Compile Include="Add University.aspx.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Add University.aspx.designer.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
@@ -165,7 +165,6 @@
     <Content Include="css\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="css\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="css\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Add University.csproj" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

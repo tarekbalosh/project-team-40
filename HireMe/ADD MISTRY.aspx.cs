@@ -20,8 +20,8 @@ namespace HM
 
         protected void Unnamed_ServerClick(object sender, EventArgs e)
         {
-            
-            string str = @"Data Source=DESKTOP-LUTST1O\SQLEXPRESS;Initial Catalog=DB_HM;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string str = @"Data Source=DESKTOP-9TQ6G6V\SQLEXPRESS;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string str2 = @"Data Source=DESKTOP-LUTST1O\SQLEXPRESS;Initial Catalog=DB_HM;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection con = new SqlConnection(str);
             string sql = "select ministry_email,ministry_name from tb_ministry";
             SqlCommand cmd = new SqlCommand(sql, con);
