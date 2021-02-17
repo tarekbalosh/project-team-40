@@ -82,6 +82,7 @@
     <Content Include="css\disblay add.txt" />
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="css\icons.js" />
+    <Content Include="css\StyleDn.css" />
     <Content Include="Display Universities.aspx" />
     <Content Include="display_student.aspx" />
     <Content Include="image\photobac2.png" />
@@ -113,6 +114,7 @@
     </Compile>
     <Compile Include="Add University.aspx.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Add University.aspx.designer.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
