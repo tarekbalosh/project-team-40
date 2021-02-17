@@ -83,6 +83,7 @@
     <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="css\icons.js" />
     <Content Include="css\StyleDn.css" />
+    <Content Include="Display Condition.aspx" />
     <Content Include="Display Universities.aspx" />
     <Content Include="display_student.aspx" />
     <Content Include="display_vacancy.aspx" />
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="control admin.aspx.designer.cs">
       <DependentUpon>control admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Display Condition.aspx.cs">
+      <DependentUpon>Display Condition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Display Condition.aspx.designer.cs">
+      <DependentUpon>Display Condition.aspx</DependentUpon>
     </Compile>
     <Compile Include="Display Universities.aspx.cs">
       <DependentUpon>Display Universities.aspx</DependentUpon>
