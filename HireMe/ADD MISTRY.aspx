@@ -1,99 +1,45 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ADD MISTRY.aspx.cs" Inherits="HM.ADD_MISTRY" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ADD MISTRY.aspx.cs" Inherits="HM.ADD_MISTRY" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+   
+     
+   
+
+  
 
     <title>ADD MINISTY</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="css/css/file.css" />
+    <link href="css/css/ministry.css" rel="stylesheet" />
     <script src="js/js/jquery.js"></script>
     <script src="js/js/bootstrap.min.js"></script>
     <script src="js/js/file.js"></script>
-    <style>
-
-        @media(max-width:769px)
-             {
-                 .send {
-             width: 150px;
-             position: relative;
-             right: 20px;
-         }
-         .casing 
-         {
-             width: 700px;
-             height: 100px;    
-             position:relative;
-             
-            
-         }
-         .dropdown{
-            position:relative;
-            right: 900px;
-             font-weight: bold;
-             font-size: 15px
-         }
-         .jump {
-             width: 300px;
-         }
-
-           
-            .send
-            {
-                position:relative;
-                right:30px;
-                width:150px;
-            }
-        }
-        .li
-        {
-            margin-right:200px;
-        }
-
-   @keyframes next
-{
-    0% {
-        width: 0%;
-    }
-
-    100% {
-        width: 900px;
-    }
-}
-.heading 
-{
-    animation: next 1s ease-in-out;
-}
-
     
-       
-    </style>
 </head>
-     <body id="bod" class="container" style="background-image:url(image/photobac2.png); width:100%;" >
-         <div class="container">
+     <body id="bod" class="container"<%-- style="background-image:url(image/photobac2.png); width:100%;" --%>>
+        
 
          <div class="heading">
          <img class="casing img-responsive" src="css/casing.jpg" style=" width:100%;" />
-         <nav class="navbar navbar-expend-md navbar-dark bg-dark  navbar navbar-default  ">
+             <div class="row">
+                 <div class="col-xs-12">
+         <nav class="navbar navbar-expend-md navbar-dark bg-dark  navbar navbar-default " style="background-color:#192a56;color:white">
 
             
-             <span class=" brand">HIR_ME</span>
-             <div class="collapse navbar-collapse" id="show">
+             <strong class="hier ">HIR_ME</strong>
+             
 
-                 <ul class="navbar-nav" id="man">
-                    
-                     <li class="nav-item dropdown" style="margin-right:300px;">
-                         <a class="nav-link" href="#">Home</a>
-
-                     </li>
-                 </ul>
-             </div>
+                 <span class="home"><strong>Home</strong></span>
+            
          </nav>
+                     </div>
+                 </div>
              </div>
-         </div>
+         
         
          
             <div class="container">
@@ -115,7 +61,7 @@
 
                               <label class="subject">gmile</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                               <input class="form-control txt" type="text" id="gmail" runat="server" required="required" placeholder="input gmile"/><br />
-                                <input type="button" runat="server" value="send" class="send form-control" style="color:white" onserverclick="Unnamed_ServerClick"/>   
+                                <input type="button" runat="server" value="send" class="send form-control" style="color:white" onserverclick="Unnamed_ServerClick"/>
                           </form>
                      </div>
                  </div>
