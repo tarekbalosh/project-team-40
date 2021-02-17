@@ -35,19 +35,21 @@
                              </select><br />
 
                              <label>Condition name : </label>
-                             <input type="text" name="c_name" id="condiname" value="" />
+                             <%--<input type="text" name="c_name" id="condiname" value="" required runat="server" />--%>
+                             <asp:TextBox ID="condiname" runat="server" OnTextChanged="condiname_TextChanged"></asp:TextBox>
+                             <asp:Label ID="please" runat="server"></asp:Label>
                              <br />
 
                              <label>Condition type : </label>
                              <select id="select_type" runat="server">
-                                 <option value="رقمي">Digital</option>
-                                 <option value="نصي">Textual</option>
-                                 <option value="متعددي">Multiple</option>
+                                 <option value="digital">Digital</option>
+                                 <option value="textual">Textual</option>
+                                 <option value="multiple">Multiple</option>
                              </select>
                              <br />
 
-                             <asp:Button ID="btn_addCond" runat="server" Text="Add" />
-                             <asp:Button ID="btn_Back" runat="server" Text="Back" />
+                             <asp:Button ID="btn_addCond" runat="server" Text="Add" OnClick="btn_addCond_Click" />
+                             <asp:Button ID="btn_Back" runat="server" Text="Back" OnClick="btn_Back_Click" />
 
                          </div>
                      </div>

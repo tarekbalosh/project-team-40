@@ -39,6 +39,11 @@ namespace HireMe.Class
             sqlcmd = new SqlCommand(Query, connection);
             return sqlcmd.ExecuteNonQuery();
         }
+        public void EX_Non_Query_Insert(string insert)
+        {
+            sqlcmd = new SqlCommand(insert, connection);
+            sqlcmd.ExecuteNonQuery();
+        }
         public void close_connection()
         {
             if (connection.State == ConnectionState.Open)
