@@ -13,6 +13,7 @@ namespace HireMe
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            /*------------------------Add Selct Vacancy----------------------*/
             //string conn = ConfigurationManager.ConnectionStrings["tcc_con"].ConnectionString;
             string conn = @"Data Source=DELL\SQLEXPRESS;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection sqlConnection = new SqlConnection(conn);

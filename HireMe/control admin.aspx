@@ -37,7 +37,7 @@
             <asp:Button class="btn" ID="btn_display_ministry" runat="server" Text="display ministry" OnClick="btn_display_ministry_Click" /><br />  
             <asp:Button class="btn" ID="btn_add_university" runat="server" Text="add university" />
             <asp:Button class="btn" ID="btn_display_nuiversity" runat="server" Text="display nuiversity" /><br />
-            <asp:Button class="btn" ID="btn_add_condition" runat="server" Text="add condition" />
+            <asp:Button class="btn" ID="btn_add_condition" runat="server" Text="add condition" OnClick="btn_add_condition_Click" />
             <asp:Button class="btn" ID="btn_display_condition" runat="server" Text="display condition" /><br />
             <asp:Button class="btn" ID="btn_add_vacancy" runat="server" Text="add vacancy" />
             <asp:Button class="btn" ID="btn_display_vacancy" runat="server" Text="display vacancy" /><br />

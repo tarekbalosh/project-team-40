@@ -29,10 +29,11 @@
                              <h2>Condition Adding</h2>
                              <br />
 
-                             <label>Specialization : </label>
+                             <label>Specialization : </label>                             
                              <select id="select_spec" runat="server">
-                                 <!--Database-->
+                                 <%--Database--%>
                              </select><br />
+
                              <label>Condition name : </label>
                              <input type="text" name="c_name" id="condiname" value="" />
                              <br />
@@ -44,6 +45,9 @@
                                  <option value="متعددي">Multiple</option>
                              </select>
                              <br />
+
+                             <asp:Button ID="btn_addCond" runat="server" Text="Add" />
+                             <asp:Button ID="btn_Back" runat="server" Text="Back" />
 
                          </div>
                      </div>

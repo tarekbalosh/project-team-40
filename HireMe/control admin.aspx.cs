@@ -33,5 +33,10 @@ namespace HireMe
         {
             Response.Redirect("Add_student.aspx");
         }
+
+        protected void btn_add_condition_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Add Condition.aspx");
+        }
     }
 }

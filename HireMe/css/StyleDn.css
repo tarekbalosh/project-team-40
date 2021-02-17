@@ -100,7 +100,7 @@ a:hover, a:active{color:#4834d4;}
     color: black;   
 }
 
-.login input {
+/*.login input {
     width: 70%;
     padding: 10px;
     margin: 10px 0;
@@ -109,7 +109,7 @@ a:hover, a:active{color:#4834d4;}
     background: none;
     border-bottom: 2px solid #2e4788;
     font-size: 17px;
-}
+}*/
 
 
 @media screen and (max-width:375px){
