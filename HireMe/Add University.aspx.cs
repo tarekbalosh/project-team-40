@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace Add_University
 {
@@ -56,10 +57,10 @@ namespace Add_University
         {
             SqlCommand cmd1, cmd2;
             string Name, Email, Password, ConPassword, Country;
-            string str=@" Data Source = DESKTOP - 9TQ6G6V\SQLEXPRESS; Initial Catalog = HireMe; Integrated Security = True; Connect Timeout = 30; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False";
-           // string str_moh = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-            SqlConnection con = new SqlConnection(str);
-            con.Open();
+
+            string str = @"Data Source=DESKTOP-9TQ6G6V\SQLEXPRESS;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string str2 = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            SqlConnection con = new SqlConnection(str);        
             Name = uniName.Text;
             Country = UniCountry.SelectedValue;
             Email = uniEmail.Text;
@@ -69,13 +70,14 @@ namespace Add_University
             cmd2 = new SqlCommand("insert into tb_university(university_name,university_email,university_password,university_country) values('" + Name + "','" + Email + "','" + Password + "','" + Country + "')", con);
             SqlDataAdapter sda = new SqlDataAdapter(cmd1);
             DataTable dt = new DataTable();
-            sda.Fill(dt);
+             sda.Fill(dt);
             for (int i = 0; i < dt.Rows.Count; i++)
             {
                 if (con.State == ConnectionState.Closed)
                 {
                     con.Open();
                 }
+            
                 if (Name == "")
                 {
                     Label1.Text = "You must enter your name.";
@@ -116,10 +118,11 @@ namespace Add_University
                     }
                     cmd2.ExecuteNonQuery();
                     Response.Write("<script>alert('University added sucessfully')</script>");
+
                     con.Close();
                 }
             }
-
+           
         }
     }
 }

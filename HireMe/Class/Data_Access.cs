@@ -54,6 +54,24 @@ namespace HireMe.Class
             }
             return false;
         }
+        public bool check_number(string text)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] >= 49 && text[i] <= 57)
+                    return false; 
+            }
+            return true;
+        }
+        public bool check_string(string text)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] <= 'A' || text[i] >= 'z')
+                    return true;
+            }
+            return false;
+        }
     }
 
 
