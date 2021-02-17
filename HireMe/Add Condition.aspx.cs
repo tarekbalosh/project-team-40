@@ -60,14 +60,14 @@ namespace HireMe
                         else if (select_spec.DataValueField == id_vac && select_type.Value != cond_type)
                         {
                             //اضافة الشرط
-                            data_Access.EX_Non_Query_Insert("INSERT INTO tb_emp_condition(id_vacancy,emp_condition_name,emp_condition_type) VALUES('" + select_spec.DataValueField + "','" + condiname.Text + "','" + select_type.Value + "')");
+                            data_Access.EX_Non_Query_Insert("INSERT INTO tb_emp_condition(id_vacancy,emp_condition_name,emp_condition_type) VALUES('" + select_spec.Value + "','" + condiname.Text + "','" + select_type.Value + "')");
                             Response.Write("<script>alert('Added')</script>");
                             return;
                         }
                         else
                         {
                             //اضافة الشرط
-                            data_Access.EX_Non_Query_Insert("INSERT INTO tb_emp_condition(id_vacancy,emp_condition_name,emp_condition_type) VALUES('" + select_spec.DataValueField + "','" + condiname.Text + "','" + select_type.Value + "')");
+                            data_Access.EX_Non_Query_Insert("INSERT INTO tb_emp_condition(id_vacancy,emp_condition_name,emp_condition_type) VALUES('" +select_spec.Value + "','" + condiname.Text + "','" + select_type.Value + "')");
                             Response.Write("<script>alert('Added')</script>");
                             return;
                         }
@@ -82,6 +82,7 @@ namespace HireMe
                 i++;
             } while (i < data_emp_cond.Rows.Count);
             data_Access.close_connection();
+            
         }
 
         protected void condiname_TextChanged(object sender, EventArgs e)
