@@ -70,6 +70,7 @@
     <Content Include="Add Condition.aspx" />
     <Content Include="ADD MISTRY.aspx" />
     <Content Include="Add University.aspx" />
+    <Content Include="add vacncy.aspx" />
     <Content Include="Add_student.aspx" />
     <Content Include="control admin.aspx" />
     <Content Include="css\casing.jpg" />
@@ -84,6 +85,7 @@
     <Content Include="css\StyleDn.css" />
     <Content Include="Display Universities.aspx" />
     <Content Include="display_student.aspx" />
+    <Content Include="display_vacancy.aspx" />
     <Content Include="image\photobac2.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
@@ -117,6 +119,13 @@
     </Compile>
     <Compile Include="Add University.aspx.designer.cs">
       <DependentUpon>Add University.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add vacncy.aspx.cs">
+      <DependentUpon>add vacncy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add vacncy.aspx.designer.cs">
+      <DependentUpon>add vacncy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Add_student.aspx.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
@@ -153,6 +162,13 @@
     </Compile>
     <Compile Include="display_student.aspx.designer.cs">
       <DependentUpon>display_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="display_vacancy.aspx.cs">
+      <DependentUpon>display_vacancy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="display_vacancy.aspx.designer.cs">
+      <DependentUpon>display_vacancy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
