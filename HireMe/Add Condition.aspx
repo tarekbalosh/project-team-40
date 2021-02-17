@@ -8,10 +8,7 @@
 </head>
 <body>
     <form id="AddCond" runat="server">
-        <div>  
-            <h1>add condition
-
-            </h1>
+        <div>
         </div>
     </form>
 </body>
