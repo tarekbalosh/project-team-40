@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
+using HireMe.Class;
 
 namespace HM
 {
@@ -14,7 +15,7 @@ namespace HM
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Lab_pa2.Text = Lab_pa1.Text = Lab_name.Text = Lab_gmail.Text = "*";
 
         }
 
@@ -29,7 +30,37 @@ namespace HM
             DataTable dt = new DataTable();
             sda.Fill(dt);
             var email = gmail.Value;
-            
+            Data_Access das = new Data_Access();
+            if (das.check_empty(name.Value))
+            {
+
+                Lab_name.Text = "this field is empty";
+                return;
+                
+            }
+            if (das.check_empty(pa1.Value))
+            {
+                Lab_pa1.Text = "this field is empty";
+                return;
+            }
+            if (das.check_empty(pa2.Value))
+            {
+                Lab_pa2.Text = "this field is empty";
+                return;
+            }
+            if (das.check_empty(gmail.Value))
+            {
+                Lab_gmail.Text = "this field is empty";
+                return;
+            }
+            bool ck_re_pass = false;
+            if (pa1.Value == pa2.Value)
+                ck_re_pass = true;
+            if (ck_re_pass== false)
+            {
+                Lab_pa2.Text = "password not match";
+                return;
+            }
            
             for (int i = 0; i < dt.Rows.Count; i++)
             { 
@@ -58,6 +89,7 @@ namespace HM
             cmd = new SqlCommand(insert, con);
             cmd.ExecuteNonQuery();
             con.Close();
+            Response.Write("<script>alert('added complet')</script>");
             name.Value = pa1.Value = gmail.Value = pa2.Value = " ";
         }
     }

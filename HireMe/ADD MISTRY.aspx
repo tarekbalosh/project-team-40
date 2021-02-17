@@ -4,7 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-   
+  <style>
+      .lab2{
+          font-size:20px;
+          font-weight:200;
+        
+      }
+  </style>
      
    
 
@@ -49,18 +55,30 @@
                           <form class="" runat="server">
                               <p class="land">ADD MINISTY</p>
                               <label class="subject1">name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                              <input class="form-control txt " type="text" required="required" id="name" runat="server" placeholder="input name" /><br />
+                              <input class="form-control txt " type="text" required="required" id="name" runat="server" placeholder="input name" />
+                              <asp:Label ID="Lab_name" runat="server" ForeColor="Red" Text="*" CssClass="lab2" ></asp:Label>
+                             
+                           
+                              <br />
                               
                               <br />
 
                               <label class="subject">password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                              <input class="form-control txt" type="password" required="required" placeholder="input password" runat="server" maxlength="12" id="pa1" /><br />
+                              <input class="form-control txt" type="password" required="required" placeholder="input password" runat="server" maxlength="12" id="pa1" /> 
+                               <asp:Label ID="Lab_pa1" runat="server" ForeColor="Red" Text="*" CssClass="lab2" ></asp:Label>
+                              <br />
+
 
                                <label class="subject" style="font-size:15px">password Confirmation</label>
-                              <input class="form-control txt" type="password" required="required" placeholder="input password"  maxlength="12" id="pa2" runat="server" /><br />
+                              <input class="form-control txt" type="password" required="required" placeholder="input password"  maxlength="12" id="pa2" runat="server" />
+                              <asp:Label ID="Lab_pa2" runat="server" ForeColor="Red" Text="*" CssClass="lab2" ></asp:Label>
+                              <br />
 
                               <label class="subject">gmile</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                              <input class="form-control txt" type="text" id="gmail" runat="server" required="required" placeholder="input gmile"/><br />
+                              <input class="form-control txt" type="text" id="gmail" runat="server" required="required" placeholder="input gmile"/>
+                                 
+                              <asp:Label ID="Lab_gmail" runat="server" ForeColor="Red" Text="*" CssClass="lab2" ></asp:Label>
+                              <br />
                                 <input type="button" runat="server" value="send" class="send form-control" style="color:white" onserverclick="Unnamed_ServerClick"/>
                           </form>
                      </div>
@@ -105,6 +123,7 @@
 
 
                 else if (t[t.length - 1] == "@") {
+
                     alert("you must add text after" + "<< " + t + " >>");
 
                 }
