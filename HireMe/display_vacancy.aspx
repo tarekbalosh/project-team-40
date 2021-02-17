@@ -7,7 +7,7 @@
     <title>Display vacancy</title>
     <link href="css/style.css" rel="stylesheet" />
 </head>
-<body>
+<body class="body">
     <form id="form1" runat="server">
         <div>
                         

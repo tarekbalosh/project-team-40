@@ -110,9 +110,7 @@ a:hover, a:active{color:#4834d4;}
     border-bottom: 2px solid #2e4788;
     font-size: 17px;
 }*/
-
-
-@media screen and (max-width:375px){
+@media screen and (max-width:375px) {
     .body{        
         width: 90%;     
         font-size: 95%;   

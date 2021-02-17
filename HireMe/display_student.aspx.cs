@@ -15,7 +15,7 @@ namespace HireMe
         protected void Page_Load(object sender, EventArgs e)
         {
             das = new Data_Access();
-         var dt_dis_stu = das.SelectData("select * from tb_students_name");
+            var dt_dis_stu = das.SelectData("select * from tb_students_name");
             dt_dis_stu.Columns.RemoveAt(0);
             GV_dis_stu.DataSource = dt_dis_stu;
             GV_dis_stu.DataBind();
