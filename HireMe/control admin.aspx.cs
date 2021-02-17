@@ -38,7 +38,7 @@ namespace HireMe
         {
             Response.Redirect("Add Condition.aspx");
         }
-
+ 
         protected void btn_add_vacancy_Click(object sender, EventArgs e)
         {
             Response.Redirect("add vacncy.aspx");
