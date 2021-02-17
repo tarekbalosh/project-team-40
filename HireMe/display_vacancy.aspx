@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Display vacancy</title>
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
