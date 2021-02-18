@@ -30,9 +30,9 @@
                              <br />
 
                              <label>Specialization : </label>                             
-                             <select id="select_spec" runat="server">
-                                 <%--Database--%>
-                             </select><br />
+                             <%--<select id="select_spec" runat="server">
+                                 <%--Database-- </select><br />--%>
+                             <asp:DropDownList ID="select_spec" runat="server"></asp:DropDownList><br />
 
                              <label>Condition name : </label>
                              <%--<input type="text" name="c_name" id="condiname" value="" required runat="server" />--%>
