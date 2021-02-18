@@ -23,15 +23,17 @@ namespace Add_University
         {
             if (!IsPostBack)
             {
-                Label1.Text = "";
-                Label2.Text = "";
-                Label3.Text = "";
-                Label4.Text = "";
+              
                 UniCountry.Items.Add("Damascus");
                 UniCountry.Items.Add("Aleppo");
                 UniCountry.Items.Add("Houms");
                 UniCountry.Items.Add("Latakia");
+
             }
+            Label1.Text = "";
+            Label2.Text = "";
+            Label3.Text = "";
+            Label4.Text = "";
         }
 
         protected void Submit_Click(object sender, EventArgs e)
@@ -59,7 +61,7 @@ namespace Add_University
             string Name, Email, Password, ConPassword, Country;
 
             string str = @"Data Source=DESKTOP-9TQ6G6V\SQLEXPRESS;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-            string str2 = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+         //   string str2 = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=HireMe;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection con = new SqlConnection(str);        
             Name = uniName.Text;
             Country = UniCountry.SelectedValue;
@@ -81,37 +83,49 @@ namespace Add_University
                 if (Name == "")
                 {
                     Label1.Text = "You must enter your name.";
+                    return;
                 }
                 if (Email == "")
                 {
                     Label2.Text = "You must enter an Email.";
+                    return;
                 }
                 if (Password == "")
                 {
                     Label3.Text = "You must enter a password.";
+                    return;
                 }
                 if (ConPassword != Password)
                 {
                     Label4.Text = "Password and Confirm Password dose not match";
+                    return;
                 }
-                if (Name == dt.Rows[i][0].ToString() && Email == dt.Rows[i][1].ToString())
+                
+
+
+                for (int j = 0; j < dt.Rows.Count; j++)
                 {
-                    Label1.Text = "This name already used.";
-                    Label2.Text = "This Email already used.";
-                    con.Close();
+                    if (Name == dt.Rows[j][0].ToString())
+                    {
+                        Label1.Text = "This name already used.";
+                        con.Close();
+                        return;
+                    }
+                    if (Name == dt.Rows[i][0].ToString() && Email == dt.Rows[i][1].ToString())
+                    {
+                        Label1.Text = "This name already used.";
+                        Label2.Text = "This Email already used.";
+                        con.Close();
+                        return;
+                    }
+                    if (Email == dt.Rows[i][1].ToString())
+                    {
+                        Label2.Text = "This Email already used.";
+                        con.Close();
+                        return;
+                    }
                 }
-                else if (Name == dt.Rows[i][0].ToString())
-                {
-                    Label1.Text = "This name already used.";
-                    con.Close();
-                }
-                else if (Email == dt.Rows[i][1].ToString())
-                {
-                    Label2.Text = "This Email already used.";
-                    con.Close();
-                }
-                else
-                {
+                
                     if (con.State == ConnectionState.Closed)
                     {
                         con.Open();
@@ -120,7 +134,8 @@ namespace Add_University
                     Response.Write("<script>alert('University added sucessfully')</script>");
 
                     con.Close();
-                }
+                    return;
+                
             }
            
         }

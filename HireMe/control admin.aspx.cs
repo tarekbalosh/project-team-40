@@ -48,5 +48,10 @@ namespace HireMe
         {
             Response.Redirect("display_vacancy.aspx");
         }
+
+        protected void btn_add_university_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Add University.aspx");
+        }
     }
 }
