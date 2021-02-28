@@ -67,44 +67,36 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Add Condition.aspx" />
+    <Content Include="Css\style.css" />
+    <Content Include="image\casing.jpg" />
+    <Content Include="image\white.jpg" />
+    <Content Include="p_min\Add Condition.aspx" />
     <Content Include="ADD MISTRY.aspx" />
-    <Content Include="Add University.aspx" />
-    <Content Include="add vacncy.aspx" />
     <Content Include="Add_student.aspx" />
+    <Content Include="bootstrap_ js\bootstrap.bundle.js" />
+    <Content Include="bootstrap_ js\bootstrap.bundle.min.js" />
+    <Content Include="bootstrap_ js\bootstrap.js" />
+    <Content Include="bootstrap_ js\bootstrap.min.js" />
+    <Content Include="bootstrap_css\bootstrap-grid.css" />
+    <Content Include="bootstrap_css\bootstrap-grid.min.css" />
+    <Content Include="bootstrap_css\bootstrap-reboot.css" />
+    <Content Include="bootstrap_css\bootstrap-reboot.min.css" />
+    <Content Include="bootstrap_css\bootstrap.css" />
+    <Content Include="bootstrap_css\bootstrap.min.css" />
     <Content Include="control admin.aspx" />
-    <Content Include="css\casing.jpg" />
-    <Content Include="css\css\bootstrap-theme.css" />
-    <Content Include="css\css\bootstrap-theme.min.css" />
-    <Content Include="css\css\bootstrap.css" />
-    <Content Include="css\css\bootstrap.min.css" />
-    <Content Include="css\css\file.css" />
-    <Content Include="css\disblay add.txt" />
-    <Content Include="css\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="css\icons.js" />
-    <Content Include="css\StyleDn.css" />
-    <Content Include="Display Condition.aspx" />
-    <Content Include="Display Universities.aspx" />
-    <Content Include="display_student.aspx" />
-    <Content Include="display_vacancy.aspx" />
-    <Content Include="image\photobac2.png" />
-    <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
     <Content Include="js\file.js" />
     <Content Include="js\icons.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
-    <Content Include="css\style.css" />
-    <Content Include="css\white.jpg" />
-    <Content Include="display_ministry.aspx" />
+    <Content Include="main page.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add Condition.aspx.cs">
+    <Compile Include="p_min\Add Condition.aspx.cs">
       <DependentUpon>Add Condition.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Add Condition.aspx.designer.cs">
+    <Compile Include="p_min\Add Condition.aspx.designer.cs">
       <DependentUpon>Add Condition.aspx</DependentUpon>
     </Compile>
     <Compile Include="ADD MISTRY.aspx.cs">
@@ -113,20 +105,6 @@
     </Compile>
     <Compile Include="ADD MISTRY.aspx.designer.cs">
       <DependentUpon>ADD MISTRY.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Add University.aspx.cs">
-      <DependentUpon>Add University.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Add University.aspx.designer.cs">
-      <DependentUpon>Add University.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="add vacncy.aspx.cs">
-      <DependentUpon>add vacncy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="add vacncy.aspx.designer.cs">
-      <DependentUpon>add vacncy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Add_student.aspx.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
@@ -143,52 +121,26 @@
     <Compile Include="control admin.aspx.designer.cs">
       <DependentUpon>control admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Display Condition.aspx.cs">
-      <DependentUpon>Display Condition.aspx</DependentUpon>
+    <Compile Include="main page.aspx.cs">
+      <DependentUpon>main page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Display Condition.aspx.designer.cs">
-      <DependentUpon>Display Condition.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Display Universities.aspx.cs">
-      <DependentUpon>Display Universities.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Display Universities.aspx.designer.cs">
-      <DependentUpon>Display Universities.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="display_ministry.aspx.cs">
-      <DependentUpon>display_ministry.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="display_ministry.aspx.designer.cs">
-      <DependentUpon>display_ministry.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="display_student.aspx.cs">
-      <DependentUpon>display_student.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="display_student.aspx.designer.cs">
-      <DependentUpon>display_student.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="display_vacancy.aspx.cs">
-      <DependentUpon>display_vacancy.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="display_vacancy.aspx.designer.cs">
-      <DependentUpon>display_vacancy.aspx</DependentUpon>
+    <Compile Include="main page.aspx.designer.cs">
+      <DependentUpon>main page.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\css\bootstrap-theme.css.map" />
-    <Content Include="css\css\bootstrap-theme.min.css.map" />
-    <Content Include="css\css\bootstrap.css.map" />
-    <Content Include="css\css\bootstrap.min.css.map" />
-    <Content Include="css\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="css\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="css\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="css\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="bootstrap_css\bootstrap-grid.css.map" />
+    <Content Include="bootstrap_css\bootstrap-grid.min.css.map" />
+    <Content Include="bootstrap_css\bootstrap-reboot.css.map" />
+    <Content Include="bootstrap_css\bootstrap-reboot.min.css.map" />
+    <Content Include="bootstrap_css\bootstrap.css.map" />
+    <Content Include="bootstrap_css\bootstrap.min.css.map" />
+    <Content Include="bootstrap_ js\bootstrap.bundle.js.map" />
+    <Content Include="bootstrap_ js\bootstrap.bundle.min.js.map" />
+    <Content Include="bootstrap_ js\bootstrap.js.map" />
+    <Content Include="bootstrap_ js\bootstrap.min.js.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -197,7 +149,11 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="p_admin\" />
+    <Folder Include="p_gen\" />
+    <Folder Include="p_univer\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

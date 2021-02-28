@@ -22,15 +22,6 @@ namespace HM {
         protected global::System.Web.UI.HtmlControls.HtmlInputText name;
         
         /// <summary>
-        /// Lab_name control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lab_name;
-        
-        /// <summary>
         /// pa1 control.
         /// </summary>
         /// <remarks>
@@ -38,15 +29,6 @@ namespace HM {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputPassword pa1;
-        
-        /// <summary>
-        /// Lab_pa1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lab_pa1;
         
         /// <summary>
         /// pa2 control.
@@ -58,15 +40,6 @@ namespace HM {
         protected global::System.Web.UI.HtmlControls.HtmlInputPassword pa2;
         
         /// <summary>
-        /// Lab_pa2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lab_pa2;
-        
-        /// <summary>
         /// gmail control.
         /// </summary>
         /// <remarks>
@@ -74,14 +47,5 @@ namespace HM {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputText gmail;
-        
-        /// <summary>
-        /// Lab_gmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Lab_gmail;
     }
 }

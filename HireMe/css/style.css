@@ -1,10 +1,10 @@
-body{
-    background-image: url('white.jpg');
+body {
+    background-image: url('../image/white.jpg');
     color: #2d2e2e;
     font-size: 90%;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
-    
+    text-align: left;
 }
 a{
     text-decoration: none;
@@ -47,27 +47,25 @@ a:hover, a:active{color:#4834d4;}
     height: 20px;
 }
 
-/*.mainHeader a:hover, a:active{
+.mainHeader a:hover, a:active{
      color: rgb(255, 255, 255);
      background-color: #2f4274;
      text-shadow: 1px 1px black;
-}*/
+}
 
 /*----------------------MAIN-------------------------*/
-.mainContent
-{
-    width: 900px;
+.mainContent{
+    width: 100%;
     height: 100%;
 }
 
-
-.top-Content {
+.top-Content{
     background-color: white;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     padding: 3%;
-    margin-top: 3%;
+    margin-top: 3%;    
 }
 .login-Content{
     width: 70%;
@@ -80,130 +78,66 @@ a:hover, a:active{color:#4834d4;}
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
-.login{
-    width:70%;    
-    margin: 0 auto;    
-    font-size: 95%;
-}
-.login header{
+.login-Content header{
     font-size: 20px;
     border-bottom: 3.5px solid #2f4274;
     margin-bottom: 20px ;
     text-align: center;
-    float: left;
     width: 100%;
 }
-.login label{
-    font-size: 15px;
-    text-align: left;
-    color: black;
-    border-bottom: 1px solid #2f4274;
+.form{
+    width: 50%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
 }
-.login input{
-    width: 70%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;  
-    outline: none;
+.form input{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    border: none;
     background: none;
+    outline: none;
+}
+.form label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid black;
+}
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    width: 100%;
+    height: 100%;
     border-bottom: 2px solid #2e4788;
-    font-size: 17px;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
 }
-.login button{
-    width: 100%;   
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    border: 3px solid  #2e4788;  
-    outline: none;
-    background: none;
-    cursor: pointer;
-    font-size: 16px;
+.content-name{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
 }
-.login button:hover{
-    background-color: #2e4788;
-    color: white;
-}
-.login i{
-    font-size: 20px;
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name
+{
+    transform: translateY(-100%);
+    font-size: 14px;
     color: #2e4788;
-    text-align: center;
-    float: left;
 }
-.mainContent {
-    width: 1050px;
-    height: 500px;
-    background-color: #03071E;
-    margin-top:1px;
-  
-
-}
-@media(max-width:760px)
-{
-    .jump
-    {
-        width:300px;
-    }
-    .send
-    {
-        width:150px;
-        position:relative;
-        right:20px;
-    }
-    .mainHeader , .nav
-    {
-        width: 400px;
-    }
-       .mainContent {
-        width: 400px;
-        height: 900px;
-        text-align: center;
-    }
-       li
-       {
-           font-size:4px;
-          
-       }
-   .btn
-   {
-       margin-left:100px;
-   }
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after{
+    transform: translateX(0%);
 }
 
-.mainHeader
-{
-    animation:next 2s ease;
-}
-@keyframes moves {
-    0% 
-    {
-        width: 0px;
-    }
-
-    100% {
-        width: 200px;
-    }
-
-   
-}
-.btn:hover
-{
-    background:lightblue;
-    color:white;
-    animation:moves 1s ease ;
-}
-.btn {
-    font-size:20px;
-    font-style:italic;
-    font-weight:bold;
-    width: 200px;
-    color: #9D0208;
-    border-radius: 40px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    margin-right:100px;
-}
-@media screen and (max-width:375px) {
+@media screen and (max-width:375px){
     .body{        
         width: 90%;     
         font-size: 95%;   
@@ -223,7 +157,6 @@ a:hover, a:active{color:#4834d4;}
     
     .mainHeader a:link, a:visited{        
         display: block;
-        
     }
         
 }
