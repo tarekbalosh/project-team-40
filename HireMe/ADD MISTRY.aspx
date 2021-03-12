@@ -74,8 +74,8 @@
         
          
             <div class="container">
-                 <div class="row">
-                      <div class="jump">
+                 
+                       <div class="jump" style="border:solid darkblue 4px;">
                          
                           <form class="" runat="server">
                               <p class="land">ADD MINISTY</p>

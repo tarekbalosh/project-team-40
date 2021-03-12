@@ -108,36 +108,15 @@ a:hover, a:active{color:#4834d4;}
     pointer-events: none;
     border-bottom: 1px solid black;
 }
-.form label::after{
-    content: "";
-    position: absolute;
-    left: 0px;
-    bottom: -1px;
-    width: 100%;
-    height: 100%;
-    border-bottom: 2px solid #2e4788;
-    transform: translateX(-100%);
-    transition: all 0.3s ease;
-}
-.content-name{
-    position: absolute;
-    bottom: 5px;
-    left: 0px;
-    transition: all 0.3s ease;
-}
-.form input:focus + .label-name .content-name,
-.form input:valid + .label-name .content-name
-{
-    transform: translateY(-100%);
-    font-size: 14px;
-    color: #2e4788;
-}
+
+
 .form input:focus + .label-name::after,
 .form input:valid + .label-name::after{
     transform: translateX(0%);
 }
 
-@media screen and (max-width:375px){
+
+@media screen and (max-width:375px) {
     .body{        
         width: 90%;     
         font-size: 95%;   
