@@ -67,11 +67,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
     <Content Include="Css\tarek_css.css" />
+    <Content Include="Font\font-awesome.css" />
+    <Content Include="Font\font-awesome.min.css" />
+    <Content Include="Font\fontawesome-webfont.svg" />
+    <Content Include="Font\glyphicons-halflings-regular.svg" />
+    <Content Include="Font\index.html" />
+    <Content Include="HTML\Create-Account-ministry.html" />
+    <Content Include="HTML\Sign-in-ministry.html" />
+    <Content Include="image\blue1.jpg" />
     <Content Include="image\casing.jpg" />
     <Content Include="image\white.jpg" />
-    <Content Include="p_min\Add Condition.aspx" />
     <Content Include="ADD MISTRY.aspx" />
     <Content Include="Add_student.aspx" />
     <Content Include="bootstrap_ js\bootstrap.bundle.js" />
@@ -85,6 +93,7 @@
     <Content Include="bootstrap_css\bootstrap.css" />
     <Content Include="bootstrap_css\bootstrap.min.css" />
     <Content Include="control admin.aspx" />
+    <Content Include="image\white4.jpg" />
     <Content Include="js\file.js" />
     <Content Include="js\icons.js" />
     <Content Include="js\jquery.js" />
@@ -93,13 +102,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="p_min\Add Condition.aspx.cs">
-      <DependentUpon>Add Condition.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="p_min\Add Condition.aspx.designer.cs">
-      <DependentUpon>Add Condition.aspx</DependentUpon>
-    </Compile>
     <Compile Include="ADD MISTRY.aspx.cs">
       <DependentUpon>ADD MISTRY.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -142,6 +144,36 @@
     <Content Include="bootstrap_ js\bootstrap.bundle.min.js.map" />
     <Content Include="bootstrap_ js\bootstrap.js.map" />
     <Content Include="bootstrap_ js\bootstrap.min.js.map" />
+    <Content Include="Font\DroidKufi-Regular.ttf" />
+    <Content Include="Font\DroidNaskh-Bold.ttf" />
+    <Content Include="Font\DroidNaskh-Regular.ttf" />
+    <Content Include="Font\fontawesome-webfont.eot" />
+    <Content Include="Font\fontawesome-webfont.ttf" />
+    <Content Include="Font\fontawesome-webfont.woff" />
+    <Content Include="Font\fontawesome-webfont.woff2" />
+    <Content Include="Font\FontAwesome.otf" />
+    <Content Include="Font\GE_SS_Two_Bold.eot" />
+    <Content Include="Font\GE_SS_Two_Bold.otf" />
+    <Content Include="Font\GE_SS_Two_Bold.woff" />
+    <Content Include="Font\GE_SS_Two_Light.eot" />
+    <Content Include="Font\GE_SS_Two_Light.otf" />
+    <Content Include="Font\GE_SS_Two_Light.woff" />
+    <Content Include="Font\GE_SS_Two_Medium.eot" />
+    <Content Include="Font\GE_SS_Two_Medium.otf" />
+    <Content Include="Font\GE_SS_Two_Medium.woff" />
+    <Content Include="Font\glyphicons-halflings-regular.eot" />
+    <Content Include="Font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Font\glyphicons-halflings-regular.woff" />
+    <Content Include="Font\glyphicons-halflings-regular.woff2" />
+    <Content Include="Font\HelveticaNeueW23-Reg.ttf" />
+    <Content Include="Font\iconic_stroke.eot" />
+    <Content Include="Font\TanseekModernProArabic-Bold1.eot" />
+    <Content Include="Font\TanseekModernProArabic-Bold2.woff" />
+    <Content Include="Font\TanseekModernProArabic-Bold3.ttf" />
+    <Content Include="Font\TanseekModernProArabic1.eot" />
+    <Content Include="Font\TanseekModernProArabic2.woff" />
+    <Content Include="Font\TanseekModernProArabic3.ttf" />
+    <Content Include="Font\trado.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -151,9 +183,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="p_admin\" />
-    <Folder Include="p_gen\" />
-    <Folder Include="p_univer\" />
+    <Folder Include="Pages-Admin\" />
+    <Folder Include="Pages-Graduates\" />
+    <Folder Include="Pages-Ministry\" />
+    <Folder Include="Pages-Universities\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
