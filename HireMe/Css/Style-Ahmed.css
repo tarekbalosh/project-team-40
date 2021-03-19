@@ -72,6 +72,7 @@ a:hover, a:active {
 /*----------------------MAIN-------------------------*/
 .mainContent {
     width: 70%;
+    height: 100%;
     float: right;
 }
 
@@ -176,7 +177,7 @@ form > div {
     transition: .4s;
 }
 
-.button:hover {
+.button:hover, .button:focus {
     background-color: #193783;
     color: white;
     border-radius: 20px;
@@ -184,12 +185,18 @@ form > div {
 }
 
 /*----------------------SIDE-------------------------*/
+.mainSide {
+    width: 29%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 1%;
+    display: block;
+}
+
 .sidebar1 {
-    background-image: url('../image/white4.jpg');
-    width: 25%;
-    float: left;
-    padding: 2.1%;
-    margin-bottom: 0.5%;
+    background-image: url('/image/white4.jpg');
+    padding: 4%;
+    margin-bottom: 3%;
     transition: .3s;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -198,14 +205,14 @@ form > div {
 
 .title-side {
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     border-bottom: 5px solid #193783ad;
-    width: 42%;
+    width: 60%;
 }
 
 .post-side {
-    font-size: 22px;
-    line-height: 42px;
+    font-size: 21px;
+    line-height: 40px;
     text-align: right;
 }
 
@@ -224,7 +231,8 @@ form > div {
 
 .post-footer {
     text-align: center;
-    margin-top: 3%;
+    align-items: center;
+    margin: 40px auto;
 }
 
 .title-footer {
