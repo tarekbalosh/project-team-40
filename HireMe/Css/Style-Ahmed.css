@@ -133,7 +133,7 @@ a:hover, a:active {
     outline: none;
 }
 
-form > div {
+section > div {
     position: relative;
 }
 

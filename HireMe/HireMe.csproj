@@ -99,6 +99,8 @@
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
     <Content Include="main page.aspx" />
+    <Content Include="Pages-Ministry\Create-Account.aspx" />
+    <Content Include="Pages-Ministry\Sign-in.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +132,20 @@
     </Compile>
     <Compile Include="main page.aspx.designer.cs">
       <DependentUpon>main page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Ministry\Create-Account.aspx.cs">
+      <DependentUpon>Create-Account.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\Create-Account.aspx.designer.cs">
+      <DependentUpon>Create-Account.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Ministry\Sign-in.aspx.cs">
+      <DependentUpon>Sign-in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\Sign-in.aspx.designer.cs">
+      <DependentUpon>Sign-in.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -185,7 +201,6 @@
   <ItemGroup>
     <Folder Include="Pages-Admin\" />
     <Folder Include="Pages-Graduates\" />
-    <Folder Include="Pages-Ministry\" />
     <Folder Include="Pages-Universities\" />
   </ItemGroup>
   <PropertyGroup>
