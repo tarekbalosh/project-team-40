@@ -100,6 +100,7 @@
     <Content Include="js\npm.js" />
     <Content Include="main page.aspx" />
     <Content Include="Pages-Ministry\Create-Account.aspx" />
+    <Content Include="Pages-Ministry\Name_ID.txt" />
     <Content Include="Pages-Ministry\Sign-in.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

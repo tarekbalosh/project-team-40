@@ -1,0 +1,14 @@
+﻿-----------------Page: Sign-in--------------------
+البريد الكتروني : email_ministry
+كلمة المرور : password_ministry
+زر تسجيل : btn_sign_in
+زر إنشاء حساب : btn_create
+
+-----------------Page: Create-Account--------------------
+الأسم الوزارة : name_ministry_new
+البريد الكتروني : email_ministry_new
+كلمة المرور : pass_ministry_new
+تأكيد كلمة المرور : confirm_pass_ministry_new
+الهاتف : phone_ministry_new
+زر التأكيد : btn_create_new
+زر العودة : btn_back_signin

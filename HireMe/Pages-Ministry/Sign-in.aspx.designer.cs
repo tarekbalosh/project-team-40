@@ -49,12 +49,12 @@ namespace HireMe.Pages_Ministry {
         protected global::System.Web.UI.HtmlControls.HtmlButton btn_sign_in;
         
         /// <summary>
-        /// btn_create control.
+        /// btn_to_create control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btn_create;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btn_to_create;
     }
 }

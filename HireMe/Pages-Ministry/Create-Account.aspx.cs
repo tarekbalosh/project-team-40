@@ -13,5 +13,13 @@ namespace HireMe.Pages_Ministry
         {
 
         }
+        protected void function_btn_Create_Account_new(object sender, EventArgs e)
+        {
+
+        }
+        protected void function_btn_Back_To_Signin(object sender, EventArgs e)
+        {
+
+        }
     }
 }

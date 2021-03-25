@@ -13,11 +13,11 @@ namespace HireMe.Pages_Ministry
         {
 
         }
-        protected void functionSignUp(object sender, EventArgs e)
+        protected void function_SignUp(object sender, EventArgs e)
         {
             Response.Write("Hello World!!!");
         }
-        protected void functionCreateAccount(object sender, EventArgs e)
+        protected void function_Create_Account(object sender, EventArgs e)
         {
             Response.Redirect("Create-Account.aspx");            
         }

@@ -1,13 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign-in.aspx.cs" Inherits="HireMe.Pages_Ministry.Sign_in" %>
+﻿+-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign-in.aspx.cs" Inherits="HireMe.Pages_Ministry.Sign_in" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head runat="server">
 
-    <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
     <title>Sign-in-Ministry</title>
+    <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
 
@@ -42,7 +45,7 @@
                         <div class="post-login">
                             <span class="icon"><i class="fas fa-envelope"></i></span>
                             <span class="title-input">البريد الالكتروني</span>
-                            <asp:TextBox ID="email_ministry" CssClass="input" TextMode="Email" AutoCompleteType="Email" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="email_ministry" CssClass="input" TextMode="Email" AutoCompleteType="Disabled" runat="server"></asp:TextBox>
                             <%--<input type="text" class="input" id="email-ministry" placeholder="e-mail" autocomplete="off" />--%>
                             <span class="span-bottom"></span>
                         </div>
@@ -61,7 +64,7 @@
                         <div class="btn">
 
                             <%--<i class="fas fa-sign-in-alt icon-btn"></i><asp:Button ID="btn_sign_in" CssClass="button" runat="server"  Text="تسجيل"/>--%>
-                            <button runat="server" id="btn_sign_in" class="button" onserverclick="functionSignUp" title="Sign_in"><i class="fas fa-sign-in-alt icon-btn"></i>تسجيل</button>
+                            <button runat="server" id="btn_sign_in" class="button" onserverclick="function_SignUp" title="Sign_in"><i class="fas fa-sign-in-alt icon-btn"></i>تسجيل</button>
 
                         </div>
                     </section>
@@ -72,7 +75,7 @@
                         <p style="font-size: 25px;"> هل تريد إنشاء حساب <i class="fa fa-question-circle icon" style="margin-right: 10px; font-size: 35px;"></i></p>
                         <div class="btn">
                             <%--<asp:Button ID="btn_create" CssClass="button" runat="server" Text=" إنشاء " /><i class="fas fa-plus icon-btn"></i>--%>
-                            <button runat="server" id="btn_create" class="button" onserverclick="functionCreateAccount" title="Creare_Account" ><i class="fas fa-plus icon-btn"></i> إنشاء </button>
+                            <button runat="server" id="btn_to_create" class="button" onserverclick="function_Create_Account" title="Creare_Account" ><i class="fas fa-plus icon-btn"></i> إنشاء </button>
                         </div>
                     </div>
             
