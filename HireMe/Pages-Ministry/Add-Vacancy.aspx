@@ -36,8 +36,10 @@
                 <section class="top-Content" >
 
                     <header>
-                        <h1>إضافة الشاغر</h1>
+                        <h1 class="title-post"><i class="fa fa-chevron-left icon" ></i> إضافة الشاغر</h1>
                     </header>
+                    <br />
+                    <br />
 
                     <section class="post-document">
 
@@ -52,7 +54,7 @@
 
                         <div class="post-form">
                             <span class="title-input">النوع : </span>
-                            <asp:DropDownList ID="type_specialization_new" runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="type_specialization_new" CssClass="drop_type" runat="server"></asp:DropDownList>
                         </div>
                         <br />
                         <br />
@@ -91,7 +93,11 @@
 
                 <aside class="sidebar">
 
-                    <ul>
+                    <header>
+                        <h2 class="title-side">إدارة الوزارات</h2>
+                    </header>
+
+                    <ul style="list-style: none;">
                         <li><a runat="server" onserverclick="function_link_add_vacany">إضافة الشاغر</a></li>
                         <li><a runat="server" onserverclick="function_link_update_vacany">تعديل الشاغر</a></li>
                         <li><a runat="server" onserverclick="function_link_view_vacany">استعراض الشواغر</a></li>
