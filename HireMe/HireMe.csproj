@@ -99,6 +99,7 @@
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
     <Content Include="main page.aspx" />
+    <Content Include="Pages-Ministry\Add-Vacancy.aspx" />
     <Content Include="Pages-Ministry\Create-Account.aspx" />
     <Content Include="Pages-Ministry\Name_ID.txt" />
     <Content Include="Pages-Ministry\Sign-in.aspx" />
@@ -133,6 +134,13 @@
     </Compile>
     <Compile Include="main page.aspx.designer.cs">
       <DependentUpon>main page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Ministry\Add-Vacancy.aspx.cs">
+      <DependentUpon>Add-Vacancy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\Add-Vacancy.aspx.designer.cs">
+      <DependentUpon>Add-Vacancy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Ministry\Create-Account.aspx.cs">
       <DependentUpon>Create-Account.aspx</DependentUpon>

@@ -15,7 +15,7 @@ namespace HireMe.Pages_Ministry
         }
         protected void function_SignUp(object sender, EventArgs e)
         {
-            Response.Write("Hello World!!!");
+            
         }
         protected void function_Create_Account(object sender, EventArgs e)
         {

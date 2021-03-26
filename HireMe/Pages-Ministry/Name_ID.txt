@@ -4,7 +4,7 @@
 زر تسجيل : btn_sign_in
 زر إنشاء حساب : btn_create
 
------------------Page: Create-Account--------------------
+----------------Page: Create-Account----------------
 الأسم الوزارة : name_ministry_new
 البريد الكتروني : email_ministry_new
 كلمة المرور : pass_ministry_new
@@ -12,3 +12,10 @@
 الهاتف : phone_ministry_new
 زر التأكيد : btn_create_new
 زر العودة : btn_back_signin
+
+----------------Page: Add-Vacancy----------------
+اختصاص : name_specialization_new
+النوع : type_specialization_new
+المعدل : avg_specialization_new
+العدد : count_specialization_new
+زر الإضافة : btn_add_vac
