@@ -1,33 +1,31 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add-Vacancy.aspx.cs" Inherits="HireMe.Pages_Ministry.Add_Vacancy" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add-Condition.aspx.cs" Inherits="HireMe.Pages_Ministry.Add_Condition" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
-
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 
-    <title>Add-Vacancy</title>
+    <title>Add-Condition</title>
     <link href="../Css/Style2-Ahmed.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
-
 <body class="body">
 
-    <form id="form_Add_Vacancy" runat="server">
+    <form id="form_Add_Condition" runat="server">
         <div>
 
-                <!--HEADER-->
-                <header class="mainHeader">
-                    <nav><ul>
-                        <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
-                        <li><a href="#"> <i class="fas fa-list-alt"></i> قائمة </a></li>
-                        <li><a href="#"> <i class="fa fa-question-circle"></i> حول </a></li>
-                        <li><a href="#"><i class="fas fa-phone"></i> اتصل بنا </a></li>  
-                    </ul></nav>
-                </header>
+            <!--HEADER-->
+            <header class="mainHeader">
+                <nav><ul>
+                    <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
+                    <li><a href="#"> <i class="fas fa-list-alt"></i> قائمة </a></li>
+                    <li><a href="#"> <i class="fa fa-question-circle"></i> حول </a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> اتصل بنا </a></li>  
+                </ul></nav>
+            </header>
 
             <!--DOCUMENT-->
             <div class="mainContent">
@@ -35,7 +33,7 @@
                 <section class="top-Content" >
 
                     <header>
-                        <h1 class="title-post"><i class="fa fa-chevron-left icon" ></i> إضافة الشاغر</h1>
+                        <h1 class="title-post"><i class="fa fa-chevron-left icon" ></i> إضافة الشرط</h1>
                         <img src="../image/logo-hire-me.png" />
                     </header>
                     <br />
@@ -46,7 +44,14 @@
                         <div class="post-form">
                             <%--<span class="icon"><i class="fas fa-user"></i></span>--%>
                             <span class="title-input">الأختصاص : </span>
-                            <asp:TextBox ID="name_specialization_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>                                
+                            <asp:DropDownList ID="type_specialization_for_cond" CssClass="drop_type" Width="50%" runat="server"></asp:DropDownList>
+                        </div>
+                        <br />
+                        <br />
+
+                        <div class="post-form">
+                            <span class="title-input">اسم الشرط : </span>
+                            <asp:TextBox ID="name_condition_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
                             <span class="span-bottom"></span>
                         </div>
                         <br />
@@ -54,29 +59,13 @@
 
                         <div class="post-form">
                             <span class="title-input">النوع : </span>
-                            <asp:DropDownList ID="type_specialization_new" CssClass="drop_type" runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="type_condition_new" CssClass="drop_type" runat="server"></asp:DropDownList>
                         </div>
                         <br />
-                        <br />
-
-                        <div class="post-form">
-                            <span class="title-input">المعدل : </span>
-                            <asp:TextBox ID="avg_specialization_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
-                            <span class="span-bottom"></span>
-                        </div>
-                        <br />
-                        <br />
-
-                        <div class="post-form">
-                            <span class="title-input">العدد : </span>
-                            <asp:TextBox ID="count_specialization_new" TextMode="Number" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
-                            <span class="span-bottom"></span>
-                        </div>
-                        <br />
-                        <br />
+                        <br />                        
 
                         <div class="btn">
-                                <button runat="server" class="button" id="btn_add_vac" onserverclick="function_btn_Add_Vacancy" title="Add_Vacancy" ><i class="fas fa-plus icon-btn"></i> إضافة </button>
+                                <button runat="server" class="button" id="btn_add_cond" onserverclick="function_btn_Add_Condition" title="Add_Condition" ><i class="fas fa-plus icon-btn"></i> إضافة </button>
                                 <br/>
                                 <br/>
                                 <%--<button runat="server" class="button" id="btn_back_signin" onserverclick="function_btn_Back_To_Signin" title="Back_to sigin" ><i class="fas fa-arrow-circle-left icon-btn"></i> عودة </button>--%>

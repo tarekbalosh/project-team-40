@@ -101,10 +101,14 @@
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
     <Content Include="main page.aspx" />
+    <Content Include="Pages-Ministry\Add-Condition.aspx" />
     <Content Include="Pages-Ministry\Add-Vacancy.aspx" />
+    <Content Include="Pages-Ministry\All-View.aspx" />
     <Content Include="Pages-Ministry\Create-Account.aspx" />
     <Content Include="Pages-Ministry\Name_ID.txt" />
     <Content Include="Pages-Ministry\Sign-in.aspx" />
+    <Content Include="Pages-Ministry\Update-Condition.aspx" />
+    <Content Include="Pages-Ministry\Update-Vacancy.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -137,12 +141,26 @@
     <Compile Include="main page.aspx.designer.cs">
       <DependentUpon>main page.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages-Ministry\Add-Condition.aspx.cs">
+      <DependentUpon>Add-Condition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\Add-Condition.aspx.designer.cs">
+      <DependentUpon>Add-Condition.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages-Ministry\Add-Vacancy.aspx.cs">
       <DependentUpon>Add-Vacancy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages-Ministry\Add-Vacancy.aspx.designer.cs">
       <DependentUpon>Add-Vacancy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Ministry\All-View.aspx.cs">
+      <DependentUpon>All-View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\All-View.aspx.designer.cs">
+      <DependentUpon>All-View.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Ministry\Create-Account.aspx.cs">
       <DependentUpon>Create-Account.aspx</DependentUpon>
@@ -157,6 +175,20 @@
     </Compile>
     <Compile Include="Pages-Ministry\Sign-in.aspx.designer.cs">
       <DependentUpon>Sign-in.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Ministry\Update-Condition.aspx.cs">
+      <DependentUpon>Update-Condition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\Update-Condition.aspx.designer.cs">
+      <DependentUpon>Update-Condition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Ministry\Update-Vacancy.aspx.cs">
+      <DependentUpon>Update-Vacancy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Ministry\Update-Vacancy.aspx.designer.cs">
+      <DependentUpon>Update-Vacancy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

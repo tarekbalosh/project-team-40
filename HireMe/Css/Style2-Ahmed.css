@@ -3,6 +3,10 @@
     src: url('/Font/GE_SS_Two_Bold.otf');
 }
 
+html{
+    direction:rtl;
+}
+
 body {
     background-image: url('/image/blue1.jpg');
     color: #2d2e2e;
@@ -31,27 +35,20 @@ a:hover, a:active {
 
 /*----------------------HEADER-------------------------*/
 .mainHeader nav {
-    background-color: #ced6e0;
-    height: 80px;
+    background-color: #193783;
+    height: 40px;
     margin: 1% auto;
     margin-bottom: 10px;
-    border: 3px solid black;
+    border: 3px solid white;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
 }
 
-.mainHeader img{
-    width:70px;
-    height:70px;
-    float:right;
-    margin:5px 30px 0 0;
-}
-
 .mainHeader nav ul {
     text-align: center;
     list-style: none;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .mainHeader nav ul li {
@@ -59,11 +56,10 @@ a:hover, a:active {
 }
 
 .mainHeader a:link, a:visited {
-    color: #57606f;
-    padding: 25px 70px;
+    color: white;
+    padding: 10px 80px;
     display: inline-block;
-    height: 30px;
-    font-size: 20px;
+    height: 20px;
 }
 
 .mainHeader a:hover, a:active {
@@ -74,7 +70,7 @@ a:hover, a:active {
 
 /*----------------------MAIN-------------------------*/
 .mainContent {
-    width: 80%;
+    width: 74%;
     height: 100%;
     float: left;
 }
@@ -88,6 +84,13 @@ a:hover, a:active {
     transition: .4s;
 }
 
+.top-Content header img{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-top:-10%;
+}
+
 .post-document {
     width: 45%;
     margin: 0 auto;
@@ -97,7 +100,7 @@ a:hover, a:active {
 
 .title-post {
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     margin:20px 100px auto;
     width: 40%;
     border-bottom: 6px solid #193783d0;
@@ -121,7 +124,7 @@ a:hover, a:active {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #193783;
-    direction: ltr;
+    direction: rtl;
     border: none;
     background: none;
     border-bottom: 3px solid #2d2e2e;
@@ -163,6 +166,11 @@ section > div {
     border-radius:5px;
 }
 
+.gridview{
+    margin:0 auto;
+    font-size:16px;
+}
+
 .icon-btn {
     font-size: 20px;
     margin: 5px;
@@ -197,7 +205,7 @@ section > div {
 
 /*----------------------SIDE-------------------------*/
 .mainSide {
-    width: 18%;
+    width: 23%;
     height: 100%;
 }
 
@@ -216,9 +224,10 @@ section > div {
 .title-side {
     color:white;
     text-align: center;
-    font-size: 24px;
-    border-bottom: 5px solid #000000;
+    font-size: 30px;
+    border-bottom: 2px solid #ffffff;
     width: 75%;
+    padding-bottom:5%;
     margin-right:10%;
     margin-bottom:20%;
 }

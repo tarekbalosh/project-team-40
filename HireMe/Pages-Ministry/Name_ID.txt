@@ -19,3 +19,29 @@
 المعدل : avg_specialization_new
 العدد : count_specialization_new
 زر الإضافة : btn_add_vac
+
+----------------Page: Update-Vacancy----------------
+اختصاص : name_specialization
+الجدول : GridView_Vacancy
+النوع : type_specialization
+المعدل : avg_specialization
+العدد : count_specialization
+زر الحفظ : btn_save_vac
+زر الإزالة : btn_remove_vac
+
+----------------Page: Add-Condition----------------
+اختصاص : type_specialization_for_cond
+اسم الشرط : name_condition_new
+النوع : type_condition_new
+زر الإضافة : btn_add_cond
+
+----------------Page: Update-Condition----------------
+الجدول : GridView_Condition
+اسم الشرط(dropdown) : name_condition
+اسم الشرط الجديد : name_condition_new_add
+النوع الشرط : type_condition_up
+الزر الحفظ : btn_save_cond
+زر الإزالة : btn_remove_cond
+
+----------------Page: All-View----------------
+جدول الاستعراض : GridView_All

@@ -7,12 +7,13 @@ using System.Web.UI.WebControls;
 
 namespace HireMe.Pages_Ministry
 {
-    public partial class Add_Vacancy : System.Web.UI.Page
+    public partial class Update_Vacancy : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
+
         //-----------------------------------SideBar-------------------------------------//
         protected void function_link_add_vacany(object sender, EventArgs e)
         {
@@ -36,9 +37,14 @@ namespace HireMe.Pages_Ministry
         }
 
         //-----------------------------------ButtonEvent-------------------------------------//
-        protected void function_btn_Add_Vacancy(object sender, EventArgs e)
+        protected void function_btn_Save_Vacancy(object sender, EventArgs e)
+        {
+            
+        }
+        protected void function_btn_Remove_Vacancy(object sender, EventArgs e)
         {
 
         }
+
     }
 }

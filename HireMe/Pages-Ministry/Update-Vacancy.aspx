@@ -1,12 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Add-Vacancy.aspx.cs" Inherits="HireMe.Pages_Ministry.Add_Vacancy" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Update-Vacancy.aspx.cs" Inherits="HireMe.Pages_Ministry.Update_Vacancy" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head runat="server">
 
-    <title>Add-Vacancy</title>
+    <title>Update-Vacancy</title>
     <link href="../Css/Style2-Ahmed.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,10 +16,10 @@
 
 <body class="body">
 
-    <form id="form_Add_Vacancy" runat="server">
+    <form id="form_Update_Vacancy" runat="server">
         <div>
 
-                <!--HEADER-->
+            <!--HEADER-->
                 <header class="mainHeader">
                     <nav><ul>
                         <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
@@ -35,7 +35,7 @@
                 <section class="top-Content" >
 
                     <header>
-                        <h1 class="title-post"><i class="fa fa-chevron-left icon" ></i> إضافة الشاغر</h1>
+                        <h1 class="title-post"><i class="fa fa-chevron-left icon" ></i> تعديل الشاغر</h1>
                         <img src="../image/logo-hire-me.png" />
                     </header>
                     <br />
@@ -46,22 +46,29 @@
                         <div class="post-form">
                             <%--<span class="icon"><i class="fas fa-user"></i></span>--%>
                             <span class="title-input">الأختصاص : </span>
-                            <asp:TextBox ID="name_specialization_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>                                
+                            <asp:DropDownList ID="name_specialization" CssClass="drop_type" Width="50%" runat="server"></asp:DropDownList>
+                            <%--<asp:TextBox ID="name_specialization_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>--%>
                             <span class="span-bottom"></span>
                         </div>
                         <br />
                         <br />
 
                         <div class="post-form">
+                            <asp:GridView ID="GridView_Vacancy" CssClass="gridview" runat="server" Width="260px"></asp:GridView>
+                        </div>
+                        <br />
+                        <br />
+
+                        <div class="post-form">
                             <span class="title-input">النوع : </span>
-                            <asp:DropDownList ID="type_specialization_new" CssClass="drop_type" runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="type_specialization" CssClass="drop_type" runat="server"></asp:DropDownList>
                         </div>
                         <br />
                         <br />
 
                         <div class="post-form">
                             <span class="title-input">المعدل : </span>
-                            <asp:TextBox ID="avg_specialization_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
+                            <asp:TextBox ID="avg_specialization" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
                             <span class="span-bottom"></span>
                         </div>
                         <br />
@@ -69,14 +76,17 @@
 
                         <div class="post-form">
                             <span class="title-input">العدد : </span>
-                            <asp:TextBox ID="count_specialization_new" TextMode="Number" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
+                            <asp:TextBox ID="count_specialization" TextMode="Number" CssClass="input" AutoCompleteType="Disabled" MaxLength="15" runat="server"></asp:TextBox>                                
                             <span class="span-bottom"></span>
                         </div>
                         <br />
                         <br />
 
                         <div class="btn">
-                                <button runat="server" class="button" id="btn_add_vac" onserverclick="function_btn_Add_Vacancy" title="Add_Vacancy" ><i class="fas fa-plus icon-btn"></i> إضافة </button>
+                                <button runat="server" class="button" id="btn_save_vac" onserverclick="function_btn_Save_Vacancy" title="Save_Vacancy" ><i class="fas fa-save icon-btn"></i> حفظ </button>
+                                <br/>
+                                <br/>
+                                <button runat="server" class="button" id="btn_remove_vac" onserverclick="function_btn_Remove_Vacancy" title="Remove_Vacancy" ><i class="fa fa-trash icon-btn"></i> إزالة </button>
                                 <br/>
                                 <br/>
                                 <%--<button runat="server" class="button" id="btn_back_signin" onserverclick="function_btn_Back_To_Signin" title="Back_to sigin" ><i class="fas fa-arrow-circle-left icon-btn"></i> عودة </button>--%>
@@ -99,7 +109,7 @@
 
                     <ul style="list-style: none;">
                         <li><a runat="server" onserverclick="function_link_add_vacany">إضافة الشاغر</a></li>
-                        <li><a runat="server" onserverclick="function_link_update_vacany">تعديل الشاغر</a></li>
+                        <li><a runat="server" onserverclick="function_link_update_vacany">تعديل الشاغر</a></li>                       
                         <li><a runat="server" onserverclick="function_link_add_condition">إضافة الشرط</a></li>
                         <li><a runat="server" onserverclick="function_link_update_condition">تعديل الشرط</a></li>
                         <li><a runat="server" onserverclick="function_link_view_cond_vac">استعراض الشواغر و الشروط</a></li>

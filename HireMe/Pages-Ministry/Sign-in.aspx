@@ -1,4 +1,4 @@
-﻿+-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign-in.aspx.cs" Inherits="HireMe.Pages_Ministry.Sign_in" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign-in.aspx.cs" Inherits="HireMe.Pages_Ministry.Sign_in" %>
 
 <!DOCTYPE html>
 
