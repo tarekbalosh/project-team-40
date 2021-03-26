@@ -1,0 +1,75 @@
+﻿@font-face {
+    font-family: myFont;
+    src: url('/Font/GE_SS_Two_Bold.otf');
+}
+
+body {
+    background-image: url('/image/blue1.jpg');
+    color: #2d2e2e;
+    font-size: 90%;
+    font-family: myFont;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #70a1ff;
+}
+
+a:hover, a:active {
+    color: #4834d4;
+}
+
+.body {
+    margin: 15px auto;
+    width: 70%;
+    clear: both;
+}
+
+/*----------------------HEADER-------------------------*/
+.mainHeader nav {
+    background-color: #ced6e0;
+    height: 110px;
+    margin: 1% auto;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.mainHeader img{
+    width:100px;
+    height:100px;
+    float:right;
+    margin-top:5px;
+}
+
+.mainHeader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0px auto;
+}
+
+.mainHeader nav ul li {
+    display: inline;
+}
+
+.mainHeader a:link, a:visited {
+    color: #57606f;
+    padding: 10px 40px;
+    display: inline-block;
+    height: 30px;
+    font-size: 20px;
+}
+
+.mainHeader a:hover, a:active {
+    color: rgb(255, 255, 255);
+    background-color: #3755a1;
+    transition: .4s;
+}
+
+/*----------------------MAIN-------------------------*/

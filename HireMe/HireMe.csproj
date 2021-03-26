@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
+    <Content Include="Css\Style2-Ahmed.css" />
     <Content Include="Css\tarek_css.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
@@ -79,6 +80,7 @@
     <Content Include="HTML\Sign-in-ministry.html" />
     <Content Include="image\blue1.jpg" />
     <Content Include="image\casing.jpg" />
+    <Content Include="image\logo-hire-me.png" />
     <Content Include="image\white.jpg" />
     <Content Include="ADD MISTRY.aspx" />
     <Content Include="Add_student.aspx" />

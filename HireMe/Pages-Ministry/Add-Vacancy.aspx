@@ -2,11 +2,12 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
 
 <head runat="server">
 
     <title>Add-Vacancy</title>
+    <link href="../Css/Style2-Ahmed.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,8 +20,9 @@
         <div>
 
                 <!--HEADER-->
-                <header class="mainHeader" dir="rtl">
+                <header class="mainHeader">
                     <nav><ul>
+                        <li><img src="../image/logo-hire-me.png" /></li>
                         <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
                         <li><a href="#"> <i class="fas fa-list-alt"></i> قائمة </a></li>
                         <li><a href="#"> <i class="fa fa-question-circle"></i> حول </a></li>
@@ -31,7 +33,7 @@
             <!--DOCUMENT-->
             <div class="mainContent">
 
-                <section class="top-Content" dir="rtl">
+                <section class="top-Content" >
 
                     <header>
                         <h1>إضافة الشاغر</h1>
