@@ -20,6 +20,9 @@ namespace monta
 
         protected void submit_Click(object sender, EventArgs e)
         {
+
+            Response.Redirect("p_min\\Add Condition.aspx");
+            return;
             das = new Data_Access();
 
             if ( das.check_empty(num_idh.Text))
