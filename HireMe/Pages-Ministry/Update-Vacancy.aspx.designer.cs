@@ -7,72 +7,81 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HireMe {
+namespace HireMe.Pages_Ministry {
     
     
-    public partial class Add_Condition {
+    public partial class Update_Vacancy {
         
         /// <summary>
-        /// AddCond control.
+        /// form_Update_Vacancy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm AddCond;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_Update_Vacancy;
         
         /// <summary>
-        /// select_spec control.
+        /// name_specialization control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList select_spec;
+        protected global::System.Web.UI.WebControls.DropDownList name_specialization;
         
         /// <summary>
-        /// condiname control.
+        /// GridView_Vacancy control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox condiname;
+        protected global::System.Web.UI.WebControls.GridView GridView_Vacancy;
         
         /// <summary>
-        /// please control.
+        /// type_specialization control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label please;
+        protected global::System.Web.UI.WebControls.DropDownList type_specialization;
         
         /// <summary>
-        /// select_type control.
+        /// avg_specialization control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect select_type;
+        protected global::System.Web.UI.WebControls.TextBox avg_specialization;
         
         /// <summary>
-        /// btn_addCond control.
+        /// count_specialization control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_addCond;
+        protected global::System.Web.UI.WebControls.TextBox count_specialization;
         
         /// <summary>
-        /// btn_Back control.
+        /// btn_save_vac control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_Back;
+        protected global::System.Web.UI.HtmlControls.HtmlButton btn_save_vac;
+        
+        /// <summary>
+        /// btn_remove_vac control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlButton btn_remove_vac;
     }
 }
