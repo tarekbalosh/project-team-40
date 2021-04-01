@@ -1,0 +1,109 @@
+﻿@keyframes hireme {
+    0% {
+        color: #4800ff;
+        left: 2px;
+        opacity: 4;
+    }
+
+    50% {
+        color: green;
+        left: -2px;
+        opacity: 9;
+    }
+
+    100% {
+        color: #4800ff;
+        left: 2px;
+        opacity: 4;
+    }
+}
+
+@keyframes home {
+    0% {
+        color: red;
+        margin-left: -2px;
+    }
+
+    25% {
+        margin-left: 2px;
+    }
+
+    75% {
+        margin-left: -1px;
+    }
+
+    100% {
+        color: #4800ff;
+        margin-left: 0px;
+    }
+}
+
+@keyframes select {
+    0% {
+        position: relative;
+        top: -10px;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes check {
+    0% {
+        position: relative;
+        right: -200px;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        right: 0px;
+        opacity: 1;
+    }
+}
+/*admin*/
+@keyframes rifgttolift {
+    0% {
+        position: relative;
+        right: -200px;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes mofadale {
+    0% {
+        position: relative;
+        top: -400px;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        top: -250px;
+        opacity: 1;
+    }
+}
+
+@keyframes swap {
+    0% {
+        position: relative;
+        right: -10px;
+        opacity: 0;
+    }
+
+    100% {
+        position: relative;
+        right: 0px;
+        opacity: 1;
+    }
+}

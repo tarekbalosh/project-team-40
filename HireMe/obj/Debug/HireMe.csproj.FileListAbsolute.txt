@@ -142,3 +142,39 @@ E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\roslyn\vbc.exe.
 E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\roslyn\vbc.rsp
 E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe
 E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe.config
+D:\pro\HireMe\bin\HireMe.dll.config
+D:\pro\HireMe\bin\HireMe.dll
+D:\pro\HireMe\bin\HireMe.pdb
+D:\pro\HireMe\bin\roslyn\csc.exe
+D:\pro\HireMe\bin\roslyn\csc.exe.config
+D:\pro\HireMe\bin\roslyn\csc.rsp
+D:\pro\HireMe\bin\roslyn\csi.exe
+D:\pro\HireMe\bin\roslyn\csi.rsp
+D:\pro\HireMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\pro\HireMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\pro\HireMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\pro\HireMe\bin\roslyn\System.AppContext.dll
+D:\pro\HireMe\bin\roslyn\System.Collections.Immutable.dll
+D:\pro\HireMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\pro\HireMe\bin\roslyn\System.IO.FileSystem.dll
+D:\pro\HireMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\pro\HireMe\bin\roslyn\System.Reflection.Metadata.dll
+D:\pro\HireMe\bin\roslyn\vbc.exe
+D:\pro\HireMe\bin\roslyn\vbc.exe.config
+D:\pro\HireMe\bin\roslyn\vbc.rsp
+D:\pro\HireMe\bin\roslyn\VBCSCompiler.exe
+D:\pro\HireMe\bin\roslyn\VBCSCompiler.exe.config
+D:\pro\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\pro\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\pro\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
+D:\pro\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
+D:\pro\HireMe\obj\Debug\HireMe.csproj.CopyComplete
+D:\pro\HireMe\obj\Debug\HireMe.dll
+D:\pro\HireMe\obj\Debug\HireMe.pdb

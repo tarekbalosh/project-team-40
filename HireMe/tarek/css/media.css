@@ -1,0 +1,87 @@
+﻿
+
+
+
+@media(max-width:579px) {
+    .select1, .select2 {
+        display: inline-block;
+        width: 100px;
+        border-color: darkblue;
+    }
+
+    .ba {
+        width: 300px;
+    }
+
+    .bt1 {
+        padding: 1px 6px;
+        position: relative;
+        border-radius: 3px;
+        border-color: darkblue;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 6px;
+    }
+}
+/*admin*/
+@media(max-width:767px)
+      {
+          .shooo{
+              width:350px;
+              animation:rifgttolift 1s ease-in-out;
+              position:relative;
+               top: 0px;
+               left: 20px;
+          }
+          .item{
+              position:relative;
+              right:60px;
+              
+          }
+          .d2{
+             padding:1px 0px;
+             width:40px;
+          }
+          .bbt1{
+             padding:1px 3px;
+             width:40px;
+          }
+        .home {
+            direction: rtl;
+            margin-left: 70%;
+            margin-top: 8px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+      }
+        
+@media(max-width:760px) {
+
+    .item {
+        position: relative;
+        left: -100px;
+        width: 190px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+   
+    .task {
+        position: relative;
+        margin: auto;
+    }
+
+   
+}
+
+
+/*result*/
+@media(max-width:480px) {
+    .res {
+        width: 250px;
+    }
+
+    .long {
+        width: 160px;
+    }
+}
+      
