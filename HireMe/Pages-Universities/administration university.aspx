@@ -7,11 +7,11 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>  administration university</title>
-    <link href="tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="tarek/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="tarek/css/animationn.css" rel="stylesheet" />
-    <link href="tarek/css/media.css" rel="stylesheet" />
-    <link href="tarek/css/style.css" rel="stylesheet" />
+    <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../tarek/css/animationn.css" rel="stylesheet" />
+    <link href="../tarek/css/media.css" rel="stylesheet" />
+    <link href="../tarek/css/style.css" rel="stylesheet" />
 </head>
     <style>
         @media(max-width:767px)
@@ -42,7 +42,7 @@
       
         <div class="container" runat="server">
             <div class="img">
-                <img class="img-responsive" src="tarek/images/casing.jpg" />
+                <img class="img-responsive" src="../tarek/images/casing.jpg" />
             </div>
            
             <div class="container">
