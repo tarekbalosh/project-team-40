@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="tarek\page html\information input.aspx" />
     <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
@@ -121,11 +122,6 @@
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="tarek\java script\js.js" />
-    <Content Include="tarek\page html\add students.html" />
-    <Content Include="tarek\page html\display result.html" />
-    <Content Include="tarek\page html\display university.html" />
-    <Content Include="tarek\page html\input information.html" />
-    <Content Include="tarek\page html\university administration.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -142,6 +138,13 @@
     </Compile>
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tarek\page html\information input.aspx.cs">
+      <DependentUpon>information input.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarek\page html\information input.aspx.designer.cs">
+      <DependentUpon>information input.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>

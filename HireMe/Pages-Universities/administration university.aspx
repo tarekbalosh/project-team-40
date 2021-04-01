@@ -11,7 +11,7 @@
     <link href="tarek/css/bootstrap.min.css" rel="stylesheet" />
     <link href="tarek/css/animationn.css" rel="stylesheet" />
     <link href="tarek/css/media.css" rel="stylesheet" />
-    <link href="tarek/css/style.css" rel="stylesheet" />
+    <link href="../tarek/css/style.css" rel="stylesheet" />
 </head>
     <style>
         @media(max-width:767px)
