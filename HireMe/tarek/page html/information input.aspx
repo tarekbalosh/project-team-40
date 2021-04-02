@@ -7,11 +7,7 @@
      <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title> information input</title>
-      <%--<link href="tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="tarek/css/bootstrap.min.css" rel="stylesheet" />
-      <link href="tarek/css/animationn.css" rel="stylesheet" />
-      <link href="tarek/css/media.css" rel="stylesheet" />
-    <link href="tarek/css/style.css" rel="stylesheet" />--%>
+     
       <link href="../fontawesome/css/font-awesome.css" rel="stylesheet" />
       <link href="../css/bootstrap.min.css" rel="stylesheet" />
       <link href="../css/animationn.css" rel="stylesheet" />
@@ -51,6 +47,17 @@
             font-weight: bold;
             font-size: 17px;
         }
+         .brand{
+             
+            font-size:20px;
+         }
+      }
+      @media(width:280px)
+      {
+          .brand{
+            
+            font-size:14px;
+          }
       }
       @media(min-width:768px) and (max-width:1200px)
       {
@@ -113,7 +120,7 @@
                         <input type="password" class="sel1 form-control" maxlength="12" placeholder="input password" runat="server" />
                         <br />
                         <label class="la">الإختصاص</label>
-                        <input type="text" class="sel1 form-control" runat="server" />
+                        <input type="text" class="sel1 form-control" placeholder="jurisdiction" runat="server" />
                         <br />
                         <label class="la">المستوى العلمي</label>
                         <select class="sel1 form-control text-center" runat="server" style="width:200px;">

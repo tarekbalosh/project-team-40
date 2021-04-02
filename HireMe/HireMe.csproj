@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="tarek\page html\administration university.aspx" />
     <Content Include="tarek\page html\information input.aspx" />
     <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
@@ -122,6 +123,8 @@
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="tarek\java script\js.js" />
+    <Content Include="tarek\page html\page admin.aspx" />
+    <Content Include="tarek\page html\result display.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +141,13 @@
     </Compile>
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tarek\page html\administration university.aspx.cs">
+      <DependentUpon>administration university.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarek\page html\administration university.aspx.designer.cs">
+      <DependentUpon>administration university.aspx</DependentUpon>
     </Compile>
     <Compile Include="tarek\page html\information input.aspx.cs">
       <DependentUpon>information input.aspx</DependentUpon>
@@ -218,6 +228,20 @@
       <DependentUpon>Update-Vacancy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tarek\page html\page admin.aspx.cs">
+      <DependentUpon>page admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarek\page html\page admin.aspx.designer.cs">
+      <DependentUpon>page admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tarek\page html\result display.aspx.cs">
+      <DependentUpon>result display.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tarek\page html\result display.aspx.designer.cs">
+      <DependentUpon>result display.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap_css\bootstrap-grid.css.map" />
