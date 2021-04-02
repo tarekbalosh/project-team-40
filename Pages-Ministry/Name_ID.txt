@@ -1,0 +1,47 @@
+﻿-----------------Page: Sign-in--------------------
+البريد الكتروني : email_ministry
+كلمة المرور : password_ministry
+زر تسجيل : btn_sign_in
+زر إنشاء حساب : btn_create
+
+----------------Page: Create-Account----------------
+الأسم الوزارة : name_ministry_new
+البريد الكتروني : email_ministry_new
+كلمة المرور : pass_ministry_new
+تأكيد كلمة المرور : confirm_pass_ministry_new
+الهاتف : phone_ministry_new
+زر التأكيد : btn_create_new
+زر العودة : btn_back_signin
+
+----------------Page: Add-Vacancy----------------
+اختصاص : name_specialization_new
+النوع : type_specialization_new
+المعدل : avg_specialization_new
+العدد : count_specialization_new
+زر الإضافة : btn_add_vac
+
+----------------Page: Update-Vacancy----------------
+اختصاص : name_specialization
+الجدول : GridView_Vacancy
+النوع : type_specialization
+المعدل : avg_specialization
+العدد : count_specialization
+زر الحفظ : btn_save_vac
+زر الإزالة : btn_remove_vac
+
+----------------Page: Add-Condition----------------
+اختصاص : type_specialization_for_cond
+اسم الشرط : name_condition_new
+النوع : type_condition_new
+زر الإضافة : btn_add_cond
+
+----------------Page: Update-Condition----------------
+الجدول : GridView_Condition
+اسم الشرط(dropdown) : name_condition
+اسم الشرط الجديد : name_condition_new_add
+النوع الشرط : type_condition_up
+الزر الحفظ : btn_save_cond
+زر الإزالة : btn_remove_cond
+
+----------------Page: All-View----------------
+جدول الاستعراض : GridView_All

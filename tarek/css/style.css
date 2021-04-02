@@ -1,0 +1,270 @@
+﻿body {
+    height: 2000px;
+}
+
+.brand {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: Gigi;
+    animation: hireme 1s ease-in infinite;
+}
+
+.home {
+    direction: rtl;
+    margin-left: 90%;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.move:hover {
+    animation: home 1s ease-in-out;
+    text-decoration: none;
+}
+
+
+.la {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sel1:focus {
+    animation: select 1s ease-in-out;
+}
+
+.sel1 {
+    width: 200px;
+    margin: auto;
+    border: none;
+    border-color: #eee;
+    background: #eee;
+    border-bottom: solid 1px #0026ff;
+    color: darkblue;
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.containt {
+    background-color: #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.select1, .select2 {
+    display: inline-block;
+    width: 150px;
+    border-color: darkblue;
+}
+
+.bag {
+    background-color: azure;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-color: darkblue;
+    animation: check 2s ease-in-out;
+}
+
+
+.d1, .d2, .d3 {
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+
+.bt1 {
+    padding: 3px 50px;
+    position: relative;
+    border-radius: 3px;
+    border-color: darkblue;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.d2 {
+    position: relative;
+    bottom: 50px;
+    opacity: 0;
+}
+
+.bt1:hover {
+    animation: hireme 1s ease-in;
+}
+
+.opt1 {
+   
+    color: #4800ff;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn2 {
+    font-weight: bold;
+    padding: 4px 30px;
+    background-color: #eee;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+    .btn2:hover {
+        border-radius: 6px;
+        font-size: 15px;
+        color: white;
+        background-color: black;
+        border-color: #4800ff;
+    }
+/*//classes page display*/
+.res {
+    width: 500px;
+    height: 200px;
+    background-color: #808080;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding: 3px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.natega {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4800ff;
+}
+
+.long {
+    width: 300px;
+    margin: auto;
+}
+
+.bttn1 {
+    padding: 3px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+    .bttn1:hover {
+        opacity: 1;
+    }
+/*admion*/
+.count {
+    position: relative;
+    left: 50px;
+    margin-top: -20px;
+}
+
+.task {
+    width: 400px;
+    direction: rtl;
+    text-align: center;
+    border-radius: 10px;
+    transform: translateX(100px);
+    animation: rifgttolift 1s ease-in-out;
+    display: inline-block;
+}
+
+.maham:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.maham {
+    padding: 3px 30px;
+    font-weight: bold;
+    color: olive;
+    margin-bottom: 20px;
+}
+
+.sem {
+    width: 100%;
+    display: inline-block;
+}
+
+.offset {
+    opacity: 0;
+    width: 100px;
+}
+
+.cor:hover {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    right: 7px;
+}
+
+.sem:hover .offset {
+    opacity: 1;
+    animation: swap 1s ease-in-out;
+}
+
+.cor {
+    color: olive;
+    margin-right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shooo {
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+    left: 250px;
+    background-color: azure;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-color: darkblue;
+    text-align: center;
+    animation: mofadale 2s ease-in-out;
+}
+
+.bbt1 {
+    padding: 3px 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: darkblue;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    .bbt1:focus, .bbt1:hover {
+        animation: hireme 1s ease-in;
+        font-size: 17px;
+    }
+
+.bd2 {
+    opacity: 1;
+}
+.item {
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+    .item:hover {
+        background-color: black;
+        color: white;
+    }
+.bag:hover .d2 {
+    opacity: 1;
+    animation: check 1s ease-in-out;
+}
