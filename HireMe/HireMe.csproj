@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
     <Content Include="Css\Style2-Ahmed.css" />
@@ -109,6 +110,22 @@
     <Content Include="Pages-Ministry\Sign-in.aspx" />
     <Content Include="Pages-Ministry\Update-Condition.aspx" />
     <Content Include="Pages-Ministry\Update-Vacancy.aspx" />
+    <Content Include="tarek\css\animationn.css" />
+    <Content Include="tarek\css\bootstrap.min.css" />
+    <Content Include="tarek\css\media.css" />
+    <Content Include="tarek\css\style.css" />
+    <Content Include="tarek\fontawesome\css\font-awesome.css" />
+    <Content Include="tarek\fontawesome\css\font-awesome.min.css" />
+    <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="tarek\images\casing.jpg" />
+    <Content Include="tarek\java script\bootstrap.min.js" />
+    <Content Include="tarek\java script\jquery.js" />
+    <Content Include="tarek\java script\js.js" />
+    <Content Include="tarek\page html\add students.html" />
+    <Content Include="tarek\page html\display result.html" />
+    <Content Include="tarek\page html\display university.html" />
+    <Content Include="tarek\page html\input information.html" />
+    <Content Include="tarek\page html\university administration.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +142,13 @@
     </Compile>
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Universities\administration university.aspx.cs">
+      <DependentUpon>administration university.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Universities\administration university.aspx.designer.cs">
+      <DependentUpon>administration university.aspx</DependentUpon>
     </Compile>
     <Compile Include="Class\Data_Access.cs" />
     <Compile Include="control admin.aspx.cs">
@@ -234,6 +258,11 @@
     <Content Include="Font\TanseekModernProArabic3.ttf" />
     <Content Include="Font\trado.ttf" />
     <None Include="packages.config" />
+    <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="tarek\fontawesome\fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -244,7 +273,7 @@
   <ItemGroup>
     <Folder Include="Pages-Admin\" />
     <Folder Include="Pages-Graduates\" />
-    <Folder Include="Pages-Universities\" />
+    <Folder Include="tarek\page asp\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
