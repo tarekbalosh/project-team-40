@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\StyleMob3.css" />
+    <Content Include="Css\StyleMob2.css" />
+    <Content Include="Css\StyleMob1.css" />
     <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
