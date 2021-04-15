@@ -106,6 +106,10 @@ a:hover, a:active {
     margin: 60px 100px 40px 0;
 }
 
+.title-btnCreate{
+    font-size: 25px;
+}
+
 .title-input {
     text-align: right;
     font-size: 22px;

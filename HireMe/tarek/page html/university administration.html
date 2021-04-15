@@ -1,0 +1,82 @@
+﻿
+<!DOCTYPE HTML>
+<html lang="ar" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> university administrytion  </title>
+    
+
+    
+    <link rel="stylesheet" href="../css/animationn.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+       
+      
+    </style>
+
+</head>
+<body id="bod">
+   
+        <div class="container" runat="server">
+            <div class="img">
+                <img class="img-responsive" src="../images/casing.jpg" />
+            </div>
+            <nav class="navbar navbar-default bg-dark  navbar-dark" id="nav">
+
+                <div class="container">
+                    <div class="row">
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#tem">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="brand" id="hir">Hir-Me</span>
+
+                        <div class="collapse navbar-collapse" id="tem" data-toggle="collapse">
+                            <ul class="navbar-nav home">
+                                <li class="nav-item">
+                                    <a class="nav-link move" href="#">Home</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="containt text-center" runat="server">
+                <form class="text-center" runat="server" id="#">
+                    <label class="la">المحافظة</label>
+                    <select class="sel1 form-control text-center"  runat="server">
+                        <option class="opt1" value="damas" runat="server">Damascause</option>
+                        <option class="opt1" value="alepo" runat="server">Allepo</option>
+                    </select>
+                    <br /><br />
+                    <label class="la">إسم الجامعة</label>
+                    <select class="sel1 form-control text-center"  runat="server">
+                        <option class="opt1" value="damas">Damascause</option>
+                        <option class="opt1" value="alepo">Allepo</option>
+                    </select>
+                    <br /><br />
+                    <label class="la">الإسم الجديد</label>
+                    <input type="text" class="sel1 form-control" placeholder="name" runat="server" />
+                    <br /><br />
+                    <label class="la">إسم الجامعة الجديدة</label>
+                    <select class="sel1 form-control text-center" runat="server">
+                        <option class="opt1" value="damas runat="server"">Damascause</option>
+                        <option class="opt1" value="alepo runat="server"">Allepo</option>
+                    </select>
+                    <br /><br /><br />
+                    <button class="btn btn-danger  runat="server"">حذف</button>
+                    <button class="btn btn-primary runat="server"">إلغاء</button>
+                    <button class="btn btn-success runat="server"">إرسال</button>
+                </form>
+            </div>
+        </div>
+   
+        <script src="../java script/jquery.js"></script>
+        <script src="../java script/bootstrap.min.js"></script>
+        <script src="../java script/java.js"></script>
+</body>
+</html>

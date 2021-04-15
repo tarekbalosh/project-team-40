@@ -1,4 +1,20 @@
+<<<<<<< HEAD:HireMe/Pages-Universities/information input.aspx
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="information input.aspx.cs" Inherits="project_40.information_input" %>
+=======
+﻿<!DOCTYPE HTML>
+<html lang="ar" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> input information </title>
+    
+    <link rel="stylesheet" href="../css/animationn.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        
+>>>>>>> dc16eec13dca4dc06c4e7d4632d898b93dea6d4d:HireMe/tarek/page html/input information.html
 
 <!DOCTYPE html>
 
