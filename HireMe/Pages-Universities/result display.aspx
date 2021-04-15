@@ -7,46 +7,22 @@
       <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title> result display</title>
-    <link href="tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="tarek/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="tarek/css/animationn.css" rel="stylesheet" />
-    <link href="tarek/css/style.css" rel="stylesheet" />
-    <link href="tarek/css/media.css" rel="stylesheet" />
+    <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../tarek/css/animationn.css" rel="stylesheet" />
+    <link href="../tarek/css/style.css" rel="stylesheet" />
+    <link href="../tarek/css/media.css" rel="stylesheet" />
      <style>
-      @media(max-width:767px)
-      {
-          
-          .res{
-              width:200px;
-          }
-          .long{
-              width:100px;
-          }
-         .home {
-            direction: rtl;
-            margin-left: 50%;
-            margin-top: 8px;
-            font-weight: bold;
-            font-size: 17px;
-        }
-      }
-      @media(min-width:768px) and (max-width:1200px)
-      {
-          .home {
-            direction: rtl;
-            margin-left: 80%;
-            margin-top: 8px;
-            font-weight: bold;
-            font-size: 17px;
-        }
-      }
+     .row .brand{
+         margin-left:160px;
+     }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
          <div class="container" runat="server">
         <div class="img">
-            <img class="img-responsive" src="tarek/images/casing.jpg" />
+            <img class="img-responsive" src="../tarek/images/casing.jpg" />
         </div>
         <div class="container">
                 <div class="row">
@@ -75,9 +51,9 @@
             
     </div>
     </form>
-     <script src="tarek/java%20script/bootstrap.min.js"></script>
-    <script src="tarek/java%20script/jquery.js"></script>
-    <script src="tarek/java%20script/js.js"></script>
+     <script src="../tarek/java%20script/bootstrap.min.js"></script>
+    <script src=" ../tarek/java%20script/jquery.js"></script>
+    <script src=" ../tarek/java%20script/js.js"></script>
 
 </body>
 </html>

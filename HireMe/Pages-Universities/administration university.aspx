@@ -7,42 +7,22 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>  administration university</title>
-    <link href="tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
-    <link href="tarek/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="tarek/css/animationn.css" rel="stylesheet" />
-    <link href="tarek/css/media.css" rel="stylesheet" />
-    <link href="../tarek/css/style.css" rel="stylesheet" />
-</head>
+      <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
+      <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="../tarek/css/animationn.css" rel="stylesheet" />
+      <link href="../tarek/css/media.css" rel="stylesheet" />
+      <link href="../tarek/css/style.css" rel="stylesheet" />
     <style>
-        @media(max-width:767px)
-      {
-         
-         .home{
-             direction: rtl;
-             margin-left: 70%;
-             margin-top: 8px;
-             font-weight: bold;
-             font-size: 17px;
-        }
-      }
-         @media(min-width:768px) and (max-width:1200px)
-      {
-          .home {
-            direction: rtl;
-            margin-left: 80%;
-            margin-top: 8px;
-            font-weight: bold;
-            font-size: 17px;
-        }
-      }
-
+      
     </style>
+</head>
+    
 <body>
     <form id="form1" runat="server">
       
         <div class="container" runat="server">
             <div class="img">
-                <img class="img-responsive" src="tarek/images/casing.jpg" />
+                <img class="img-responsive" src="../tarek/images/casing.jpg" />
             </div>
            
             <div class="container">
@@ -60,7 +40,7 @@
             </div><br />
 
             <div class="containt text-center" runat="server">
-                <form class="text-center" id="Form2">
+                <form class="text-center"  id="Form2">
                     <label class="la">المحافظة</label>
                     <select class="sel1 form-control text-center"  runat="server">
                         <option class="opt1" value="damas" runat="server">Damascause</option>
@@ -89,9 +69,9 @@
             </div>
         </div>
    
-        <script src="tarek/java script/jquery.js"></script>
-        <script src="tarek/java script/bootstrap.min.js"></script>
-        <script src="tarek/java script/js.js"></script>
+        <script src="../tarek/java script/jquery.js"></script>
+        <script src="../tarek/java script/bootstrap.min.js"></script>
+        <script src="../tarek/java script/js.js"></script>
     </form>
 </body>
 </html>

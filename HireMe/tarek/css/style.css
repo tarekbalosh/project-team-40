@@ -1,5 +1,5 @@
 ﻿body {
-    height: 2000px;
+    height: 3000px;
 }
 
 .brand {
@@ -14,7 +14,7 @@
 
 .home {
     direction: rtl;
-    margin-left: 90%;
+    margin-left: 80%;
     margin-top: 8px;
     font-weight: bold;
     font-size: 17px;
@@ -102,7 +102,6 @@
 }
 
 .opt1 {
-   
     color: #4800ff;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -249,6 +248,7 @@
 .bd2 {
     opacity: 1;
 }
+
 .item {
     font-weight: bold;
     font-size: 18px;
@@ -264,7 +264,290 @@
         background-color: black;
         color: white;
     }
+
 .bag:hover .d2 {
     opacity: 1;
     animation: check 1s ease-in-out;
 }
+.row .brand {
+    margin-left: 170px;
+}
+
+.row .part2 {
+    background-color: #eee;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 600px;
+    padding: 40px;
+    box-shadow: 20px 20px 50px black;
+}
+
+.l2 strong {
+    color: #808080;
+    font-size: 23px;
+    position: absolute;
+    left: 240px;
+    margin-bottom: 20px;
+}
+
+.l2 {
+    width: 450px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 60px;
+    height: 690px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+label sup {
+    color: blue;
+    font-size: 12px;
+}
+
+.row label {
+    font-size: 16px;
+    font-weight: bold;
+}
+@media(max-width:767px) {
+    .bag {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .select1, .select2 {
+        width: 100px;
+    }
+
+    .bt1 {
+        width: 27px;
+        padding: 2px 5px;
+    }
+
+    .d2 {
+        width: 30px;
+    }
+
+    .res {
+        width: 200px;
+    }
+
+    .long {
+        width: 100px;
+    }
+
+    .home {
+        direction: rtl;
+        margin-left: 50%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .brand {
+        font-size: 20px;
+      position:relative;
+      right:200px;
+    }
+}
+@media(width:280px) {
+    .brand {
+        font-size: 14px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .home {
+        direction: rtl;
+        margin-left: 80%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:579px) {
+
+    .true {
+        width: 115px;
+    }
+
+    .hid {
+        width: 270px;
+        position: relative;
+        margin: auto;
+        top: 170px;
+        right: 230px;
+    }
+
+        .hid:hover {
+            display: block;
+        }
+
+    .col-xs-4 .mang {
+        position: relative;
+        left: 10px;
+    }
+}
+
+.brand {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: Gigi;
+    animation: hireme 1s ease-in infinite;
+}
+
+@keyframes home {
+    0% {
+        color: red;
+        left: -2px;
+        position: relative;
+    }
+
+    25% {
+        color: blue;
+        left: 2px;
+        position: relative
+    }
+
+    75% {
+        color: green;
+        left: -1px;
+        position: relative
+    }
+
+    100% {
+        color: #4800ff;
+        left: 0px;
+        position: relative
+    }
+}
+
+@keyframes down {
+    0% {
+        height: 0px;
+        top: -20px;
+        position: relative;
+        padding-top: 0px;
+    }
+
+    100% {
+        top: 0px;
+        height: 160px;
+        position: relative;
+    }
+}
+
+@keyframes do {
+    0% {
+        position: relative;
+        left: -60px;
+    }
+
+    100% {
+        position: relative;
+        margin-left: 0px;
+    }
+}
+
+body {
+    height: 2000px;
+}
+
+.navbar-right li {
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mov:hover {
+    animation: home 1s ease-in-out;
+}
+
+.btn-default {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .btn-default:hover {
+        border: 2px solid gray;
+    }
+
+.col-xs-4:hover .true {
+    animation: down 1s ease-in-out;
+}
+
+.true, .hid {
+    background-color: #eee;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: none;
+    height: 160px;
+    overflow: hidden;
+}
+
+    .true ul li {
+        line-height: 30px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        opacity: 0.9;
+        font-size: 15px;
+    }
+
+        .true ul li:hover {
+            margin-right: 10px;
+            font-size: 17px;
+            opacity: 1;
+        }
+
+        .true ul li a {
+            text-decoration: none;
+        }
+
+.r2, .r3 {
+    display: inline-block;
+}
+
+.r2 {
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+}
+
+.r3 {
+    height: 200px;
+    width: 100px;
+}
+@media(max-width:767px) {
+
+    .res {
+        width: 200px;
+    }
+
+    .long {
+        width: 100px;
+    }
+
+   
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .home {
+        direction: rtl;
+        margin-left: 70%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+
+

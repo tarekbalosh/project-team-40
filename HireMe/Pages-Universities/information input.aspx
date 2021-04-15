@@ -8,78 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title> information input</title>
      
-      <link href="../fontawesome/css/font-awesome.css" rel="stylesheet" />
-      <link href="../css/bootstrap.min.css" rel="stylesheet" />
-      <link href="../css/animationn.css" rel="stylesheet" />
-      <link href="../css/media.css" rel="stylesheet" />
-      <link href="../css/style.css" rel="stylesheet" />
-          <style>
-      @media(max-width:767px)
-      {
-     .bag
+      <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
+      <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
+      <link href="../tarek/css/animationn.css" rel="stylesheet" />
+      <link href="../tarek/css/media.css" rel="stylesheet" />
+      <link href="../tarek/css/style.css" rel="stylesheet" />
+        <style>
+    .row .brand
      {
-         width:300px;
-         border-top-left-radius:20px;
-         border-top-right-radius:20px;
+             margin-left:160px;
      }
-     .select1,.select2
-     {
-         width:100px;
-     }
-     .bt1
-     {
-         width:27px;
-         padding:2px 5px;
-     }
-     .d2{
-         width:30px;
-     }
-          .res{
-              width:200px;
-          }
-          .long{
-              width:100px;
-          }
-         .home {
-            direction: rtl;
-            margin-left: 50%;
-            margin-top: 8px;
-            font-weight: bold;
-            font-size: 17px;
-        }
-         .brand{
-             
-            font-size:20px;
-         }
-      }
-      @media(width:280px)
-      {
-          .brand{
-            
-            font-size:14px;
-          }
-      }
-      @media(min-width:768px) and (max-width:1200px)
-      {
-        .home {
-            direction: rtl;
-            margin-left: 80%;
-            margin-top: 8px;
-            font-weight: bold;
-            font-size: 17px;
-        }
-      }
-      .brand
-      {
-          margin-left:100px;
-      }
+    
     </style>
   </head>
 <body>
     <form id="form1" runat="server">
          <div class="container" runat="server">
         <div class="img">
-            <img class="img-responsive" src="../images/casing.jpg" />
+            <img class="img-responsive" src="../tarek/images/casing.jpg" />
             
         </div>
  <div class="container">
@@ -166,9 +112,9 @@
 
 
 
-        <script src="../java%20script/jquery.js"></script>
-        <script src="../java%20script/bootstrap.min.js"></script>
-        <script src="../java%20script/js.js"></script>
+        <script src="../tarek/java%20script/jquery.js"></script>
+        <script src="../tarek/java%20script/bootstrap.min.js"></script>
+        <script src="../tarek/java%20script/js.js"></script>
     </form>
 </body>
 </html>
