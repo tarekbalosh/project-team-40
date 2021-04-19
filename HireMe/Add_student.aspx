@@ -100,7 +100,7 @@
         <div>
     <!--HEADER-->
     <header class="mainHeader">
-        <img src="css/casing.jpg" width="900"/>
+        <img src="tarek/images/casing.jpg" width="900"/>
         <nav><ul>
             <li><a href="control admin.aspx"> <i class="fa fa-home"></i> Home</a></li>
         </ul></nav>

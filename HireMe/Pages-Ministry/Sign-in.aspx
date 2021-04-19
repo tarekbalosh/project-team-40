@@ -8,6 +8,9 @@
 
     <title>Sign-in-Ministry</title>
     <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
+    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -72,7 +75,7 @@
                     <h3 class="title-login"><i class="fa fa-chevron-left icon" ></i>  إنشاء حساب </h3>
             
                     <div class="post-document">
-                        <p style="font-size: 25px;"> هل تريد إنشاء حساب <i class="fa fa-question-circle icon" style="margin-right: 10px; font-size: 35px;"></i></p>
+                        <p> هل تريد إنشاء حساب <i class="fa fa-question-circle icon" style=""></i></p>
                         <div class="btn">
                             <%--<asp:Button ID="btn_create" CssClass="button" runat="server" Text=" إنشاء " /><i class="fas fa-plus icon-btn"></i>--%>
                             <button runat="server" id="btn_to_create" class="button" onserverclick="function_Create_Account" title="Creare_Account" ><i class="fas fa-plus icon-btn"></i> إنشاء </button>

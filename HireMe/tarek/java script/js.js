@@ -46,15 +46,10 @@ function mofad() {
 }
 
 function trans() {
-    var r = document.getElementById("rasem");
-    var y = document.getElementById("ch");
-    if (y.style.display == "block") {
-        y.style.display = "none";
-    }
-    if (r.style.display == "none") {
-        r.style.display = "block";
-    }
-    else
-
+    var r = document.getElementById("tru");
+   
+    if (r.style.display == "block") {
         r.style.display = "none";
+    }
+        r.style.display = "block";
 }

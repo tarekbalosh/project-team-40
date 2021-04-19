@@ -67,7 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Content Include="Pages-Universities\create account university.aspx" />
+    <Content Include="Pages-Universities\page-admin.aspx" />
+=======
+    <Content Include="Css\StyleMob3.css" />
+    <Content Include="Css\StyleMob2.css" />
+    <Content Include="Css\StyleMob1.css" />
+>>>>>>> dc16eec13dca4dc06c4e7d4632d898b93dea6d4d
     <Content Include="Pages-Universities\administration university.aspx" />
+    <Content Include="Pages-Universities\information input.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
     <Content Include="Css\Style2-Ahmed.css" />
@@ -121,11 +130,7 @@
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="tarek\java script\js.js" />
-    <Content Include="tarek\page html\add students.html" />
-    <Content Include="tarek\page html\display result.html" />
-    <Content Include="tarek\page html\display university.html" />
-    <Content Include="tarek\page html\input information.html" />
-    <Content Include="tarek\page html\university administration.html" />
+    <Content Include="Pages-Universities\result display.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -143,12 +148,33 @@
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages-Universities\create account university.aspx.cs">
+      <DependentUpon>create account university.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Universities\create account university.aspx.designer.cs">
+      <DependentUpon>create account university.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Universities\page-admin.aspx.cs">
+      <DependentUpon>page-admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Universities\page-admin.aspx.designer.cs">
+      <DependentUpon>page-admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages-Universities\administration university.aspx.designer.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Universities\information input.aspx.cs">
+      <DependentUpon>information input.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Universities\information input.aspx.designer.cs">
+      <DependentUpon>information input.aspx</DependentUpon>
     </Compile>
     <Compile Include="Class\Data_Access.cs" />
     <Compile Include="control admin.aspx.cs">
@@ -215,6 +241,13 @@
       <DependentUpon>Update-Vacancy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pages-Universities\result display.aspx.cs">
+      <DependentUpon>result display.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Universities\result display.aspx.designer.cs">
+      <DependentUpon>result display.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap_css\bootstrap-grid.css.map" />
@@ -274,6 +307,7 @@
     <Folder Include="Pages-Admin\" />
     <Folder Include="Pages-Graduates\" />
     <Folder Include="tarek\page asp\" />
+    <Folder Include="tarek\page html\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

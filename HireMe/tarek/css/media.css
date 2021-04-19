@@ -8,7 +8,11 @@
         width: 100px;
         border-color: darkblue;
     }
-
+   
+    .true{
+        width:200px;
+        color:red;
+    }
     .ba {
         width: 300px;
     }
@@ -33,6 +37,7 @@
                top: 0px;
                left: 20px;
           }
+          
           .item{
               position:relative;
               right:60px;
