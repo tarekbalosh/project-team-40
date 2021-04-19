@@ -105,7 +105,6 @@ E:\Project HireMe\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
 E:\Project HireMe\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 E:\Project HireMe\HireMe\obj\Debug\HireMe.dll
 E:\Project HireMe\HireMe\obj\Debug\HireMe.pdb
-C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
 E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\HireMe.dll.config
 E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\HireMe.dll
 E:\ProJect 40\Application\tarekbalosh\project-team-40\HireMe\bin\HireMe.pdb
