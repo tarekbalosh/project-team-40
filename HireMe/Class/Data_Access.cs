@@ -36,6 +36,7 @@ namespace HireMe.Class
         }
         public int EX_Non_Query(string Query)
         {
+            
             sqlcmd = new SqlCommand(Query, connection);
             return sqlcmd.ExecuteNonQuery();
         }
