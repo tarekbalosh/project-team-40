@@ -177,3 +177,4 @@ D:\pro\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
 D:\pro\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 D:\pro\HireMe\obj\Debug\HireMe.dll
 D:\pro\HireMe\obj\Debug\HireMe.pdb
+C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
