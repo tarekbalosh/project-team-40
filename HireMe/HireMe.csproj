@@ -67,14 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Content Include="Pages-Universities\create account university.aspx" />
-    <Content Include="Pages-Universities\page-admin.aspx" />
-=======
     <Content Include="Css\StyleMob3.css" />
     <Content Include="Css\StyleMob2.css" />
     <Content Include="Css\StyleMob1.css" />
->>>>>>> dc16eec13dca4dc06c4e7d4632d898b93dea6d4d
     <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
     <Content Include="Css\Style-Ahmed.css" />

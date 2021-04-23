@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HireMe"
+    "\\HireMe",
+    "\\HireMe\\Pages-Universities"
   ],
-  "SelectedNode": "\\HireMe.sln",
+  "SelectedNode": "\\HireMe\\Pages-Universities\\create account university.aspx",
   "PreviewInSolutionExplorer": false
 }

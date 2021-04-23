@@ -13,5 +13,25 @@ namespace HireMe
         {
 
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Add-Condition.aspx");
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Add-Vacancy.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("All-View.aspx");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Create-Account.aspx");
+        }
     }
 }
