@@ -63,10 +63,7 @@ C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\roslyn\vbc.exe.config
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\roslyn\vbc.rsp
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
-C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.dll
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.pdb
 E:\Project HireMe\HireMe\bin\HireMe.dll.config
@@ -177,7 +174,6 @@ D:\pro\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
 D:\pro\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 D:\pro\HireMe\obj\Debug\HireMe.dll
 D:\pro\HireMe\obj\Debug\HireMe.pdb
-C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
 C:\Users\moham\Source\Repos\project-team-40\HireMe\bin\HireMe.dll.config
 C:\Users\moham\Source\Repos\project-team-40\HireMe\bin\HireMe.dll
 C:\Users\moham\Source\Repos\project-team-40\HireMe\bin\HireMe.pdb
@@ -214,3 +210,6 @@ C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CoreC
 C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.dll
 C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.pdb
+C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete

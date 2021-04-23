@@ -22,7 +22,7 @@ namespace monta
         {
 
             Response.Redirect("p_min\\Add Condition.aspx");
-            return;
+      
             das = new Data_Access();
 
             if ( das.check_empty(num_idh.Text))
@@ -148,7 +148,7 @@ namespace monta
             {
                 das.close_connection();
             }
-            num_idh.Text = n_first.Text = n_last.Text = n_father.Text = n_mather.Text = date_porn.Text = avg.Text = stu_pro.Text = country.Text = "";
+          
         }
     }
 }
