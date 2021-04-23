@@ -28,7 +28,7 @@ namespace HireMe.Pages_Ministry {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox name_specialization_new;
+        protected global::System.Web.UI.WebControls.DropDownList name_specialization_new;
         
         /// <summary>
         /// type_specialization_new control.
