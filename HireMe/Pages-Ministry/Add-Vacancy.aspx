@@ -46,7 +46,7 @@
                         <div class="post-form">
                             <%--<span class="icon"><i class="fas fa-user"></i></span>--%>
                             <span class="title-input">الأختصاص : </span>
-                            <asp:TextBox ID="name_specialization_new" CssClass="input" AutoCompleteType="Disabled" MaxLength="30" runat="server"></asp:TextBox>                                
+                            <asp:DropDownList ID="name_specialization_new" CssClass="drop_type" runat="server" OnSelectedIndexChanged="name_specialization_new_SelectedIndexChanged"></asp:DropDownList>                                
                             <span class="span-bottom"></span>
                         </div>
                         <br />
@@ -54,7 +54,10 @@
 
                         <div class="post-form">
                             <span class="title-input">النوع : </span>
-                            <asp:DropDownList ID="type_specialization_new" CssClass="drop_type" runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="type_specialization_new" CssClass="drop_type" runat="server">
+                                <asp:ListItem Value="educational">تدريسي</asp:ListItem>
+                                <asp:ListItem Value="Administration"> إداري</asp:ListItem>
+                            </asp:DropDownList>
                         </div>
                         <br />
                         <br />
