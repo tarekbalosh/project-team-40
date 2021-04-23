@@ -1,15 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HireMe",
-<<<<<<< HEAD
-    "\\HireMe\\Pages-Universities"
+    "\\HireMe"
   ],
-  "SelectedNode": "\\HireMe\\Pages-Universities\\create account university.aspx",
-=======
-    "\\HireMe\\Pages-Ministry"
-  ],
-  "SelectedNode": "\\HireMe\\Pages-Ministry\\Add-Condition.aspx",
->>>>>>> de76d6d699cee0da3bb3d5be8d82f736453f8e8b
+  "SelectedNode": "\\HireMe.sln",
   "PreviewInSolutionExplorer": false
 }
