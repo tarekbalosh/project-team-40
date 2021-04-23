@@ -43,8 +43,8 @@
 
                         <div class="post-form">
                             <%--<span class="icon"><i class="fas fa-user"></i></span>--%>
-                            <span class="title-input">الأختصاص : </span>
-                            <asp:DropDownList ID="type_specialization_for_cond" CssClass="drop_type" Width="50%" runat="server"></asp:DropDownList>
+                            <span class="title-input">الشاغر : </span>
+                            <asp:DropDownList ID="type_specialization_for_cond" CssClass="drop_type" Width="50%" runat="server" OnSelectedIndexChanged="type_specialization_for_cond_SelectedIndexChanged"></asp:DropDownList>
                         </div>
                         <br />
                         <br />
@@ -59,7 +59,11 @@
 
                         <div class="post-form">
                             <span class="title-input">النوع : </span>
-                            <asp:DropDownList ID="type_condition_new" CssClass="drop_type" runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="type_condition_new" CssClass="drop_type" runat="server">
+                                <asp:ListItem Value="bool">منطقي</asp:ListItem>
+                                <asp:ListItem Value="number">رقمي</asp:ListItem>
+                                <asp:ListItem Selected="True" Value="text">نصي</asp:ListItem>
+                            </asp:DropDownList>
                         </div>
                         <br />
                         <br />                        
