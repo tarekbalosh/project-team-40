@@ -7,20 +7,17 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>  administration university</title>
-<<<<<<< HEAD
       <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
       <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
       <link href="../tarek/css/animationn.css" rel="stylesheet" />
       <link href="../tarek/css/media.css" rel="stylesheet" />
       <link href="../tarek/css/style.css" rel="stylesheet" />
-=======
     <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
     <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../tarek/css/animationn.css" rel="stylesheet" />
     <link href="../tarek/css/media.css" rel="stylesheet" />
     <link href="../tarek/css/style.css" rel="stylesheet" />
 </head>
->>>>>>> dc16eec13dca4dc06c4e7d4632d898b93dea6d4d
     <style>
       
     </style>

@@ -1,6 +1,6 @@
-<<<<<<< HEAD:HireMe/Pages-Universities/information input.aspx
+
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="information input.aspx.cs" Inherits="project_40.information_input" %>
-=======
+
 ﻿<!DOCTYPE HTML>
 <html lang="ar" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -13,28 +13,7 @@
     <link rel="stylesheet" href="../css/media.css">
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        
->>>>>>> dc16eec13dca4dc06c4e7d4632d898b93dea6d4d:HireMe/tarek/page html/input information.html
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head runat="server">
-     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title> information input</title>
-     
-      <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
-      <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
-      <link href="../tarek/css/animationn.css" rel="stylesheet" />
-      <link href="../tarek/css/media.css" rel="stylesheet" />
-      <link href="../tarek/css/style.css" rel="stylesheet" />
-        <style>
-    .row .brand
-     {
-             margin-left:160px;
-     }
-    
+       
     </style>
   </head>
 <body>
