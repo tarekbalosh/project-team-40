@@ -118,6 +118,7 @@
     <Content Include="Pages-Ministry\Update-Condition.aspx" />
     <Content Include="Pages-Ministry\Update-Vacancy.aspx" />
     <Content Include="Pages-Universities\page-admin.aspx" />
+    <Content Include="Pages-Universities\ادارة الوزارة.aspx" />
     <Content Include="tarek\css\animationn.css" />
     <Content Include="tarek\css\bootstrap.min.css" />
     <Content Include="tarek\css\media.css" />
@@ -238,6 +239,13 @@
     </Compile>
     <Compile Include="Pages-Universities\page-admin.aspx.designer.cs">
       <DependentUpon>page-admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Universities\ادارة الوزارة.aspx.cs">
+      <DependentUpon>ادارة الوزارة.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Universities\ادارة الوزارة.aspx.designer.cs">
+      <DependentUpon>ادارة الوزارة.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pages-Universities\result display.aspx.cs">
