@@ -145,7 +145,7 @@ namespace monta
             {
                 das.close_connection();
             }
-            num_idh.Text = n_first.Text = n_last.Text = n_father.Text = n_mather.Text = date_porn.Text = avg.Text = stu_pro.Text = country.Text = "";
+           // num_idh.Text = n_first.Text = n_last.Text = n_father.Text = n_mather.Text = date_porn.Text = avg.Text = stu_pro.Text = country.Text = "";
         }
     }
 }
