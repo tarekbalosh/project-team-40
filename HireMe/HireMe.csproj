@@ -130,6 +130,7 @@
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="tarek\java script\js.js" />
     <Content Include="Pages-Universities\result display.aspx" />
+    <Content Include="test.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +148,7 @@
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Class\C_HireMe.cs" />
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -246,6 +248,13 @@
     </Compile>
     <Compile Include="Pages-Universities\result display.aspx.designer.cs">
       <DependentUpon>result display.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
