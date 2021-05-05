@@ -26,6 +26,29 @@ namespace HireMe.Class
             DataTable dt = ds.SelectData(q);
             return dt ;
         }
+        public void choice()
+        {
+            Data_Access ds = new Data_Access();
+            DataTable dt = new DataTable();
+            for (int i = 0; i < Order.Rows.Count; i++)
+            {
+                int x = (int)order.Rows[i][0];
+                for (int j = 1; j < 6; j++)
+                {
+                string q = "select id_vacancy from tb_desire where id_graduate='" + x + "' and des_order='" + j + "'";
+                var x1 =  ds.SelectData(q);
+                 var s = ds.SelectData("select vacancy_count from tb_vacancy where id_vacancy='"+x1.Rows[0][0]+"'");
+                    var x2 = ds.SelectData("select * from tb_result where id_ministry='" + x1 + "'");
+                    if (x2.Rows.Count <(int) s.Rows[0][0])
+                    {
+                        
+                    }
+                }
 
+            }
+
+        }
+        
+        
     }
 }
