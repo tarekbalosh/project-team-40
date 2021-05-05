@@ -9,10 +9,12 @@
       <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
       <link href="../tarek/css/animationn.css" rel="stylesheet" />
       <link href="../tarek/css/media.css" rel="stylesheet" />
-      <link href="../tarek/css/style.css" rel="stylesheet" />
+      <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
     <style>
-    
+     body{
         
+     }
+       
     </style>
 </head>
 <body>
@@ -25,13 +27,11 @@
           <div class="container">
                 <div class="row">
                
-                    <span class="brand" id="hir">Hire-Me</span>
-
-                        <ul class="navbar-nav home">
-                            <li class="nav-item">
-                                <a class="nav-link move" href="#">Home</a> <i class="fa fa-home fa-md" style="color:grey"></i>
-                            </li>
-                        </ul>
+                    <div class="col-xs-12 ministryhome" dir="rtl">
+                <span class="span1" runat="server">الصفحة الرئيسية</span>
+                <span class="span2" runat="server"> H I R E_ M E</span>
+                
+            </div>
                 
                     <br /><br />
                      <div class="col-xs-12 col-md-6 part2 ">
@@ -60,55 +60,8 @@
     </div>
              <br />
     </form>
-    <script>
-    function confirmpassword() {
-
-    var email = document.getElementById("email").value,
-        pas1 = document.getElementById("pa1").value,
-        pas2 = document.getElementById("pa2").value;
-    let E = 0, v;
-   
-  
-    for (var i = 0; i <= email.length; i++)
-    {
-       
-        if (email[i] == '@')
-        {
-            E++;
-        }
-        if (email[email.length - 1] == '@')
-        {
-            v = 0;
-        }
-       
-    }
-    if (email == "") {
-        return;
-    }
-    else if(email != " ")
-    {
-        if (E > 1) {
-            alert("you should one @  only >>" + "  " + email);
-        }
-        if (E == 0) {
-            alert("you should add @ >>" + "  " + email);
-        }
-
-        if (v == 0) {
-            alert("you should add text after  @  >>" + "  " + email);
-
-        }
-
-    }     
-    if (pas1 != pas2)
-    {
-        alert("error in password");
-        
-        
-
-    }
-      
-        }
-        </script>
+    <script src="../tarek/java%20script/bootstrap.min.js"></script>
+    <script src="../tarek/java%20script/jquery.js"></script>
+    <script src="../tarek/java%20script/java.js"></script>
 </body>
 </html>

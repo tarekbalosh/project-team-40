@@ -122,15 +122,15 @@
     <Content Include="tarek\css\animationn.css" />
     <Content Include="tarek\css\bootstrap.min.css" />
     <Content Include="tarek\css\media.css" />
-    <Content Include="tarek\css\style.css" />
+    <Content Include="tarek\css\tarek-style.css" />
     <Content Include="tarek\fontawesome\css\font-awesome.css" />
     <Content Include="tarek\fontawesome\css\font-awesome.min.css" />
     <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.svg" />
     <Content Include="tarek\images\casing.jpg" />
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
-    <Content Include="tarek\java script\js.js" />
     <Content Include="Pages-Universities\result display.aspx" />
+    <Content Include="tarek\java script\java.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
