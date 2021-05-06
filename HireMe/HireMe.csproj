@@ -67,15 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\AhmedBasic.css" />
-    <Content Include="Css\StyleMob2.css" />
-    <Content Include="Css\StyleMob1.css" />
-    <Content Include="Css\StyleMob3.css" />
+    <Content Include="Css\AhmedBasic - Copy.css" />
+    <Content Include="HTML\Style-Ahmed.css" />
+    <Content Include="HTML\StyleMob1.css" />
+    <Content Include="HTML\StyleMob2.css" />
+    <Content Include="HTML\StyleMob3.css" />
     <Content Include="Pages-Universities\administration university.aspx" />
-    <Content Include="Css\Style-Ahmed.css" />
-    <Content Include="Css\style.css" />
+    <Content Include="HTML\style.css" />
     <Content Include="Css\Style2-Ahmed.css" />
-    <Content Include="Css\tarek_css.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
     <Content Include="Font\fontawesome-webfont.svg" />

@@ -15,14 +15,15 @@ a {
     text-decoration: none;
 }
 
-    a:link, a:visited {
-        color: #95afc0;
-    }
+a:link, a:visited {
+    color: #95afc0;
+}
 
-    a:hover, a:active {
-        color: #4834d4;
-    }
+a:hover, a:active {
+    color: #4834d4;
+}
 
+/*-------------------------------------------------Orginal--------------------------------------------------*/
 .body {
     margin: 15px auto;
     width: 70%;
@@ -45,15 +46,15 @@ a {
     -moz-border-radius: 5px;
 }
 
-    .mainHeader nav ul {
-        text-align: center;
-        list-style: none;
-        margin: -1px auto;
-    }
+.mainHeader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: -1px auto;
+}
 
-        .mainHeader nav ul li {
-            display: inline;
-        }
+.mainHeader nav ul li {
+    display: inline;
+}
 
 .mainHeader a:link, a:visited {
     color: white;
@@ -133,9 +134,9 @@ a {
     border-bottom: 3px solid #2d2e2e;
 }
 
-    .input:focus {
-        outline: none;
-    }
+.input:focus {
+    outline: none;
+}
 
 section > div {
     position: relative;
@@ -181,12 +182,12 @@ section > div {
     transition: .4s;
 }
 
-    .button:hover, .button:focus {
-        background-color: #193783;
-        color: white;
-        border-radius: 20px;
-        cursor: pointer;
-    }
+.button:hover, .button:focus {
+    background-color: #193783;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 /*----------------------SIDE-------------------------*/
 .mainSide {
@@ -245,7 +246,7 @@ section > div {
     word-spacing: 10px;
 }
 
-
+/*-------------------------------------------------1280px--------------------------------------------------*/
 @media(max-width:1280px)
 {
     .body {
@@ -256,9 +257,9 @@ section > div {
     .mainHeader nav {
         
     }
-
 }
 
+/*-------------------------------------------------780px--------------------------------------------------*/
 @media(max-width:780px)
 {
     body {
@@ -319,18 +320,18 @@ section > div {
         border-bottom: 2px solid #2d2e2e;
     }
 
-        .input + .span-bottom {
-            height: 3px;
-        }
+    .input + .span-bottom {
+        height: 3px;
+    }
 
     .post-document p {
         font-size: 18px;
     }
 
-        .post-document p i {
-            margin-right: 5px;
-            font-size: 22px;
-        }
+    .post-document p i {
+        margin-right: 5px;
+        font-size: 22px;
+    }
 
     .icon-btn {
         font-size: 15px;
@@ -385,6 +386,8 @@ section > div {
     }
 }
 
+
+/*-------------------------------------------------580px--------------------------------------------------*/
 @media(max-width:580px)
 {
     /*----------------------HEADER-------------------------*/
@@ -434,12 +437,14 @@ section > div {
     }
 }
 
+
+/*-------------------------------------------------380px--------------------------------------------------*/
 @media(max-width:380px)
 {
     /*----------------------HEADER-------------------------*/
     .mainHeader a:link, a:visited {
         font-size: 13px;
-        padding: 10px 30px;
+        padding: 8px 30px;
         padding-top: 12px;
     }
     /*----------------------MAIN-------------------------*/
