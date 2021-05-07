@@ -11,10 +11,7 @@
     <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
     <style>
-        .span1
-        {
-            background-color:green;
-        }
+      
        
     </style>
 </head>
@@ -56,9 +53,10 @@
     </form>
      <script src="../tarek/java%20script/bootstrap.min.js"></script>  
     <script src="../tarek/java%20script/jquery.js"></script>
-    <script src="../tarek/java%20script/java.js"></script>
+   <script src="../tarek/java%20script/java.js"></script>
     <script>
-      
+       
     </script>
 </body>
+
 </html>
