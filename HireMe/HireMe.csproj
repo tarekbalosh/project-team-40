@@ -75,14 +75,13 @@
     <Content Include="HTML\StyleMob2.css" />
     <Content Include="HTML\StyleMob3.css" />
     <Content Include="Pages-Universities\administration university.aspx" />
-<<<<<<< HEAD
+
     <Content Include="HTML\style.css" />
-=======
+
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
->>>>>>> 6ea2390132f6ff69987f09bb7db6820cdcf8bde0
     <Content Include="Css\Style2-Ahmed.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
@@ -135,11 +134,11 @@
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="Pages-Universities\result display.aspx" />
-<<<<<<< HEAD
+
     <Content Include="test.aspx" />
-=======
+
     <Content Include="tarek\java script\java.js" />
->>>>>>> d76098dadd7671410acbd852d84d3dadb62cdb15
+
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

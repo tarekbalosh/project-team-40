@@ -285,4 +285,3 @@ C:\HM\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
 C:\HM\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 C:\HM\HireMe\obj\Debug\HireMe.dll
 C:\HM\HireMe\obj\Debug\HireMe.pdb
-C:\HM\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
