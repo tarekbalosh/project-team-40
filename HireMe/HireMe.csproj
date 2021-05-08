@@ -69,16 +69,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\StyleMob3.css" />
-    <Content Include="Css\StyleMob2.css" />
-    <Content Include="Css\StyleMob1.css" />
+    <Content Include="Css\AhmedBasic - Copy.css" />
+    <Content Include="HTML\Style-Ahmed.css" />
+    <Content Include="HTML\StyleMob1.css" />
+    <Content Include="HTML\StyleMob2.css" />
+    <Content Include="HTML\StyleMob3.css" />
     <Content Include="Pages-Universities\administration university.aspx" />
+<<<<<<< HEAD
+    <Content Include="HTML\style.css" />
+=======
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
     <Content Include="Css\Style-Ahmed.css" />
     <Content Include="Css\style.css" />
+>>>>>>> 6ea2390132f6ff69987f09bb7db6820cdcf8bde0
     <Content Include="Css\Style2-Ahmed.css" />
-    <Content Include="Css\tarek_css.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
     <Content Include="Font\fontawesome-webfont.svg" />
@@ -122,16 +127,19 @@
     <Content Include="tarek\css\animationn.css" />
     <Content Include="tarek\css\bootstrap.min.css" />
     <Content Include="tarek\css\media.css" />
-    <Content Include="tarek\css\style.css" />
+    <Content Include="tarek\css\tarek-style.css" />
     <Content Include="tarek\fontawesome\css\font-awesome.css" />
     <Content Include="tarek\fontawesome\css\font-awesome.min.css" />
     <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.svg" />
     <Content Include="tarek\images\casing.jpg" />
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
-    <Content Include="tarek\java script\js.js" />
     <Content Include="Pages-Universities\result display.aspx" />
+<<<<<<< HEAD
     <Content Include="test.aspx" />
+=======
+    <Content Include="tarek\java script\java.js" />
+>>>>>>> d76098dadd7671410acbd852d84d3dadb62cdb15
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

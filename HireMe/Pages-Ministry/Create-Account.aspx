@@ -4,12 +4,19 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
-<head>
+<head runat="server">
 
     <title>Create-Account-Ministry</title>
+
+<<<<<<< HEAD
+    <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
+=======
     <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
-    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:680px)" />
-    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:430px)" />
+    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+>>>>>>> 6ea2390132f6ff69987f09bb7db6820cdcf8bde0
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

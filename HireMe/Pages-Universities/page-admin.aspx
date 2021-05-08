@@ -7,7 +7,7 @@
     <title>page Admin</title>    
     <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1"/>
     <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
-   <%-- <link href="../tarek/css/style.css" rel="stylesheet" />--%>
+    <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
     <link href="../tarek/css/media.css" rel="stylesheet" />
     <link href="../tarek/css/animationn.css" rel="stylesheet" />
    
@@ -22,9 +22,9 @@
             <div >
                 <img class="img-responsive" src="../tarek/images/casing.jpg" />
             </div>
-              <nav class="navbar navbar-default " role="navigation">
+              <nav class="navbar navbar-default" role="navigation" style=" background-color:#14213D;color:white;">
           <div class="navbar-header">
-              <span class="brand" id="hir">Hire-Me</span>
+               <span class="span2" runat="server"> H I R E_ M E</span>
 
               <button type="button" class="navbar-toggle" data-target="#ta" data-toggle="collapse">
                   <span class="icon-bar"></span>
@@ -35,7 +35,7 @@
           <div class="collapse navbar-collapse" id="ta">
               <ul class="nav navbar-nav navbar-right">
                   <li class="mov"><a href="home.aspx"><i class="fa fa-home"></i>Home</a></li>
-                  <li class="mov"><a href="#">توقيف الموقع</a></li>
+                  <li class="mov stop"><a href="#">توقيف الموقع</a></li>
                   <li class="mov"><a href="#">تشغيل الموقع</a></li>
                   
               </ul>
@@ -69,22 +69,15 @@
                     <button type="button" class="btn btn-default" onclick="trans3()">أولوية الفرز</button><br /><br />
                     <div class="hid " id="tru3" >
                         
-                            <select class="r3"size="6" id="">
-                                <option class=" "></option>
-                                <option class=" "></option>
-                                <option class=" "></option>
-                            </select>
+                     <asp:DropDownList ID="DropDownList2" CssClass="r3" runat="server"></asp:DropDownList>
+
                        
                         <div class="r2 " id="">
                             <input type="button" class="btn-default" value=">>" /><br />
                              <input type="button" class="btn-default" value="<<" />
                         </div>
                          
-                            <select class="r3 " size="6" id="">
-                                <option class=" "></option>
-                                <option class=" "></option>
-                                <option class=" "></option>
-                            </select>
+                        <asp:DropDownList ID="DropDownList1" CssClass="r3" runat="server"></asp:DropDownList>
                         
                     </div>
                 </div>
@@ -94,32 +87,10 @@
     </form>
     <script src="../tarek/java%20script/jquery.js"></script>
     <script src="../tarek/java%20script/bootstrap.min.js"></script>
-    <script src="../tarek/java%20script/js.js"></script>
+    <script src="../tarek/java%20script/java.js"></script>
+   
     <script>
-        function trans1() {
-            var r = document.getElementById("tru1");
-
-            if (r.style.display == "block") {
-                r.style.display = "none";
-            }
-          else  r.style.display = "block";
-        }
-        function trans2() {
-            var r = document.getElementById("tru2");
-
-            if (r.style.display == "block") {
-                r.style.display = "none";
-            }
-          else  r.style.display = "block";
-        }
-        function trans3() {
-            var r = document.getElementById("tru3");
-
-            if (r.style.display == "block") {
-                r.style.display = "none";
-            }
-           else r.style.display = "block";
-        }
+       
     </script>
 </body>
 </html>

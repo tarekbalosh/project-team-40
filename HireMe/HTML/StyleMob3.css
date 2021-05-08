@@ -1,7 +1,8 @@
 ﻿/*----------------------HEADER-------------------------*/
 .mainHeader a:link, a:visited {
     font-size: 13px;
-    padding: 10px 30px;
+    padding: 10px 30px;  
+    padding-top: 12px;
 }
 /*----------------------MAIN-------------------------*/
 .title-post {

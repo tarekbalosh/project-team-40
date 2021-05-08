@@ -10,7 +10,7 @@
     <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
     <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../tarek/css/animationn.css" rel="stylesheet" />
-    <link href="../tarek/css/style.css" rel="stylesheet" />
+    <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
     <link href="../tarek/css/media.css" rel="stylesheet" />
      <style>
      .row .brand{
@@ -20,23 +20,19 @@
 </head>
 <body>
     <form id="form1" runat="server">
-         <div class="container" runat="server">
-        <div class="img">
-            <img class="img-responsive" src="../tarek/images/casing.jpg" />
-        </div>
-        <div class="container">
-                <div class="row">
-                   
-                    <span class="brand" id="hir">Hire-Me</span>
-
-                        <ul class="navbar-nav home">
-                            <li class="nav-item">
-                                <a class="nav-link move" href="#">Home</a> <i class="fa fa-home fa-md" style="color:grey"></i>
-                            </li>
-                        </ul>
-                    </div>
-               
-            </div><br />
+      
+       <div class="container">
+          <div class="row ">
+              <div class="img  col-xs-12">
+                <img class="img-responsive" src="../tarek/images/casing.jpg" />
+              </div><br />
+            <div class="col-xs-12 ministryhome" dir="rtl">
+                <span class="span1" runat="server">الصفحة الرئيسية</span>
+                <span class="span2" runat="server"> H I R E_ M E</span>
+                
+            </div>
+          </div>
+           <br /><br /><br /> 
        
         <div class="res text-center container" style="background-color:#eee;border:2px solid #4800ff;">
             
@@ -53,7 +49,7 @@
     </form>
      <script src="../tarek/java%20script/bootstrap.min.js"></script>
     <script src=" ../tarek/java%20script/jquery.js"></script>
-    <script src=" ../tarek/java%20script/js.js"></script>
+    <script src=" ../tarek/java%20script/java.js"></script>
 
 </body>
 </html>
