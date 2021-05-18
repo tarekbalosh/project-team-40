@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HireMe"
+    "\\HireMe",
+    "\\HireMe\\Css",
+    "\\HireMe\\Pages-Ministry"
   ],
-  "SelectedNode": "\\HireMe\\Class",
+  "SelectedNode": "\\HireMe.sln",
   "PreviewInSolutionExplorer": false
 }

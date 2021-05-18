@@ -69,20 +69,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\AhmedBasic - Copy.css" />
+    <Content Include="Css\Style1-Ahmed.css" />
+    <Content Include="Css\StyleMob1.css" />
+    <Content Include="Css\StyleMob2.css" />
+    <Content Include="Css\StyleMob3.css" />
     <Content Include="HTML\Style-Ahmed.css" />
     <Content Include="HTML\StyleMob1.css" />
     <Content Include="HTML\StyleMob2.css" />
     <Content Include="HTML\StyleMob3.css" />
+    <Content Include="js\icons.js" />
     <Content Include="Pages-Universities\administration university.aspx" />
-<<<<<<< HEAD
     <Content Include="HTML\style.css" />
-=======
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
-    <Content Include="Css\Style-Ahmed.css" />
-    <Content Include="Css\style.css" />
->>>>>>> 6ea2390132f6ff69987f09bb7db6820cdcf8bde0
     <Content Include="Css\Style2-Ahmed.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
@@ -110,7 +109,6 @@
     <Content Include="control admin.aspx" />
     <Content Include="image\white4.jpg" />
     <Content Include="js\file.js" />
-    <Content Include="js\icons.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
     <Content Include="main page.aspx" />

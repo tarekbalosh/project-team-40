@@ -8,7 +8,10 @@
 
     <title>Sign-in-Ministry</title>
 
-    <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
+    <link href="../Css/Style1-Ahmed.css" rel="stylesheet" />
+    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,7 +28,8 @@
             <header class="mainHeader" dir="rtl">
                 <img src="../image/casing.jpg" width="900"/>
                 <nav><ul>
-                    <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
+                    <li><a href="#"> <i class="fa fa-home"></i> الصفحة الرئيسية 
+                    </a></li>
                     <li><a href="#"> <i class="fas fa-list-alt"></i> قائمة </a></li>
                     <li><a href="#"> <i class="fa fa-question-circle"></i> حول </a></li>
                     <li><a href="#"><i class="fas fa-phone"></i> اتصل بنا </a></li>  
@@ -128,6 +132,8 @@
 
         </div>
     </form>
+
     <script src="../js/icons.js"></script>
+    
 </body>
 </html>

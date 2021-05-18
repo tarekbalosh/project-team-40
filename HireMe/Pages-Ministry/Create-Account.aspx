@@ -8,14 +8,14 @@
 
     <title>Create-Account-Ministry</title>
 
-<<<<<<< HEAD
+
     <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
-=======
-    <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
+
+    <link href="../Css/Style1-Ahmed.css" rel="stylesheet" />
     <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
     <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
     <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
->>>>>>> 6ea2390132f6ff69987f09bb7db6820cdcf8bde0
+
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -152,14 +152,11 @@
                     <div class="post-footer">
                         <p class="title-footer">جميع حقوق محفوظة لموقع مفاضلة المهندسين الالكترونية - 2021</p>
                     </div>
-                </footer>
-    
-                <script src="../js/icons.js"></script>
-    
-
+                </footer>                    
         </div>
     </form>
 
+    <script src="../js/icons.js"></script>
 </body>
 
 </html>
