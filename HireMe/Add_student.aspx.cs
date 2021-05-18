@@ -148,13 +148,6 @@ namespace monta
             {
                 das.close_connection();
             }
-<<<<<<< HEAD
-=======
-
-           // num_idh.Text = n_first.Text = n_last.Text = n_father.Text = n_mather.Text = date_porn.Text = avg.Text = stu_pro.Text = country.Text = "";
-
-          
->>>>>>> 98eb98e10fda92043c1ce2eeb3d8ae0654e08486
         }
     }
 }

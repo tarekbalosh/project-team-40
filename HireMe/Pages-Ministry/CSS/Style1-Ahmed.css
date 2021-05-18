@@ -46,15 +46,15 @@ a {
     -moz-border-radius: 5px;
 }
 
-    .mainHeader nav ul {
-        text-align: center;
-        list-style: none;
-        margin: -1px auto;
-    }
+.mainHeader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: -1px auto;
+}
 
-        .mainHeader nav ul li {
-            display: inline;
-        }
+.mainHeader nav ul li {
+    display: inline;
+}
 
 .mainHeader a:link, a:visited {
     color: white;
@@ -78,7 +78,7 @@ a {
 }
 
 .top-Content {
-    background-image: url('../image/white4.jpg');
+    background-image: url('/image/white4.jpg');
     padding: 3.28%;
     border-radius: 5px;
     -webkit-border-radius: 5px;

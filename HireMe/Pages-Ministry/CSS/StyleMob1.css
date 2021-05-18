@@ -13,11 +13,11 @@
     border: 2px solid white;
 }
 
-    .mainHeader nav ul {
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-    }
+.mainHeader nav ul {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
 
 .mainHeader a:link, a:visited {
     display: block;
@@ -65,10 +65,10 @@
     font-size: 18px;
 }
 
-    .post-document p i {
-        margin-right: 5px;
-        font-size: 22px;
-    }
+.post-document p i {
+    margin-right: 5px;
+    font-size: 22px;
+}
 
 .icon-btn {
     font-size: 15px;

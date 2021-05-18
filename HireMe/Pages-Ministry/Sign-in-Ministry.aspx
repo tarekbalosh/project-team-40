@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign-in.aspx.cs" Inherits="HireMe.Pages_Ministry.Sign_in" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sign-in-Ministry.aspx.cs" Inherits="HireMe.Pages_Ministry.Sign_in" %>
 
 <!DOCTYPE html>
 
@@ -8,10 +8,10 @@
 
     <title>Sign-in-Ministry</title>
 
-    <link href="../Css/Style1-Ahmed.css" rel="stylesheet" />
-    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
-    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
-    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+    <link href="CSS/Style1-Ahmed.css" rel="stylesheet" />
+    <link href="CSS/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="CSS/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="CSS/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
