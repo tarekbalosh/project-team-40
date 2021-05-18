@@ -79,9 +79,19 @@
     <Content Include="HTML\StyleMob3.css" />
     <Content Include="js\icons.js" />
     <Content Include="Pages-Universities\administration university.aspx" />
+<<<<<<< HEAD
     <Content Include="HTML\style.css" />
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
+=======
+
+    <Content Include="HTML\style.css" />
+
+    <Content Include="Pages-Universities\create account university.aspx" />
+    <Content Include="Pages-Universities\information input.aspx" />
+    <Content Include="Css\Style-Ahmed.css" />
+    <Content Include="Css\style.css" />
+>>>>>>> 98eb98e10fda92043c1ce2eeb3d8ae0654e08486
     <Content Include="Css\Style2-Ahmed.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
@@ -133,7 +143,11 @@
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="Pages-Universities\result display.aspx" />
+
+    <Content Include="test.aspx" />
+
     <Content Include="tarek\java script\java.js" />
+
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -151,6 +165,7 @@
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Class\C_HireMe.cs" />
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -257,6 +272,13 @@
     </Compile>
     <Compile Include="Pages-Universities\result display.aspx.designer.cs">
       <DependentUpon>result display.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
