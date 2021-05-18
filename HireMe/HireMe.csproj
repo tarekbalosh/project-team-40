@@ -73,25 +73,12 @@
     <Content Include="Css\StyleMob1.css" />
     <Content Include="Css\StyleMob2.css" />
     <Content Include="Css\StyleMob3.css" />
-    <Content Include="HTML\Style-Ahmed.css" />
-    <Content Include="HTML\StyleMob1.css" />
-    <Content Include="HTML\StyleMob2.css" />
-    <Content Include="HTML\StyleMob3.css" />
     <Content Include="js\icons.js" />
     <Content Include="Pages-Universities\administration university.aspx" />
-<<<<<<< HEAD
-    <Content Include="HTML\style.css" />
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
-=======
-
-    <Content Include="HTML\style.css" />
-
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
-    <Content Include="Css\Style-Ahmed.css" />
-    <Content Include="Css\style.css" />
->>>>>>> 98eb98e10fda92043c1ce2eeb3d8ae0654e08486
     <Content Include="Css\Style2-Ahmed.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />

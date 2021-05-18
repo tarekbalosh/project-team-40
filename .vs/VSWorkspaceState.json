@@ -2,12 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\HireMe",
-    "\\HireMe\\Css",
-    "\\HireMe\\Pages-Ministry"
+    "\\HireMe\\HTML"
   ],
-<<<<<<< HEAD
-  "SelectedNode": "\\HireMe.sln",
-=======
->>>>>>> 98eb98e10fda92043c1ce2eeb3d8ae0654e08486
+  "SelectedNode": "\\HireMe\\HireMe.csproj",
   "PreviewInSolutionExplorer": false
 }
