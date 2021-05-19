@@ -69,12 +69,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css\AhmedBasic - Copy.css" />
-    <Content Include="HTML\Style-Ahmed.css" />
-    <Content Include="HTML\StyleMob1.css" />
-    <Content Include="HTML\StyleMob2.css" />
-    <Content Include="HTML\StyleMob3.css" />
+    <Content Include="Pages-Ministry\CSS\Style1-Ahmed.css" />
+    <Content Include="Pages-Ministry\CSS\StyleMob1.css" />
+    <Content Include="Pages-Ministry\CSS\StyleMob2.css" />
+    <Content Include="Pages-Ministry\CSS\StyleMob3.css" />
+    <Content Include="js\icons.js" />
+    <Content Include="Pages-Graduates\Sign-in-Gradutes.aspx" />
     <Content Include="Pages-Universities\administration university.aspx" />
+<<<<<<< HEAD
 
     <Content Include="HTML\style.css" />
 
@@ -84,6 +86,13 @@
     <Content Include="Css\style.css" />
 
     <Content Include="Css\Style2-Ahmed.css" />
+=======
+    <Content Include="Pages-Universities\create account university.aspx" />
+    <Content Include="Pages-Universities\information input.aspx" />
+    <Content Include="Pages-Universities\create account university.aspx" />
+    <Content Include="Pages-Universities\information input.aspx" />
+    <Content Include="Pages-Ministry\CSS\Style2-Ahmed.css" />
+>>>>>>> 809aa6b3b4cdedb6a36b94901f37d335c8e49228
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
     <Content Include="Font\fontawesome-webfont.svg" />
@@ -110,16 +119,15 @@
     <Content Include="control admin.aspx" />
     <Content Include="image\white4.jpg" />
     <Content Include="js\file.js" />
-    <Content Include="js\icons.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\npm.js" />
     <Content Include="main page.aspx" />
     <Content Include="Pages-Ministry\Add-Condition.aspx" />
     <Content Include="Pages-Ministry\Add-Vacancy.aspx" />
     <Content Include="Pages-Ministry\All-View.aspx" />
-    <Content Include="Pages-Ministry\Create-Account.aspx" />
+    <Content Include="Pages-Ministry\Create-Account-Ministry.aspx" />
     <Content Include="Pages-Ministry\Name_ID.txt" />
-    <Content Include="Pages-Ministry\Sign-in.aspx" />
+    <Content Include="Pages-Ministry\Sign-in-Ministry.aspx" />
     <Content Include="Pages-Ministry\Update-Condition.aspx" />
     <Content Include="Pages-Ministry\Update-Vacancy.aspx" />
     <Content Include="Pages-Universities\page-admin.aspx" />
@@ -135,6 +143,7 @@
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="Pages-Universities\result display.aspx" />
+    <Content Include="test.aspx" />
     <Content Include="tarek\java script\java.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -152,6 +161,14 @@
     </Compile>
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\C_HireMe.cs" />
+    <Compile Include="Pages-Graduates\Sign-in-Gradutes.aspx.cs">
+      <DependentUpon>Sign-in-Gradutes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Graduates\Sign-in-Gradutes.aspx.designer.cs">
+      <DependentUpon>Sign-in-Gradutes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
@@ -210,19 +227,19 @@
     <Compile Include="Pages-Ministry\All-View.aspx.designer.cs">
       <DependentUpon>All-View.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages-Ministry\Create-Account.aspx.cs">
-      <DependentUpon>Create-Account.aspx</DependentUpon>
+    <Compile Include="Pages-Ministry\Create-Account-Ministry.aspx.cs">
+      <DependentUpon>Create-Account-Ministry.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages-Ministry\Create-Account.aspx.designer.cs">
-      <DependentUpon>Create-Account.aspx</DependentUpon>
+    <Compile Include="Pages-Ministry\Create-Account-Ministry.aspx.designer.cs">
+      <DependentUpon>Create-Account-Ministry.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages-Ministry\Sign-in.aspx.cs">
-      <DependentUpon>Sign-in.aspx</DependentUpon>
+    <Compile Include="Pages-Ministry\Sign-in-Ministry.aspx.cs">
+      <DependentUpon>Sign-in-Ministry.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages-Ministry\Sign-in.aspx.designer.cs">
-      <DependentUpon>Sign-in.aspx</DependentUpon>
+    <Compile Include="Pages-Ministry\Sign-in-Ministry.aspx.designer.cs">
+      <DependentUpon>Sign-in-Ministry.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Ministry\Update-Condition.aspx.cs">
       <DependentUpon>Update-Condition.aspx</DependentUpon>
@@ -259,6 +276,13 @@
     </Compile>
     <Compile Include="Pages-Universities\result display.aspx.designer.cs">
       <DependentUpon>result display.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -316,8 +340,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Css\" />
     <Folder Include="Pages-Admin\" />
-    <Folder Include="Pages-Graduates\" />
+    <Folder Include="Pages-Graduates\CSS\" />
     <Folder Include="tarek\page asp\" />
     <Folder Include="tarek\page html\" />
   </ItemGroup>

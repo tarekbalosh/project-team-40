@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "\\HireMe",
     "\\HireMe\\Pages-Ministry"
+=======
+    "",
+    "\\HireMe",
+    "\\HireMe\\Css"
+>>>>>>> 809aa6b3b4cdedb6a36b94901f37d335c8e49228
   ],
   "PreviewInSolutionExplorer": false
 }

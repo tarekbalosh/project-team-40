@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Create-Account.aspx.cs" Inherits="HireMe.Pages_Ministry.Create_Account" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Create-Account-Ministry.aspx.cs" Inherits="HireMe.Pages_Ministry.Create_Account" %>
 
 <!DOCTYPE html>
 
@@ -8,6 +8,7 @@
 
     <title>Create-Account-Ministry</title>
 
+<<<<<<< HEAD:HireMe/Pages-Ministry/Create-Account.aspx
 
     <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
 
@@ -16,6 +17,12 @@
     <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
     <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
 
+=======
+   <link href="CSS/Style1-Ahmed.css" rel="stylesheet" />
+    <link href="CSS/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="CSS/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="CSS/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+>>>>>>> 809aa6b3b4cdedb6a36b94901f37d335c8e49228:HireMe/Pages-Ministry/Create-Account-Ministry.aspx
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -152,14 +159,11 @@
                     <div class="post-footer">
                         <p class="title-footer">جميع حقوق محفوظة لموقع مفاضلة المهندسين الالكترونية - 2021</p>
                     </div>
-                </footer>
-    
-                <script src="../js/icons.js"></script>
-    
-
+                </footer>                    
         </div>
     </form>
 
+    <script src="../js/icons.js"></script>
 </body>
 
 </html>

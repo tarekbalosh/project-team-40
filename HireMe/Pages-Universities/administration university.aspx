@@ -18,8 +18,11 @@
     <link href="../tarek/css/media.css" rel="stylesheet" />
     <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
 </head>
+<<<<<<< HEAD
+=======
     
 
+>>>>>>> 54a69908dbbffaab798225477fb7736b804c2d1f
     
 <body>
     <form id="form1" runat="server">

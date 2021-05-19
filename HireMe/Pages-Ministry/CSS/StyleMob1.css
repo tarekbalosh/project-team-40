@@ -2,7 +2,8 @@
     font-size: 95%;
     line-height: 1;
 }
-.body{
+
+.body {
     margin: 10px auto;
     width: 90%;
 }
@@ -11,61 +12,75 @@
     height: 200px;
     border: 2px solid white;
 }
+
 .mainHeader nav ul {
     width: 100%;
     padding: 0;
     margin: 0 auto;
 }
+
 .mainHeader a:link, a:visited {
     display: block;
     border-radius: 3px;
 }
 /*----------------------MAIN-------------------------*/
 .mainContent {
-    width: 100%; 
-    float: none;   
+    width: 100%;
+    float: none;
 }
+
 .title-post {
     width: 90%;
     font-size: 40px;
     border-bottom: 4px solid #193783d0;
 }
+
 .post-document {
     width: 70%;
 }
+
 .title-login {
     font-size: 25px;
     margin: 40px 70px 40px 0;
 }
+
 .title-input {
     font-size: 17px;
 }
+
 .icon {
     font-size: 20px;
 }
+
 .input {
     font-size: 22px;
     border-bottom: 2px solid #2d2e2e;
 }
-.input + .span-bottom {
-    height: 3px;
-}
-.post-document p{
+
+    .input + .span-bottom {
+        height: 3px;
+    }
+
+.post-document p {
     font-size: 18px;
 }
+
 .post-document p i {
     margin-right: 5px;
-     font-size: 22px;
+    font-size: 22px;
 }
+
 .icon-btn {
     font-size: 15px;
 }
+
 .btn {
     margin: 25px auto;
 }
-.button {    
+
+.button {
     font-size: 15px;
-    border: 3px solid #193783;    
+    border: 3px solid #193783;
 }
 /*----------------------SIDE-------------------------*/
 .mainSide {
@@ -106,3 +121,4 @@
     line-height: 2;
     padding: 10px;
 }
+

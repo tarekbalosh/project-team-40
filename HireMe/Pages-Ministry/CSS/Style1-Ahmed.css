@@ -15,14 +15,15 @@ a {
     text-decoration: none;
 }
 
-a:link, a:visited {
-    color: #95afc0;
-}
+ a:link, a:visited {
+     color: #95afc0;
+ }
 
-a:hover, a:active {
-    color: #4834d4;
-}
+ a:hover, a:active {
+     color: #4834d4;
+ }
 
+/*-------------------------------------------------Orginal--------------------------------------------------*/
 .body {
     margin: 15px auto;
     width: 70%;
@@ -73,11 +74,11 @@ a:hover, a:active {
 .mainContent {
     width: 70%;
     height: 100%;
-    float: right;    
+    float: right;
 }
 
 .top-Content {
-    background-image: url('../image/white4.jpg');
+    background-image: url('/image/white4.jpg');
     padding: 3.28%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -90,6 +91,10 @@ a:hover, a:active {
     margin: 0 auto;
     align-items: center;
     transition: .4s;
+}
+
+.post-document p{
+    font-size: 20px;
 }
 
 .title-post {
@@ -106,7 +111,7 @@ a:hover, a:active {
     margin: 60px 100px 40px 0;
 }
 
-.title-btnCreate{
+.title-btnCreate {
     font-size: 25px;
 }
 
@@ -133,9 +138,9 @@ a:hover, a:active {
     border-bottom: 3px solid #2d2e2e;
 }
 
-.input:focus {
-    outline: none;
-}
+    .input:focus {
+        outline: none;
+    }
 
 section > div {
     position: relative;
@@ -181,12 +186,12 @@ section > div {
     transition: .4s;
 }
 
-.button:hover, .button:focus {
-    background-color: #193783;
-    color: white;
-    border-radius: 20px;
-    cursor: pointer;
-}
+    .button:hover, .button:focus {
+        background-color: #193783;
+        color: white;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 
 /*----------------------SIDE-------------------------*/
 .mainSide {
