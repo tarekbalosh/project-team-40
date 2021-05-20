@@ -76,7 +76,7 @@ a:hover, a:active {
 }
 
 .top-Content {
-    background-image: url('../image/white4.jpg');
+    background-image: url('/image/white4.jpg');
     padding: 3.28%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
