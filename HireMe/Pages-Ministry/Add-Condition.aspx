@@ -7,7 +7,7 @@
 
     <title>Add-Condition</title>
 
-    <link href="CSS/Style2-Ahmed.css" rel="stylesheet" />
+    <link href="CSS/Style2-Ministry.css" rel="stylesheet" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

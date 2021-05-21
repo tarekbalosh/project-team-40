@@ -7,7 +7,9 @@
 <head runat="server">
 
     <title>Add-Vacancy</title>
-    <link href="../Css/Style2-Ahmed.css" rel="stylesheet" />
+
+    <link href="CSS/Style2-Ministry.css" rel="stylesheet" />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,8 +45,7 @@
 
                     <section class="post-document">
 
-                        <div class="post-form">
-                            <%--<span class="icon"><i class="fas fa-user"></i></span>--%>
+                        <div class="post-form">                            
                             <span class="title-input">الأختصاص : </span>
                             <asp:DropDownList ID="name_specialization_new" CssClass="drop_type" runat="server" OnSelectedIndexChanged="name_specialization_new_SelectedIndexChanged"></asp:DropDownList>                                
                             <span class="span-bottom"></span>
@@ -53,7 +54,7 @@
                         <br />
 
                         <div class="post-form">
-                            <span class="title-input">النوع : </span>
+                            <span class="title-input" style="padding-left:50px;">النوع : </span>
                             <asp:DropDownList ID="type_specialization_new" CssClass="drop_type" runat="server">
                                 <asp:ListItem Value="educational">تدريسي</asp:ListItem>
                                 <asp:ListItem Value="Administration"> إداري</asp:ListItem>

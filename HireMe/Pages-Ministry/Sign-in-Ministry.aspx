@@ -8,10 +8,10 @@
 
     <title>Sign-in-Ministry</title>
 
-    <link href="CSS/Style1-Ahmed.css" rel="stylesheet" />
-    <link href="CSS/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
-    <link href="CSS/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
-    <link href="CSS/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+    <link href="CSS/Style1-Ministry.css" rel="stylesheet" />
+    <link href="CSS/StyleMob1-M.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="CSS/StyleMob2-M.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="CSS/StyleMob3-M.css" rel="stylesheet" media="screen and (max-width:380px)" />
    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

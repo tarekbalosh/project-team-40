@@ -69,18 +69,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages-Ministry\CSS\Style1-Ahmed.css" />
-    <Content Include="Pages-Ministry\CSS\StyleMob1.css" />
-    <Content Include="Pages-Ministry\CSS\StyleMob2.css" />
-    <Content Include="Pages-Ministry\CSS\StyleMob3.css" />
+    <Content Include="image\text-hire-me.png" />
+    <Content Include="Pages-Graduates\CSS\Style1-Gradute.css" />
+    <Content Include="Pages-Graduates\Desires-Gradute.aspx" />
+    <Content Include="Pages-Ministry\CSS\Style1-Ministry.css" />
+    <Content Include="Pages-Ministry\CSS\StyleMob1-M.css" />
+    <Content Include="Pages-Ministry\CSS\StyleMob2-M.css" />
+    <Content Include="Pages-Ministry\CSS\StyleMob3-M.css" />
     <Content Include="js\icons.js" />
-    <Content Include="Pages-Graduates\Sign-in-Gradutes.aspx" />
+    <Content Include="Pages-Graduates\Create-Account-Gradute.aspx" />
     <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
-    <Content Include="Pages-Ministry\CSS\Style2-Ahmed.css" />
+    <Content Include="Pages-Ministry\CSS\Style2-Ministry.css" />
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
     <Content Include="Font\fontawesome-webfont.svg" />
@@ -151,12 +154,19 @@
       <DependentUpon>Add_student.aspx</DependentUpon>
     </Compile>
     <Compile Include="Class\C_HireMe.cs" />
-    <Compile Include="Pages-Graduates\Sign-in-Gradutes.aspx.cs">
-      <DependentUpon>Sign-in-Gradutes.aspx</DependentUpon>
+    <Compile Include="Pages-Graduates\Create-Account-Gradute.aspx.cs">
+      <DependentUpon>Create-Account-Gradute.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages-Graduates\Sign-in-Gradutes.aspx.designer.cs">
-      <DependentUpon>Sign-in-Gradutes.aspx</DependentUpon>
+    <Compile Include="Pages-Graduates\Create-Account-Gradute.aspx.designer.cs">
+      <DependentUpon>Create-Account-Gradute.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Graduates\Desires-Gradute.aspx.cs">
+      <DependentUpon>Desires-Gradute.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Graduates\Desires-Gradute.aspx.designer.cs">
+      <DependentUpon>Desires-Gradute.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
@@ -330,7 +340,6 @@
   <ItemGroup>
     <Folder Include="Css\" />
     <Folder Include="Pages-Admin\" />
-    <Folder Include="Pages-Graduates\CSS\" />
     <Folder Include="tarek\page asp\" />
     <Folder Include="tarek\page html\" />
   </ItemGroup>

@@ -7,9 +7,18 @@ using System.Web.UI.WebControls;
 
 namespace HireMe.Pages_Graduates
 {
-    public partial class Sign_in_Gradutes : System.Web.UI.Page
+    public partial class Desires_Gradute : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void function_btn_Add_Desire(object sender, EventArgs e)
+        {
+
+        }
+        protected void function_btn_Remove_Desire(object sender, EventArgs e)
         {
 
         }
