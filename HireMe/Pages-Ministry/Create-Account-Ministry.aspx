@@ -8,10 +8,28 @@
 
     <title>Create-Account-Ministry</title>
 
+<<<<<<< HEAD
     <link href="CSS/Style1-Ministry.css" rel="stylesheet" />
     <link href="CSS/StyleMob1-M.css" rel="stylesheet" media="screen and (max-width:780px)" />
     <link href="CSS/StyleMob2-M.css" rel="stylesheet" media="screen and (max-width:580px)" />
     <link href="CSS/StyleMob3-M.css" rel="stylesheet" media="screen and (max-width:380px)" />
+=======
+<<<<<<< HEAD:HireMe/Pages-Ministry/Create-Account.aspx
+
+    <link href="../Css/AhmedBasic%20-%20Copy.css" rel="stylesheet" />
+
+    <link href="../Css/Style-Ahmed.css" rel="stylesheet" />
+    <link href="../Css/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="../Css/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="../Css/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+
+=======
+   <link href="CSS/Style1-Ahmed.css" rel="stylesheet" />
+    <link href="CSS/StyleMob1.css" rel="stylesheet" media="screen and (max-width:780px)" />
+    <link href="CSS/StyleMob2.css" rel="stylesheet" media="screen and (max-width:580px)" />
+    <link href="CSS/StyleMob3.css" rel="stylesheet" media="screen and (max-width:380px)" />
+>>>>>>> 809aa6b3b4cdedb6a36b94901f37d335c8e49228:HireMe/Pages-Ministry/Create-Account-Ministry.aspx
+>>>>>>> 24f260845b4033a501fd2b59a8945232d509656f
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />

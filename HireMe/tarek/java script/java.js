@@ -58,7 +58,7 @@ function show() {
     }
     else s.style.display = "none";
 }
-/* admin*/
+
 
 function mofad() {
     var y = document.getElementById("ch");
@@ -86,6 +86,7 @@ $(function () {
         $("label").css("color", "green");
     })
 });
+
 /*create account*/
 function confirmpassword() {
 

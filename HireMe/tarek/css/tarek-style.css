@@ -281,22 +281,6 @@
     margin-left: 170px;
 }
 
-.row .part2 {
-    background-color: #eee;
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 600px;
-    padding: 40px;
-    box-shadow: 20px 20px 50px black;
-}
-
-.l2 strong {
-    color: #808080;
-    font-size: 23px;
-    position: absolute;
-    left: 240px;
-    margin-bottom: 20px;
-}
 
 .l2 {
     width: 450px;
@@ -314,10 +298,7 @@ label sup {
     font-size: 12px;
 }
 
-.row label {
-    font-size: 16px;
-    font-weight: bold;
-}
+
 
 @media(max-width:767px) {
     .bag {
