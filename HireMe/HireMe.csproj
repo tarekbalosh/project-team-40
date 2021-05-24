@@ -79,7 +79,7 @@
     <Content Include="js\icons.js" />
     <Content Include="Pages-Graduates\Create-Account-Gradute.aspx" />
     <Content Include="Pages-Universities\administration university.aspx" />
-<<<<<<< HEAD
+
 
     <Content Include="HTML\style.css" />
 
@@ -89,17 +89,16 @@
     <Content Include="Css\style.css" />
 
     <Content Include="Css\Style2-Ahmed.css" />
-=======
+
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
-<<<<<<< HEAD
+
     <Content Include="Pages-Ministry\CSS\Style2-Ministry.css" />
-=======
+
     <Content Include="Pages-Ministry\CSS\Style2-Ahmed.css" />
->>>>>>> 809aa6b3b4cdedb6a36b94901f37d335c8e49228
->>>>>>> 24f260845b4033a501fd2b59a8945232d509656f
+
     <Content Include="Font\font-awesome.css" />
     <Content Include="Font\font-awesome.min.css" />
     <Content Include="Font\fontawesome-webfont.svg" />

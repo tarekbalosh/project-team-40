@@ -285,7 +285,6 @@ C:\HM\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
 C:\HM\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 C:\HM\HireMe\obj\Debug\HireMe.dll
 C:\HM\HireMe\obj\Debug\HireMe.pdb
-
 C:\HM\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
 E:\ProJect 40\Application\project-team-40\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
 E:\ProJect 40\Application\project-team-40\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
@@ -323,4 +322,3 @@ E:\ProJect 40\Application\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe.con
 E:\ProJect 40\Application\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\ProJect 40\Application\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\ProJect 40\Application\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete
-
