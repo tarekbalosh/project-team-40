@@ -53,3 +53,16 @@ function trans() {
     }
         r.style.display = "block";
 }
+var rom = 0;
+$(".arow").click(function () {
+    if (rom == 0) {
+        $(".inp").fadeIn(1000);
+        rom = 1;
+    }
+
+    else if (rom == 1)
+    {
+        $(".inp").fadeOut(1000);
+        rom = 0;
+    }
+});

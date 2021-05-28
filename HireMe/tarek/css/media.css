@@ -30,13 +30,23 @@
 /*admin*/
 @media(max-width:767px)
       {
-          .shooo{
-              width:350px;
-              animation:rifgttolift 1s ease-in-out;
-              position:relative;
-               top: 0px;
-               left: 20px;
-          }
+    /*HOME*/
+        .cont .hbt1
+       {
+         position:relative;
+         bottom:100px;
+         
+       }
+       body{
+           background-color:red;
+       }
+        .shooo {
+            width: 350px;
+            animation: rifgttolift 1s ease-in-out;
+            position: relative;
+            top: 0px;
+            left: 20px;
+        }
           
           .item{
               position:relative;

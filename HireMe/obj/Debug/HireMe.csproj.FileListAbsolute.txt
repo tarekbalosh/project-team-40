@@ -175,7 +175,6 @@ D:\pro\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 D:\pro\HireMe\obj\Debug\HireMe.dll
 D:\pro\HireMe\obj\Debug\HireMe.pdb
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\BORHAN\source\repos\project-team-40\HireMe\bin\HireMe.dll.config
 C:\Users\BORHAN\source\repos\project-team-40\HireMe\bin\HireMe.dll
 C:\Users\BORHAN\source\repos\project-team-40\HireMe\bin\HireMe.pdb
@@ -214,7 +213,6 @@ C:\Users\BORHAN\source\repos\project-team-40\HireMe\obj\Debug\HireMe.dll
 C:\Users\BORHAN\source\repos\project-team-40\HireMe\obj\Debug\HireMe.pdb
 =======
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
-=======
 >>>>>>> fe0d3113aebbbce9b09629c421c30d8d3a35b77e
 C:\Users\moham\Source\Repos\project-team-40\HireMe\bin\HireMe.dll.config
 C:\Users\moham\Source\Repos\project-team-40\HireMe\bin\HireMe.dll
@@ -252,10 +250,43 @@ C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CoreC
 C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete
 C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.dll
 C:\Users\moham\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.pdb
-<<<<<<< HEAD
 >>>>>>> de76d6d699cee0da3bb3d5be8d82f736453f8e8b
-=======
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\HP 1068\Source\Repos\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete
->>>>>>> fe0d3113aebbbce9b09629c421c30d8d3a35b77e
+C:\project-team-40\HireMe\bin\HireMe.dll.config
+C:\project-team-40\HireMe\bin\HireMe.dll
+C:\project-team-40\HireMe\bin\HireMe.pdb
+C:\project-team-40\HireMe\bin\roslyn\csc.exe
+C:\project-team-40\HireMe\bin\roslyn\csc.exe.config
+C:\project-team-40\HireMe\bin\roslyn\csc.rsp
+C:\project-team-40\HireMe\bin\roslyn\csi.exe
+C:\project-team-40\HireMe\bin\roslyn\csi.rsp
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\project-team-40\HireMe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\project-team-40\HireMe\bin\roslyn\System.AppContext.dll
+C:\project-team-40\HireMe\bin\roslyn\System.Collections.Immutable.dll
+C:\project-team-40\HireMe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\project-team-40\HireMe\bin\roslyn\System.IO.FileSystem.dll
+C:\project-team-40\HireMe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\project-team-40\HireMe\bin\roslyn\System.Reflection.Metadata.dll
+C:\project-team-40\HireMe\bin\roslyn\vbc.exe
+C:\project-team-40\HireMe\bin\roslyn\vbc.exe.config
+C:\project-team-40\HireMe\bin\roslyn\vbc.rsp
+C:\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe
+C:\project-team-40\HireMe\bin\roslyn\VBCSCompiler.exe.config
+C:\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\project-team-40\HireMe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\project-team-40\HireMe\obj\Debug\HireMe.csprojAssemblyReference.cache
+C:\project-team-40\HireMe\obj\Debug\HireMe.csproj.CoreCompileInputs.cache
+C:\project-team-40\HireMe\obj\Debug\HireMe.csproj.CopyComplete
+C:\project-team-40\HireMe\obj\Debug\HireMe.dll
+C:\project-team-40\HireMe\obj\Debug\HireMe.pdb

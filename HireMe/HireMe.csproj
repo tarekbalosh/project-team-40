@@ -72,6 +72,7 @@
     <Content Include="Css\StyleMob3.css" />
     <Content Include="Css\StyleMob2.css" />
     <Content Include="Css\StyleMob1.css" />
+    <Content Include="Pages-Admin\HOME.aspx" />
     <Content Include="Pages-Universities\administration university.aspx" />
     <Content Include="Pages-Universities\create account university.aspx" />
     <Content Include="Pages-Universities\information input.aspx" />
@@ -126,6 +127,7 @@
     <Content Include="tarek\fontawesome\css\font-awesome.min.css" />
     <Content Include="tarek\fontawesome\fonts\fontawesome-webfont.svg" />
     <Content Include="tarek\images\casing.jpg" />
+    <Content Include="tarek\images\ph1.png" />
     <Content Include="tarek\java script\bootstrap.min.js" />
     <Content Include="tarek\java script\jquery.js" />
     <Content Include="tarek\java script\js.js" />
@@ -146,6 +148,13 @@
     </Compile>
     <Compile Include="Add_student.aspx.designer.cs">
       <DependentUpon>Add_student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages-Admin\HOME.aspx.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages-Admin\HOME.aspx.designer.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages-Universities\administration university.aspx.cs">
       <DependentUpon>administration university.aspx</DependentUpon>
@@ -303,7 +312,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages-Admin\" />
     <Folder Include="Pages-Graduates\" />
     <Folder Include="tarek\page asp\" />
     <Folder Include="tarek\page html\" />

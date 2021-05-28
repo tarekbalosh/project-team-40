@@ -549,5 +549,87 @@ body {
         font-size: 17px;
     }
 }
+/*HOME*/
+.navhome {
+    background-color: #193783d0;
+    padding:4px;
+    direction:rtl;
+}
+@keyframes deferent
+{
+    0%{
+        color:red;
+        position:relative;
+        left:3px;
+    }
+    50% {
+        color: gold;
+        position: relative;
+        left: 0px;
+    }
+    100% {
+        color: lightblue;
+        position: relative;
+        left: 2px;
+    }
+}
+.col-xs-12 .arow
+{
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    border:solid 1px white;
+    padding:3px;
+    cursor:pointer;
+    animation:deferent 1s ease-in-out infinite;
+}
+.inp{
+    display:none;
+}
+.dhome {
+    background-image: url('../images/ph1.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+     height:1000px;
+}
+.bghome {
+    background-color: #eee;
+    opacity: 0.6;
+    height: 1000px;
+    
+}
+.cont 
+{
+   padding-top: 400px;
+    animation: sheap 2s ease-in-out;
+}
+.bghome .bttn
+{ 
+   text-align:center;
+   font-weight:bolder;
+   background:black;
+   color:white;
+   padding:10px 60px;
+   font-size:20px; 
+}
+@keyframes sheap
+{
+    0%{
+        position:relative;
+        top:500px;
+         
+    }
+    100%{
+        position:relative;
+        top:0px;
+      
+    }
+}
+.bghome .bttn:hover
+{
+  border-radius:200px;
+  background:darkblue;
+  
 
+}
 
