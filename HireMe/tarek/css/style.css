@@ -577,15 +577,14 @@ body {
 {
     color:white;
     font-weight:bold;
-    font-size:16px;
-    border:solid 1px white;
+    font-size:20px;
+ 
+   position:relative;
     padding:3px;
     cursor:pointer;
     animation:deferent 1s ease-in-out infinite;
 }
-.inp{
-    display:none;
-}
+
 .dhome {
     background-image: url('../images/ph1.png');
     background-size:contain;
@@ -600,7 +599,7 @@ body {
 }
 .cont 
 {
-   padding-top: 400px;
+   padding-top: 300px;
     animation: sheap 2s ease-in-out;
 }
 .bghome .bttn
@@ -610,16 +609,23 @@ body {
    background:black;
    color:white;
    padding:10px 60px;
-   font-size:20px; 
+   font-size:25px; 
+}
+
+.navhome .inp{
+    padding-right:50px;
+  
 }
 @keyframes sheap
 {
     0%{
         position:relative;
-        top:500px;
+        top:-300px;
+        opacity:0;
          
     }
     100%{
+        opacity:1;
         position:relative;
         top:0px;
       

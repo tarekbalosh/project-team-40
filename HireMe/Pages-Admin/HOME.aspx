@@ -22,10 +22,10 @@
        
             <div class="row navhome">
                 <div class="col-xs-12">
-                    <span class="arow">></span>
+                    <span class="arow"><i class="fa fa-user "></i></span>
                     <button class="btn btn-default inp">تسجيل الدخول</button>
                 </div>
-            </div><br />
+            </div>
          <div class="text-center dhome">
              <div class="bghome">
                <div class="cont">
