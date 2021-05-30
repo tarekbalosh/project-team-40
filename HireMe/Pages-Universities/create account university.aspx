@@ -9,10 +9,29 @@
       <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
       <link href="../tarek/css/animationn.css" rel="stylesheet" />
       <link href="../tarek/css/media.css" rel="stylesheet" />
-      <link href="../tarek/css/style.css" rel="stylesheet" />
+      <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
     <style>
-    
-        
+    .row .part2
+    {
+      background-color: #eee;  
+      box-shadow:2px 2px 20px olive;
+      margin:auto;
+      margin-top:30px;
+    }
+
+.part2 p
+{
+    color: #808080;
+    font-size: 27px;
+    font-weight:bolder;
+    margin-bottom: 20px;
+}
+.row label 
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+       
     </style>
 </head>
 <body>
@@ -22,21 +41,18 @@
             <img class="img-responsive" src="../tarek/images/casing.jpg" />
             
         </div>
-          <div class="container">
+       
                 <div class="row">
                
-                    <span class="brand" id="hir">Hire-Me</span>
-
-                        <ul class="navbar-nav home">
-                            <li class="nav-item">
-                                <a class="nav-link move" href="#">Home</a> <i class="fa fa-home fa-md" style="color:grey"></i>
-                            </li>
-                        </ul>
+                <div class="col-xs-12 ministryhome" dir="rtl">
+                     <span class="span1" runat="server">الصفحة الرئيسية</span>
+                     <span class="span2" runat="server"> H I R E_ M E</span>               
+               </div>
                 
                     <br /><br />
-                     <div class="col-xs-12 col-md-6 part2 ">
-                  <div class="l2">
-                      <strong>إنشاء حساب الجامعة </strong><br /><br />
+                <div class="col-xs-12">
+                  <div class="part2 text-center">
+                      <p class="text-center"> إنشاء حساب الجامعة </p><br />
                       <form class="form1">
                           <label>الإسم<sup>*</sup></label><br />
                           <input type="text" required="required" class="form-control" /><br /><br />
@@ -53,62 +69,21 @@
                       </form>
                   </div>
               </div>
-                    </div>
-               
-            </div>
-
-    </div>
+                    </div>               
+              </div>
              <br />
     </form>
+    <script src="../tarek/java%20script/bootstrap.min.js"></script>
+    <script src="../tarek/java%20script/jquery.js"></script>
+    <script src="../tarek/java%20script/java.js"></script>
     <script>
-    function confirmpassword() {
-
-    var email = document.getElementById("email").value,
-        pas1 = document.getElementById("pa1").value,
-        pas2 = document.getElementById("pa2").value;
-    let E = 0, v;
-   
-  
-    for (var i = 0; i <= email.length; i++)
-    {
-       
-        if (email[i] == '@')
+        $(".part2 input").focus(function () {
+            $(".row label").css("color", "green");
+        });
+        $(".part2 input").blur(function ()
         {
-            E++;
-        }
-        if (email[email.length - 1] == '@')
-        {
-            v = 0;
-        }
-       
-    }
-    if (email == "") {
-        return;
-    }
-    else if(email != " ")
-    {
-        if (E > 1) {
-            alert("you should one @  only >>" + "  " + email);
-        }
-        if (E == 0) {
-            alert("you should add @ >>" + "  " + email);
-        }
-
-        if (v == 0) {
-            alert("you should add text after  @  >>" + "  " + email);
-
-        }
-
-    }     
-    if (pas1 != pas2)
-    {
-        alert("error in password");
-        
-        
-
-    }
-      
-        }
-        </script>
+            $(".row label").css("color", "black");
+        })
+    </script>
 </body>
 </html>

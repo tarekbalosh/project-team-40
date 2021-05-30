@@ -1,0 +1,249 @@
+﻿@font-face {
+    font-family: myFont;
+    src: url('/Font/GE_SS_Two_Bold.otf');
+}
+
+body {
+    background-image: url('/image/blue1.jpg');
+    color: #2d2e2e;
+    font-size: 90%;
+    font-family: myFont;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #95afc0;
+}
+
+a:hover, a:active {
+    color: #4834d4;
+}
+
+/*-------------------------------------------------Orginal--------------------------------------------------*/
+.body {
+    margin: 15px auto;
+    width: 70%;
+    clear: both;
+}
+/*----------------------HEADER-------------------------*/
+.mainHeader img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.mainHeader nav {
+    background-color: #193783d0;
+    height: 49px;
+    margin: 1% auto;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.mainHeader nav ul {
+    text-align: center;
+    list-style: none;
+    margin: -1px auto;
+}
+
+.mainHeader nav ul li {
+    display: inline;
+}
+
+.mainHeader a:link, a:visited {
+    color: white;
+    padding: 10px 90px;
+    display: inline-block;
+    height: 30px;
+    font-size: 20px;
+}
+
+.mainHeader a:hover, a:active {
+    color: rgb(255, 255, 255);
+    background-color: #3755a1;
+    transition: .4s;
+}
+
+
+/*----------------------MAIN-------------------------*/
+.mainContent {
+    width: 100%;
+    height: 100%;
+}
+
+.top-Content {
+    background-image: url('/image/white4.jpg');
+    padding: 3.28%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: .4s;
+}
+
+.post-document {
+    width: 70%;
+    margin: 0 auto;    
+    transition: .4s;
+}
+
+.colume1{
+    width:40%;
+    float:right;
+}
+.colume2{
+    width:40%;
+    float:left;
+}
+
+
+.title-post {
+    font-size: 55px;
+    text-align:center;
+    border-bottom: 6px solid #193783d0;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.title-login {
+    font-size: 30px;
+    text-align: right;
+    margin: 60px 100px 40px 0;
+}
+
+.icon {
+    color: #193783d0;
+    font-size: 26px;
+    margin-left: 15px;
+}
+
+.title-input {
+    text-align: right;
+    font-size: 22px;
+}
+
+.drop_level {
+    width: 100%;
+    padding: 5px 0px;
+    margin-top:10px;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    background: none;
+    color: #193783;
+    font-family: myFont;
+    border: 3px solid #2d2e2e;
+    border-radius: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom:10%;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #193783;
+    direction: ltr;
+    border: none;
+    background: none;
+    border-bottom: 3px solid #2d2e2e;
+}
+
+.input:focus {
+    outline: none;
+}
+
+div > div {
+    position: relative;
+}
+
+.input + .span-bottom {
+    position: absolute;
+    margin-bottom:10%;
+    bottom: 0px;
+    left: 50%;
+    background-color: #193783;
+    width: 0%;
+    height: 5px;
+    transition: .4s;
+}
+
+.input:focus + .span-bottom {
+    left: 0;
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button {
+    width: 25%;
+    font-size: 20px;
+    font-family: myFont;
+    color: #2d2e2e;
+    padding: 5px;
+    margin-top:5%;
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    box-shadow: none;
+    border: 4px solid #193783;
+    transition: .4s;
+}
+
+.button:hover, .button:focus {
+    background-color: #193783;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.icon-btn {
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.drop-desire {
+    width: 90%;
+    height:100%;
+    font-size: 20px;
+    margin-right:5%;
+    outline: none;
+    text-align: center;
+    background: none;
+    color: #193783;
+    font-family: myFont;
+    border: 3px solid #2d2e2e;
+    border-radius: 5px;
+}
+/*----------------------FOOTER-------------------------*/
+.footer {
+    background-color: #193783d0;
+    width: 100%;
+    height: 125px;
+    margin: 10px auto;
+    float: right;
+    border: 3px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.post-footer {
+    text-align: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.title-footer {
+    font-size: 25px;
+    color: white;
+    word-spacing: 10px;
+}

@@ -1,0 +1,43 @@
+﻿/*----------------------HEADER-------------------------*/
+.mainHeader a:link, a:visited {
+    font-size: 13px;
+    padding: 8px 30px;
+    padding-top: 12px;
+}
+
+/*----------------------MAIN-------------------------*/
+.title-post {
+    width: 95%;
+    font-size: 30px;
+}
+
+.post-document {
+    width: 85%;
+}
+
+.title-login {
+    font-size: 20px;
+}
+
+.title-input {
+    font-size: 13px;
+}
+
+.icon {
+    font-size: 15px;
+}
+
+.input {
+    font-size: 16px;
+}
+
+/*----------------------SIDE-------------------------*/
+.title-side {
+    font-size: 18px;
+    width: 60%;
+}
+
+/*----------------------FOOTER-------------------------*/
+.title-footer {
+    font-size: 15px;
+}

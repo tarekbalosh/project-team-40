@@ -148,7 +148,6 @@ namespace monta
             {
                 das.close_connection();
             }
-          
         }
     }
 }

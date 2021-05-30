@@ -1,40 +1,20 @@
-<<<<<<< HEAD:HireMe/Pages-Universities/information input.aspx
+
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="information input.aspx.cs" Inherits="project_40.information_input" %>
-=======
+
 ﻿<!DOCTYPE HTML>
 <html lang="ar" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> input information </title>
-    
-    <link rel="stylesheet" href="../css/animationn.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/media.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <style>
-        
->>>>>>> dc16eec13dca4dc06c4e7d4632d898b93dea6d4d:HireMe/tarek/page html/input information.html
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head runat="server">
-     <meta charset="UTF-8"/>
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title> information input</title>
-     
-      <link href="../tarek/fontawesome/css/font-awesome.css" rel="stylesheet" />
-      <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
-      <link href="../tarek/css/animationn.css" rel="stylesheet" />
-      <link href="../tarek/css/media.css" rel="stylesheet" />
-      <link href="../tarek/css/style.css" rel="stylesheet" />
-        <style>
-    .row .brand
-     {
-             margin-left:160px;
-     }
-    
+    <title> input information </title>    
+    <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
+    <link href="../tarek/css/media.css" rel="stylesheet" />
+    <link href="../tarek/css/animationn.css" rel="stylesheet" />
+   
+
+    <style>
+       
     </style>
   </head>
 <body>
@@ -44,17 +24,15 @@
             <img class="img-responsive" src="../tarek/images/casing.jpg" />
             
         </div>
- <div class="container">
+          <div class="container">
                 <div class="row">
                    
-                    <span class="brand" id="hir">Hire-Me</span>
-
-                        <ul class="navbar-nav home">
-                            <li class="nav-item">
-                                <a class="nav-link move" href="#">Home</a> <i class="fa fa-home fa-md" style="color:grey"></i>
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="col-xs-12 ministryhome" dir="rtl">
+                <span class="span1" runat="server">الصفحة الرئيسية</span>
+                <span class="span2" runat="server"> H I R E_ M E</span>
+                
+            </div>
+                </div>
                
             </div><br />
         <div class="containt text-center" runat="server">
@@ -130,7 +108,7 @@
 
         <script src="../tarek/java%20script/jquery.js"></script>
         <script src="../tarek/java%20script/bootstrap.min.js"></script>
-        <script src="../tarek/java%20script/js.js"></script>
+        <script src="../tarek/java%20script/java.js"></script>
     </form>
 </body>
 </html>

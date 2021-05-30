@@ -1,0 +1,1257 @@
+﻿
+
+.brand {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: Gigi;
+    animation: hireme 1s ease-in infinite;
+}
+
+.home {
+    direction: rtl;
+    margin-left: 80%;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.move:hover {
+    animation: home 1s ease-in-out;
+    text-decoration: none;
+}
+
+
+.la {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sel1:focus {
+    animation: select 1s ease-in-out;
+}
+
+.sel1 {
+    width: 200px;
+    margin: auto;
+    border: none;
+    border-color: #eee;
+    background: #eee;
+    border-bottom: solid 1px #0026ff;
+    color: darkblue;
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.containt {
+    background-color: #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.select1, .select2 {
+    display: inline-block;
+    width: 150px;
+    border-color: darkblue;
+}
+
+.bag {
+    background-color: azure;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-color: darkblue;
+    animation: check 2s ease-in-out;
+}
+
+
+.d1, .d2, .d3 {
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+
+.bt1 {
+    padding: 3px 50px;
+    position: relative;
+    border-radius: 3px;
+    border-color: darkblue;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.d2 {
+    position: relative;
+    bottom: 50px;
+    opacity: 0;
+}
+
+.bt1:hover {
+    animation: hireme 1s ease-in;
+}
+
+.opt1 {
+    color: #4800ff;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn2 {
+    font-weight: bold;
+    padding: 4px 30px;
+    background-color: #eee;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+    .btn2:hover {
+        border-radius: 6px;
+        font-size: 15px;
+        color: white;
+        background-color: black;
+        border-color: #4800ff;
+    }
+/*//classes page display*/
+.res {
+    width: 500px;
+    height: 200px;
+    background-color: #808080;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding: 3px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.natega {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4800ff;
+}
+
+.long {
+    width: 300px;
+    margin: auto;
+}
+
+.bttn1 {
+    padding: 3px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+    .bttn1:hover {
+        opacity: 1;
+    }
+/*admion*/
+.count {
+    position: relative;
+    left: 50px;
+    margin-top: -20px;
+}
+.navbar-header .span2
+{
+    position:relative;
+    top:10px;
+}
+.task {
+    width: 400px;
+    direction: rtl;
+    text-align: center;
+    border-radius: 10px;
+    transform: translateX(100px);
+    animation: rifgttolift 1s ease-in-out;
+    display: inline-block;
+}
+
+.collapse .navbar-right li a:hover
+{
+    color:white;
+   
+}
+.maham:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.maham {
+    padding: 3px 30px;
+    font-weight: bold;
+    color: olive;
+    margin-bottom: 20px;
+}
+
+.sem {
+    width: 100%;
+    display: inline-block;
+}
+
+.offset {
+    opacity: 0;
+    width: 100px;
+}
+
+.cor:hover {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    right: 7px;
+}
+
+.sem:hover .offset {
+    opacity: 1;
+    animation: swap 1s ease-in-out;
+}
+
+.cor {
+    color: olive;
+    margin-right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shooo {
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+    left: 250px;
+    background-color: azure;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-color: darkblue;
+    text-align: center;
+    animation: mofadale 2s ease-in-out;
+}
+
+.bbt1 {
+    padding: 3px 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: darkblue;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    .bbt1:focus, .bbt1:hover {
+        animation: hireme 1s ease-in;
+        font-size: 17px;
+    }
+
+.bd2 {
+    opacity: 1;
+}
+
+.item {
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+    .item:hover {
+        background-color: black;
+        color: white;
+    }
+
+.bag:hover .d2 {
+    opacity: 1;
+    animation: check 1s ease-in-out;
+}
+
+.row .brand {
+    margin-left: 170px;
+}
+
+
+.l2 {
+    width: 450px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 60px;
+    height: 690px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+label sup {
+    color: blue;
+    font-size: 12px;
+}
+
+
+
+@media(max-width:767px) {
+    .bag {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .select1, .select2 {
+        width: 100px;
+    }
+
+    .bt1 {
+        width: 27px;
+        padding: 2px 5px;
+    }
+
+    .d2 {
+        width: 30px;
+    }
+
+    .res {
+        width: 200px;
+    }
+
+    .long {
+        width: 100px;
+    }
+
+    .home {
+        direction: rtl;
+        margin-left: 50%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .brand {
+        font-size: 20px;
+        position: relative;
+        right: 200px;
+    }
+}
+
+@media(width:280px) {
+    .brand {
+        font-size: 14px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .home {
+        direction: rtl;
+        margin-left: 80%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:579px) {
+
+    .true {
+        width: 115px;
+    }
+
+    .hid {
+        width: 270px;
+        position: relative;
+        margin: auto;
+        top: 170px;
+        right: 230px;
+    }
+
+        .hid:hover {
+            display: block;
+        }
+
+    .col-xs-4 .mang {
+        position: relative;
+        left: 10px;
+    }
+}
+
+.brand {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: Gigi;
+    animation: hireme 1s ease-in infinite;
+}
+
+/*@keyframes home {
+    0% {
+        color: red;
+        left: -2px;
+        position: relative;
+    }
+
+    25% {
+        color: blue;
+        left: 2px;
+        position: relative
+    }
+
+    75% {
+        color: green;
+        left: -1px;
+        position: relative
+    }
+
+    100% {
+        color: #4800ff;
+        left: 0px;
+        position: relative
+    }
+}*/
+
+@keyframes down {
+    0% {
+        height: 0px;
+        top: -20px;
+        position: relative;
+        padding-top: 0px;
+    }
+
+    100% {
+        top: 0px;
+        height: 160px;
+        position: relative;
+    }
+}
+
+@keyframes do {
+    0% {
+        position: relative;
+        left: -60px;
+    }
+
+    100% {
+        position: relative;
+        margin-left: 0px;
+    }
+}
+
+
+
+.navbar-right li {
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mov:hover {
+    /*animation: home 1s ease-in-out;*/
+}
+
+.btn-default {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .btn-default:hover {
+        border: 2px solid gray;
+    }
+
+.col-xs-4:hover .true {
+    animation: down 1s ease-in-out;
+}
+
+.true, .hid {
+    background-color: #eee;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: none;
+    height: 160px;
+    overflow: hidden;
+}
+
+    .true ul li {
+        line-height: 30px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        opacity: 0.9;
+        font-size: 15px;
+    }
+
+        .true ul li:hover {
+            margin-right: 10px;
+            font-size: 17px;
+            opacity: 1;
+        }
+
+        .true ul li a {
+            text-decoration: none;
+        }
+
+.r2, .r3 {
+    display: inline-block;
+}
+
+.r2 {
+  top:30px;
+  position:relative;
+ 
+}
+
+.hid .r3 
+{
+    width:120px;
+  height:30px;
+}
+
+@media(max-width:767px) {
+
+    .res {
+        width: 200px;
+    }
+
+    .long {
+        width: 100px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .home {
+        direction: rtl;
+        margin-left: 70%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+/*ادارة الوزارة*/
+
+
+.dropministry {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.updateministry {
+    top: 30px;
+    position: relative;
+}
+
+.ministryhome .span1 {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    top: 6px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ministryhome .span2 {
+    direction: ltr;
+    color: white;
+    position: absolute;
+    font-family: 'Calisto MT';
+    font-size: 20px;
+    left: 10px;
+    animation: morcolor 4s ease-in-out infinite;
+}
+
+selectmistry {
+    background-color: #eee;
+    width: 300px;
+    height: 300px;
+}
+
+.col-xs-4 .btn1mistry, .col-xs-4 .btn3mistry, .col-xs-4 .btn2mistry {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.col-xs-4 .btn3mistry {
+    background-color: green;
+}
+
+.col-xs-4 .btn1mistry {
+    background-color: firebrick;
+}
+
+.col-xs-4 .btn2mistry {
+    background-color: #14213D;
+}
+
+.upminisrty {
+    margin-left: 150px;
+    font-size: 17px;
+}
+
+@keyframes morcolor {
+    0% {
+        color: green;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@media(max-width:790px) {
+    .upminisrty {
+        position: absolute;
+        right: 120px;
+    }
+}
+
+
+.brand {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: Gigi;
+    animation: hireme 1s ease-in infinite;
+}
+
+.home {
+    direction: rtl;
+    margin-left: 80%;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.move:hover {
+    animation: home 1s ease-in-out;
+    text-decoration: none;
+}
+
+
+.la {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sel1:focus {
+    animation: select 1s ease-in-out;
+}
+
+.sel1 {
+    width: 200px;
+    margin: auto;
+    border: none;
+    border-color: #eee;
+    background: #eee;
+    border-bottom: solid 1px #0026ff;
+    color: darkblue;
+}
+
+.btn {
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.containt {
+    background-color: #eee;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+.select1, .select2 {
+    display: inline-block;
+    width: 150px;
+    border-color: darkblue;
+}
+
+.bag {
+    background-color: azure;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-color: darkblue;
+    animation: check 2s ease-in-out;
+}
+
+
+.d1, .d2, .d3 {
+    display: inline-block;
+    font-size: 10px;
+}
+
+
+
+.bt1 {
+    padding: 3px 50px;
+    position: relative;
+    border-radius: 3px;
+    border-color: darkblue;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.d2 {
+    position: relative;
+    bottom: 50px;
+    opacity: 0;
+}
+
+.bt1:hover {
+    animation: hireme 1s ease-in;
+}
+
+.opt1 {
+    color: #4800ff;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.btn2 {
+    font-weight: bold;
+    padding: 4px 30px;
+    background-color: #eee;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+    .btn2:hover {
+        border-radius: 6px;
+        font-size: 15px;
+        color: white;
+        background-color: black;
+        border-color: #4800ff;
+    }
+/*//classes page display*/
+.res {
+    width: 500px;
+    height: 200px;
+    background-color: #808080;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+    padding: 3px;
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.natega {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4800ff;
+}
+
+.long {
+    width: 300px;
+    margin: auto;
+}
+
+.bttn1 {
+    padding: 3px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+    .bttn1:hover {
+        opacity: 1;
+    }
+/*admion*/
+.count {
+    position: relative;
+    left: 50px;
+    margin-top: -20px;
+}
+
+.task {
+    width: 400px;
+    direction: rtl;
+    text-align: center;
+    border-radius: 10px;
+    transform: translateX(100px);
+    animation: rifgttolift 1s ease-in-out;
+    display: inline-block;
+}
+
+.maham:hover {
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.maham {
+    padding: 3px 30px;
+    font-weight: bold;
+    color: olive;
+    margin-bottom: 20px;
+}
+
+.sem {
+    width: 100%;
+    display: inline-block;
+}
+
+.offset {
+    opacity: 0;
+    width: 100px;
+}
+
+.cor:hover {
+    color: black;
+    font-weight: bold;
+    position: relative;
+    right: 7px;
+}
+
+.sem:hover .offset {
+    opacity: 1;
+    animation: swap 1s ease-in-out;
+}
+
+.cor {
+    color: olive;
+    margin-right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shooo {
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+    left: 250px;
+    background-color: azure;
+    width: 650px;
+    padding: 20px;
+    border: 1px solid darkblue;
+    border-color: darkblue;
+    text-align: center;
+    animation: mofadale 2s ease-in-out;
+}
+
+.bbt1 {
+    padding: 3px 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-color: darkblue;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+    .bbt1:focus, .bbt1:hover {
+        animation: hireme 1s ease-in;
+        font-size: 17px;
+    }
+
+.bd2 {
+    opacity: 1;
+}
+
+.item {
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid darkblue;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+    .item:hover {
+        background-color: black;
+        color: white;
+    }
+
+.bag:hover .d2 {
+    opacity: 1;
+    animation: check 1s ease-in-out;
+}
+
+.row .brand {
+    margin-left: 170px;
+}
+
+.row .part2 {
+    background-color: #eee;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 600px;
+    padding: 40px;
+    box-shadow: 20px 20px 50px black;
+}
+
+.l2 strong {
+    color: #808080;
+    font-size: 23px;
+    position: absolute;
+    left: 240px;
+    margin-bottom: 20px;
+}
+
+.l2 {
+    width: 450px;
+    background-color: white;
+    padding-left: 50px;
+    padding-top: 60px;
+    height: 690px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+}
+
+label sup {
+    color: blue;
+    font-size: 12px;
+}
+
+.row label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media(max-width:767px) {
+    .bag {
+        width: 300px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .select1, .select2 {
+        width: 100px;
+    }
+
+    .bt1 {
+        width: 27px;
+        padding: 2px 5px;
+    }
+
+    .d2 {
+        width: 30px;
+    }
+
+    .res {
+        width: 200px;
+    }
+
+    .long {
+        width: 100px;
+    }
+
+    .home {
+        direction: rtl;
+        margin-left: 50%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    .brand {
+        font-size: 20px;
+        position: relative;
+        right: 200px;
+    }
+}
+
+@media(width:280px) {
+    .brand {
+        font-size: 14px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .home {
+        direction: rtl;
+        margin-left: 80%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:579px) {
+
+    .true {
+        width: 115px;
+    }
+
+    .hid {
+        width: 270px;
+        position: relative;
+        margin: auto;
+        top: 170px;
+        right: 230px;
+    }
+
+        .hid:hover {
+            display: block;
+        }
+
+    .col-xs-4 .mang {
+        position: relative;
+        left: 10px;
+    }
+}
+
+.brand {
+    position: absolute;
+    font-weight: bold;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-top: 8px;
+    font-family: Gigi;
+    animation: hireme 1s ease-in infinite;
+}
+
+@keyframes home {
+    0% {
+        color: red;
+        left: -2px;
+        position: relative;
+    }
+
+    25% {
+        color: blue;
+        left: 2px;
+        position: relative
+    }
+
+    75% {
+        color: green;
+        left: -1px;
+        position: relative
+    }
+
+    100% {
+        color: #4800ff;
+        left: 0px;
+        position: relative
+    }
+}
+
+@keyframes down {
+    0% {
+        height: 0px;
+        top: -20px;
+        position: relative;
+        padding-top: 0px;
+    }
+
+    100% {
+        top: 0px;
+        height: 160px;
+        position: relative;
+    }
+}
+
+@keyframes do {
+    0% {
+        position: relative;
+        left: -60px;
+    }
+
+    100% {
+        position: relative;
+        margin-left: 0px;
+    }
+}
+
+body {
+    height: 2000px;
+}
+
+.navbar-right li {
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mov:hover {
+    animation: home 1s ease-in-out;
+}
+
+.btn-default {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .btn-default:hover {
+        border: 2px solid gray;
+    }
+
+.col-xs-4:hover .true {
+    animation: down 1s ease-in-out;
+}
+
+.true, .hid {
+    background-color: #eee;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    display: none;
+    height: 160px;
+    overflow: hidden;
+}
+
+    .true ul li {
+        line-height: 30px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        opacity: 0.9;
+        font-size: 15px;
+    }
+
+        .true ul li:hover {
+            margin-right: 10px;
+            font-size: 17px;
+            opacity: 1;
+        }
+
+        .true ul li a {
+            text-decoration: none;
+        }
+
+.r2, .r3 {
+    display: inline-block;
+}
+
+.r2 {
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+}
+
+.r3 {
+    height: 200px;
+    width: 100px;
+}
+
+@media(max-width:767px) {
+
+    .res {
+        width: 200px;
+    }
+
+    .long {
+        width: 100px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1200px) {
+    .home {
+        direction: rtl;
+        margin-left: 70%;
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+/*ادارة الوزارة*/
+
+.ministryhome {
+    background-color: #14213D;
+    height: 30px;
+    vertical-align: central;
+    margin-left: 11px;
+}
+.dropministry {
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.updateministry {
+    top: 30px;
+    position: relative;
+}
+
+.ministryhome .span1 {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    top: 6px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ministryhome .span2, .navbar-header .span2 {
+    direction: ltr;
+    color: white;
+    position: absolute;
+    font-family: 'Calisto MT';
+    font-size: 20px;
+    left: 10px;
+    animation: morcolor 4s ease-in-out infinite;
+}
+
+selectmistry {
+    background-color: #eee;
+    width: 300px;
+    height: 300px;
+}
+
+.col-xs-4 .btn1mistry, .col-xs-4 .btn3mistry, .col-xs-4 .btn2mistry {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.col-xs-4 .btn3mistry {
+    background-color: green;
+}
+
+.col-xs-4 .btn1mistry {
+    background-color: firebrick;
+}
+
+.col-xs-4 .btn2mistry {
+    background-color: #14213D;
+}
+
+.upminisrty {
+    margin-left: 150px;
+    font-size: 17px;
+}
+
+@keyframes morcolor {
+    0% {
+        color: green;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+@media(max-width:790px) {
+    .upminisrty {
+        position: absolute;
+        right: 120px;
+    }
+}
+
+

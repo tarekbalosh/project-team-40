@@ -16,11 +16,16 @@
     <link href="../tarek/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../tarek/css/animationn.css" rel="stylesheet" />
     <link href="../tarek/css/media.css" rel="stylesheet" />
+<<<<<<< HEAD
     <link href="../tarek/css/style.css" rel="stylesheet" />
 </head>
     <style> 
     </style>
 </head>
+=======
+    <link href="../tarek/css/tarek-style.css" rel="stylesheet" />
+</head>   
+>>>>>>> c0528fd92d2f6b9846f7317c4232c304f820351a
 <body>
     <form id="form1" runat="server">
       
@@ -32,13 +37,11 @@
             <div class="container">
                 <div class="row">
                    
-                    <span class="brand" id="hir">Hire-Me</span>
-
-                        <ul class="navbar-nav home">
-                            <li class="nav-item">
-                                <a class="nav-link move" href="#">Home</a> <i class="fa fa-home fa-md" style="color:grey"></i>
-                            </li>
-                        </ul>
+                     <div class="col-xs-12 ministryhome" dir="rtl">
+                <span class="span1" runat="server">الصفحة الرئيسية</span>
+                <span class="span2" runat="server"> H I R E_ M E</span>
+                
+            </div>
                     </div>
                
             </div><br />

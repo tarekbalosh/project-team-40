@@ -6,7 +6,9 @@
 <head runat="server">
 
     <title>Add-Condition</title>
-    <link href="../Css/Style2-Ahmed.css" rel="stylesheet" />
+
+    <link href="CSS/Style2-Ministry.css" rel="stylesheet" />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,7 +22,7 @@
             <!--HEADER-->
             <header class="mainHeader">
                 <nav><ul>
-                    <li><a href="Sign-in.aspx"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
+                    <li><a href="Sign-in-Ministry.aspx"> <i class="fa fa-home"></i> الصفحة الرئيسية </a></li>
                     <li><a href="#"> <i class="fas fa-list-alt"></i> قائمة </a></li>
                     <li><a href="#"> <i class="fa fa-question-circle"></i> حول </a></li>
                     <li><a href="#"><i class="fas fa-phone"></i> اتصل بنا </a></li>  

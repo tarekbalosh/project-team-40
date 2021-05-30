@@ -18,7 +18,7 @@
     }
 }
 
-@keyframes home {
+/*@keyframes home {
     0% {
         color: red;
         margin-left: -2px;
@@ -36,7 +36,7 @@
         color: #4800ff;
         margin-left: 0px;
     }
-}
+}*/
 
 @keyframes select {
     0% {
